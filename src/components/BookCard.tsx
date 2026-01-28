@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -34,11 +33,10 @@ export function BookCard({
     >
       <div className="relative h-64 bg-gradient-to-br overflow-hidden">
         <div className={`absolute inset-0 bg-gradient-to-br ${colorClasses[color]} opacity-10`} />
-        <Image
+        <img
           src={image}
           alt={title}
-          fill
-          className="object-contain p-6 transition-transform duration-300 group-hover:scale-105"
+          className="w-full h-full object-contain p-6 transition-transform duration-300 group-hover:scale-105"
         />
       </div>
       <div className="p-6">
