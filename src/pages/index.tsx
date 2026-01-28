@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { BookCard } from "@/components/BookCard";
 import { BookHeart, Users, Sparkles, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import { Layout } from "@/components/Layout";
 
 const books = [
   {
@@ -66,7 +67,7 @@ const features = [
 
 export default function Home() {
   return (
-    <>
+    <Layout>
       <SEO
         title="Książki do zadań specjalnych - Wspieramy dzieci w trudnych momentach"
         description="Seria terapeutycznych książek dla dzieci o trudnych tematach: żałobie, rozwodzie, seksualności i kreatywności. Z empatią i profesjonalizmem."
@@ -168,6 +169,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </Layout>
   );
 }
