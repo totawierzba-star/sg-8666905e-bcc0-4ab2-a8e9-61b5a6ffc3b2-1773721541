@@ -37,7 +37,7 @@ const books = [
     subtitle: "O rozwodzie i nowej rzeczywistości",
     description:
       "Wspiera dzieci przeżywające rozwód rodziców. Pokazuje, że miłość do dziecka pozostaje niezmieniona, nawet gdy rodzina się zmienia.",
-    image: "/uploads/image_ab14ee1e-1fad-4e6a-aec8-e181e17c2849.png",
+    image: "/uploads/czasami-szczesliwi-rodzice-mieszkaja-oddzielnie.okładka.jpg",
     slug: "czasami-szczesliwi-rodzice",
     color: "primary" as const,
   },
