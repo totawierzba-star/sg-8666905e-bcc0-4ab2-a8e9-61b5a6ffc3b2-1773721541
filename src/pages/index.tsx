@@ -28,7 +28,7 @@ const books = [
     subtitle: "O narodzinach i początku życia",
     description:
       "Delikatnie odpowiada na pytania dzieci o to, skąd się biorą. Wspiera rodziców w prowadzeniu otwartych rozmów o ciele i seksualności.",
-    image: "/uploads/image_ce6de15f-ac4a-48cd-9f4f-79051de42a21.png",
+    image: "/uploads/skad-jestem_okładka.jpg",
     slug: "skad-jestem",
     color: "tertiary" as const,
   },
