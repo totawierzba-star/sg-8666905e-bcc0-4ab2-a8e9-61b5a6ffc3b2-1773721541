@@ -14,11 +14,22 @@ const articles = [
     slug: "ksiazki-w-terapii",
     category: "Terapia",
   },
+  {
+    title: "Jak rozmawiać z dzieckiem o stracie? Historia Zosi i książki Żaba",
+    excerpt:
+      "Praktyczny przykład wykorzystania książki 'Żaba. Mała opowieść o żałobie' w pracy z 7-letnią dziewczynką po stracie babci. Dowiedz się, jak książka pomogła rodzinie przepracować żałobę.",
+    author: "Anna Kowalska",
+    date: "20 stycznia 2026",
+    image: "/uploads/okładka_z_aba.jpg",
+    slug: "historia-zosi-i-ksiazki-zaba",
+    category: "Praktyka",
+  },
 ];
 
 const categories = [
   { name: "Wszystkie", icon: BookOpen, count: articles.length },
   { name: "Terapia", icon: Lightbulb, count: 1 },
+  { name: "Praktyka", icon: BookOpen, count: 1 },
 ];
 
 export default function ArticlesPage() {
