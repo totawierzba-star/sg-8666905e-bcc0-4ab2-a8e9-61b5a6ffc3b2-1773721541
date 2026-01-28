@@ -187,10 +187,11 @@ export default function ZabaPage() {
                   key={index}
                   className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow cursor-pointer group"
                 >
-                  <img
+                  <Image
                     src={image}
                     alt={`Ilustracja ${index + 1} z książki Żaba`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               ))}
