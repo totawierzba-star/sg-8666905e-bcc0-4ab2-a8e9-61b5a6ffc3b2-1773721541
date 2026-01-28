@@ -19,7 +19,7 @@ const books = [
     subtitle: "Twórcze pisanie i gra perspektywami",
     description:
       "Innowacyjne ćwiczenia rozwijające kreatywność językową i wyobraźnię. Idealne dla szkół, warsztatów i pracy z dziećmi.",
-    image: "/uploads/image_63d3f6c6-2443-419c-afb7-bb7de90f19f0.png",
+    image: "/uploads/30-znikajacych-trampolin okładka.jpg",
     slug: "30-znikajacych-trampolin",
     color: "accent" as const,
   },
