@@ -6,7 +6,7 @@ const books = [
   {
     title: "Żaba",
     subtitle: "Mała opowieść o żałobie",
-    image: "https://images.unsplash.com/photo-1531304574776-8a93eb2e9d81?w=600&h=800&fit=crop",
+    image: "/uploads/okładka_z_aba.jpg",
     slug: "zaba",
     color: "secondary" as const,
     description: "Czuła opowieść o radzeniu sobie ze stratą, skierowana do dzieci i ich opiekunów.",
