@@ -9,9 +9,9 @@ import Image from "next/image";
 
 export default function ZabaPage() {
   const bookImages = [
-    "/uploads/zaba-mala-opowiesc-o-zalobie.jpg",
-    "/uploads/zaba-mala-opowiesc-o-zalobie_1_.jpg",
-    "/uploads/zaba-mala-opowiesc-o-zalobie_2_.jpg"
+    "/uploads/zaba1.jpg",
+    "/uploads/zaba2.jpg",
+    "/uploads/zaba3.jpg"
   ];
 
   return (
