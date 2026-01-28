@@ -191,7 +191,8 @@ export default function ZabaPage() {
                     src={image}
                     alt={`Ilustracja ${index + 1} z książki Żaba`}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-cover object-center group-hover:scale-105 transition-transform duration-300"
+                    sizes="(max-width: 768px) 100vw, 33vw"
                   />
                 </div>
               ))}
