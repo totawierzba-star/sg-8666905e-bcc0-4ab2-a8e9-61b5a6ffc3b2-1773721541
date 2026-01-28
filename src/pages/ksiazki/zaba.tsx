@@ -19,7 +19,7 @@ export default function ZabaPage() {
       <SEO
         title="Żaba. Mała opowieść o żałobie - Książka dla dzieci 5+"
         description="Czuła opowieść o przepracowywaniu straty i budowaniu więzi z tymi, za którymi tęsknimy. Książka dla dzieci 5+ z ilustracjami Marianny Sztymy."
-        image="/uploads/image_ab14ee1e-1fad-4e6a-aec8-e181e17c2849.png"
+        image="/uploads/okładka_z_aba.jpg"
       />
 
       <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
@@ -31,7 +31,7 @@ export default function ZabaPage() {
               <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 to-accent/20 rounded-3xl blur-3xl" />
               <div className="relative h-full rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/uploads/image_ab14ee1e-1fad-4e6a-aec8-e181e17c2849.png"
+                  src="/uploads/okładka_z_aba.jpg"
                   alt="Okładka książki Żaba. Mała opowieść o żałobie"
                   className="w-full h-full object-cover"
                 />
