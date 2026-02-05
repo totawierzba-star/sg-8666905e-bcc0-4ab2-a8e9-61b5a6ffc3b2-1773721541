@@ -460,8 +460,8 @@ export default function HistoriaZosiArticle() {
                 zaakceptować smutek jako część życia
               </p>
               <Button asChild size="lg">
-                <Link href="/ksiazki/zaba">
-                  Zobacz książkę
+                <Link href="https://albus.poznan.pl/sklep/1252_zaba-mala-opowiesc-o-zalobie" target="_blank" rel="noopener noreferrer">
+                  Zamów książkę
                 </Link>
               </Button>
             </div>
