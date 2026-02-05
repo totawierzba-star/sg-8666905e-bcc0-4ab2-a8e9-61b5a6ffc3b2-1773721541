@@ -16,8 +16,6 @@ const navigation = [
   { name: "Strona główna", href: "/" },
   { name: "O książkach", href: "/o-ksiazkach" },
   { name: "Książki", href: "/ksiazki" },
-  { name: "Artykuły", href: "/artykuly" },
-  { name: "Kontakt", href: "/kontakt" },
 ];
 
 export function Layout({ children }: LayoutProps) {
