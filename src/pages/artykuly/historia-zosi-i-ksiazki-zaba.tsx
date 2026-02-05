@@ -335,7 +335,7 @@ export default function HistoriaZosiArticle() {
               <ul className="list-disc pl-6 space-y-2">
                 <li>Stwórz bezpieczną przestrzeń – przytulcie się, wyłączcie telefony</li>
                 <li>Zapowiedz temat: "To książka o dziewczynce, której też zmarła babcia"</li>
-                <li>Nie wymuszaj – jeśli dziecko nie chce, zaproponuj ponownie za kilka dni</li>
+                <li>Nie wymuszaj – jeśli dziecko nie chce, zaproponuj ponownie za kilka dni. Można też na początku ograniczyć się do wspólnego oglądania ilustracji</li>
               </ul>
             </div>
 
