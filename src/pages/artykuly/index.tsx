@@ -34,12 +34,23 @@ const articles = [
     slug: "muzeum-milosci-rozwod-rodzicow",
     category: "Terapia",
   },
+  {
+    title: "Jak rozmawiać z dzieckiem o niepełnosprawności? Ptaki z kopertami",
+    excerpt:
+      "Książka 'Nie znajdziesz mnie po śladach stóp' Sylwii Błach to szczera rozmowa osoby poruszającej się na wózku z 6-letnią Dobrawą. Wielowymiarowa opowieść o życiu, różnorodności i empatii.",
+    author: "Redakcja",
+    date: "5 lutego 2026",
+    image: "/uploads/978-83-67085-30-4_Nie_znajdziesz_mnie_po_s_ladach_sto_p_ALBUS.jpg",
+    slug: "jak-rozmawiac-o-niepelnosprawnosci",
+    category: "Edukacja",
+  },
 ];
 
 const categories = [
   { name: "Wszystkie", icon: BookOpen, count: articles.length },
   { name: "Terapia", icon: Lightbulb, count: 2 },
   { name: "Praktyka", icon: BookOpen, count: 1 },
+  { name: "Edukacja", icon: BookOpen, count: 1 },
 ];
 
 export default function ArticlesPage() {
