@@ -206,26 +206,21 @@ export default function ZabaPage() {
 
         <Separator className="container mx-auto" />
 
-        {/* Video Section */}
+        {/* YouTube Video Section */}
         <section className="container mx-auto px-4 py-12 md:py-16">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold text-center mb-8">
-            Zobacz książkę w akcji
-          </h2>
           <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+              Zobacz książkę w akcji
+            </h2>
             <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
-              <video
-                controls
-                preload="metadata"
-                poster="/uploads/zaba_ilustracje.jpg"
-                className="w-full h-full object-contain"
-                aria-label="Film promocyjny książki Żaba"
-              >
-                <source src="/uploads/Zaba_POZIOM.mp4" type="video/mp4" />
-                Twoja przeglądarka nie obsługuje odtwarzania wideo.
-                <a href="/uploads/Zaba_POZIOM.mp4" download>
-                  Pobierz wideo
-                </a>
-              </video>
+              <iframe
+                src="https://www.youtube.com/embed/qoA2F9dtxYY"
+                title="Żaba. Mała opowieść o żałobie"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                loading="lazy"
+                className="absolute inset-0 w-full h-full"
+              />
             </div>
           </div>
         </section>

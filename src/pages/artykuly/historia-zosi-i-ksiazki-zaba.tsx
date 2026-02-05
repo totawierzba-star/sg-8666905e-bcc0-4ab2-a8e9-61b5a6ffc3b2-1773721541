@@ -69,19 +69,14 @@ export default function HistoriaZosiArticle() {
               </h3>
               <div className="max-w-3xl mx-auto">
                 <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
-                  <video
-                    controls
-                    preload="metadata"
-                    poster="/uploads/zaba_ilustracje.jpg"
-                    className="w-full h-full object-contain"
-                    aria-label="Film promocyjny książki Żaba"
-                  >
-                    <source src="/uploads/Zaba_POZIOM.mp4" type="video/mp4" />
-                    Twoja przeglądarka nie obsługuje odtwarzania wideo.
-                    <a href="/uploads/Zaba_POZIOM.mp4" download>
-                      Pobierz wideo
-                    </a>
-                  </video>
+                  <iframe
+                    src="https://www.youtube.com/embed/qoA2F9dtxYY"
+                    title="Żaba. Mała opowieść o żałobie"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    loading="lazy"
+                    className="absolute inset-0 w-full h-full"
+                  />
                 </div>
               </div>
             </div>
