@@ -24,11 +24,21 @@ const articles = [
     slug: "historia-zosi-i-ksiazki-zaba",
     category: "Praktyka",
   },
+  {
+    title: "Muzeum Miłości – jak pomóc dziecku zrozumieć rozwód rodziców",
+    excerpt:
+      "Książka 'Czasami szczęśliwi rodzice mieszkają oddzielnie' prowadzi dzieci przez symboliczne Muzeum Miłości, gdzie uczą się, że rozstanie rodziców nie jest ich winą i że miłość nie znika.",
+    author: "Redakcja",
+    date: "5 lutego 2026",
+    image: "/uploads/Albus_Czasami_szcze_s_liwi.jpg",
+    slug: "muzeum-milosci-rozwod-rodzicow",
+    category: "Terapia",
+  },
 ];
 
 const categories = [
   { name: "Wszystkie", icon: BookOpen, count: articles.length },
-  { name: "Terapia", icon: Lightbulb, count: 1 },
+  { name: "Terapia", icon: Lightbulb, count: 2 },
   { name: "Praktyka", icon: BookOpen, count: 1 },
 ];
 
