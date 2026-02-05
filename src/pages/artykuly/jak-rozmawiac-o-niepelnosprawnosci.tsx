@@ -498,7 +498,7 @@ export default function NiepelnosprawoscArticle() {
             <p className="leading-relaxed">
               Jeśli szukasz narzędzi do rozmowy z dzieckiem o różnorodności, empatii i 
               akceptacji – ta książka jest dla ciebie. I pamiętaj: zadawaj pytania, słuchaj 
-              odpowiedzi, a przede wszystkim – widz człowieka, nie tylko jego cechy.
+              odpowiedzi, a przede wszystkim – dostrzeż człowieka, a nie tylko jego cechy.
             </p>
           </div>
 
