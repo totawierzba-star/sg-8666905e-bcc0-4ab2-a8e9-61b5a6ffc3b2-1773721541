@@ -15,33 +15,6 @@ const books = [
     slug: "zaba",
     color: "secondary" as const,
   },
-  {
-    title: "30 znikających trampolin",
-    subtitle: "Twórcze pisanie i gra perspektywami",
-    description:
-      "Innowacyjne ćwiczenia rozwijające kreatywność językową i wyobraźnię. Idealne dla szkół, warsztatów i pracy z dziećmi.",
-    image: "/uploads/30-znikajacych-trampolin_okładka.jpg",
-    slug: "30-znikajacych-trampolin",
-    color: "accent" as const,
-  },
-  {
-    title: "Skąd jestem?",
-    subtitle: "O narodzinach i początku życia",
-    description:
-      "Delikatnie odpowiada na pytania dzieci o to, skąd się biorą. Wspiera rodziców w prowadzeniu otwartych rozmów o ciele i seksualności.",
-    image: "/uploads/skad-jestem_okładka.jpg",
-    slug: "skad-jestem",
-    color: "tertiary" as const,
-  },
-  {
-    title: "Czasami szczęśliwi rodzice mieszkają oddzielnie",
-    subtitle: "O rozwodzie i nowej rzeczywistości",
-    description:
-      "Wspiera dzieci przeżywające rozwód rodziców. Pokazuje, że miłość do dziecka pozostaje niezmieniona, nawet gdy rodzina się zmienia.",
-    image: "/uploads/czasami-szczesliwi-rodzice-mieszkaja-oddzielnie.okładka.jpg",
-    slug: "czasami-szczesliwi-rodzice",
-    color: "primary" as const,
-  },
 ];
 
 const features = [
@@ -132,15 +105,16 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-serif text-3xl sm:text-4xl font-bold mb-4">
-              Nasze książki
+              Nasza pierwsza książka
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Każda książka to starannie przemyślana podróż przez trudny temat,
+              Rozpoczynamy naszą serię od delikatnej opowieści o żałobie. 
+              "Żaba" to starannie przemyślana podróż przez trudny temat straty, 
               z poszanowaniem dziecięcej wrażliwości i rodzicielskich wątpliwości.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="max-w-sm mx-auto">
             {books.map((book) => (
               <BookCard key={book.slug} {...book} />
             ))}
