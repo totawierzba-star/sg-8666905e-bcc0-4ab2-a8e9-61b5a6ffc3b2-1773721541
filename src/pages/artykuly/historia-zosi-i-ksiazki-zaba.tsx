@@ -63,6 +63,29 @@ export default function HistoriaZosiArticle() {
               wszystko.
             </p>
 
+            <div className="my-12">
+              <h3 className="font-serif text-2xl font-semibold mb-6 text-center">
+                Zobacz książkę Żaba
+              </h3>
+              <div className="max-w-3xl mx-auto">
+                <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
+                  <video
+                    controls
+                    preload="metadata"
+                    poster="/uploads/zaba_ilustracje.jpg"
+                    className="w-full h-full object-contain"
+                    aria-label="Film promocyjny książki Żaba"
+                  >
+                    <source src="/uploads/Zaba_POZIOM.mp4" type="video/mp4" />
+                    Twoja przeglądarka nie obsługuje odtwarzania wideo.
+                    <a href="/uploads/Zaba_POZIOM.mp4" download>
+                      Pobierz wideo
+                    </a>
+                  </video>
+                </div>
+              </div>
+            </div>
+
             <h2 className="font-serif text-3xl font-bold mt-12 mb-4">
               Sytuacja wyjściowa: Zosia po stracie babci
             </h2>

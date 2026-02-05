@@ -208,29 +208,24 @@ export default function ZabaPage() {
 
         {/* Video Section */}
         <section className="container mx-auto px-4 py-12 md:py-16">
+          <h2 className="font-serif text-3xl md:text-4xl font-bold text-center mb-8">
+            Zobacz książkę w akcji
+          </h2>
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-              Zobacz książkę w akcji
-            </h2>
-            <p className="text-lg text-muted-foreground text-center mb-8 max-w-2xl mx-auto">
-              Obejrzyj materiał wideo prezentujący książkę "Żaba. Mała opowieść o żałobie"
-            </p>
-            <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl bg-black">
-              <div className="relative" style={{ paddingBottom: "56.25%" }}>
-                <video
-                  className="absolute inset-0 w-full h-full object-contain"
-                  controls
-                  preload="metadata"
-                  poster="/uploads/zaba_ilustracje.jpg"
-                  aria-label="Film prezentujący książkę Żaba. Mała opowieść o żałobie"
-                >
-                  <source src="/public/uploads/Zaba_POZIOM.mp4" type="video/mp4" />
-                  Twoja przeglądarka nie wspiera odtwarzania wideo. 
-                  <a href="/public/uploads/Zaba_POZIOM.mp4" className="text-primary underline">
-                    Pobierz wideo
-                  </a>
-                </video>
-              </div>
+            <div className="relative aspect-video rounded-2xl overflow-hidden shadow-2xl bg-black">
+              <video
+                controls
+                preload="metadata"
+                poster="/uploads/zaba_ilustracje.jpg"
+                className="w-full h-full object-contain"
+                aria-label="Film promocyjny książki Żaba"
+              >
+                <source src="/uploads/Zaba_POZIOM.mp4" type="video/mp4" />
+                Twoja przeglądarka nie obsługuje odtwarzania wideo.
+                <a href="/uploads/Zaba_POZIOM.mp4" download>
+                  Pobierz wideo
+                </a>
+              </video>
             </div>
           </div>
         </section>
