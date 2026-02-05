@@ -14,6 +14,8 @@ export default function ZabaPage() {
     "/uploads/zaba3.jpg"
   ];
 
+  const shopUrl = "https://albus.poznan.pl/sklep/1252_zaba-mala-opowiesc-o-zalobie";
+
   return (
     <Layout>
       <SEO
@@ -60,9 +62,11 @@ export default function ZabaPage() {
               </p>
 
               <div className="flex flex-wrap gap-3">
-                <Button size="lg" className="gap-2">
-                  <ShoppingCart className="w-4 h-4" />
-                  Gdzie kupić?
+                <Button size="lg" className="gap-2" asChild>
+                  <a href={shopUrl} target="_blank" rel="noopener noreferrer">
+                    <ShoppingCart className="w-4 h-4" />
+                    Zamów książkę
+                  </a>
                 </Button>
                 <Button size="lg" variant="outline" className="gap-2">
                   <BookOpen className="w-4 h-4" />
@@ -247,9 +251,11 @@ export default function ZabaPage() {
               Książka dostępna w najlepszych księgarniach internetowych i stacjonarnych
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Button size="lg" className="gap-2">
-                <ShoppingCart className="w-4 h-4" />
-                Kup online
+              <Button size="lg" className="gap-2" asChild>
+                <a href={shopUrl} target="_blank" rel="noopener noreferrer">
+                  <ShoppingCart className="w-4 h-4" />
+                  Zamów książkę
+                </a>
               </Button>
               <Button size="lg" variant="outline">
                 Znajdź księgarnię
