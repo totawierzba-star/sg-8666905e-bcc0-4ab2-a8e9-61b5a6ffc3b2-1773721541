@@ -14,8 +14,9 @@ interface LayoutProps {
 
 const navigation = [
   { name: "Strona główna", href: "/" },
-  { name: "O książkach", href: "/o-ksiazkach" },
+  { name: "Biblioterapia", href: "/biblioterapia" },
   { name: "Książki", href: "/ksiazki" },
+  { name: "Artykuły", href: "/artykuly" },
 ];
 
 export function Layout({ children }: LayoutProps) {
