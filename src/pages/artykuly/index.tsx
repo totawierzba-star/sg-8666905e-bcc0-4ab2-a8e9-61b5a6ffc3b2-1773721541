@@ -20,7 +20,7 @@ const articles = [
       "Praktyczny przykład wykorzystania książki 'Żaba. Mała opowieść o żałobie' w pracy z 7-letnią dziewczynką po stracie babci. Dowiedz się, jak książka pomogła rodzinie przepracować żałobę.",
     author: "Anna Kowalska",
     date: "20 stycznia 2026",
-    image: "/uploads/okładka_z_aba.jpg",
+    image: "/zaba_ilustracje.jpg",
     slug: "historia-zosi-i-ksiazki-zaba",
     category: "Praktyka",
   },
