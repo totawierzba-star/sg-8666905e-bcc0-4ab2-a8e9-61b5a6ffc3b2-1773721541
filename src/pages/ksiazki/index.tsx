@@ -24,6 +24,16 @@ const books = [
     author: "Agnieszka Kacprzyk",
     color: "accent" as const,
   },
+  {
+    title: "Nie znajdziesz mnie po śladach stóp",
+    subtitle: "Szczera rozmowa o niepełnosprawności",
+    description: "Autentyczna historia osoby na wózku inwalidzkim, która uczy dzieci, że niepełnosprawność to tylko jedna z wielu cech człowieka. Książka pełna ciepła, humoru i mądrości życiowej.",
+    image: "/uploads/nie-znajdziesz-mnie-po-sladach-stop.jpg",
+    slug: "nie-znajdziesz-mnie",
+    age: "5+",
+    author: "Sylwia Błach",
+    color: "secondary" as const,
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -54,7 +64,7 @@ export default function KsiazkiPage() {
         {/* Books Grid */}
         <section className="pb-16 md:pb-24">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {books.map((book) => (
                 <BookCard key={book.slug} {...book} />
               ))}
@@ -68,11 +78,11 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">2</div>
+                  <div className="text-3xl font-bold text-primary">3</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">5+</div>
+                  <div className="text-3xl font-bold text-primary">10+</div>
                   <div className="text-sm text-muted-foreground">Ekspertów merytorycznych</div>
                 </div>
                 <div className="space-y-3">
