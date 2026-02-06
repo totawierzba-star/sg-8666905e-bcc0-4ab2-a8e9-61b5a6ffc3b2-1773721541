@@ -281,9 +281,9 @@ export default function CzasamiSzczesliwiRodzicePage() {
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button asChild variant="outline" size="lg">
-                <Link href="/artykuly/poradniki-dla-rodzicow">
-                  <Home className="mr-2 h-5 w-5" />
-                  Dowiedz się więcej o biblioterapii
+                <Link href="/artykuly/muzeum-milosci-rozwod-rodzicow">
+                  <ArrowRight className="mr-2 h-5 w-5" />
+                  Przeczytaj praktyczny poradnik dla rodziców
                 </Link>
               </Button>
             </div>
