@@ -3,7 +3,7 @@ import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { BookOpen, Heart, Users, Lightbulb, ArrowLeft, ExternalLink } from "lucide-react";
+import { BookOpen, Heart, Users, Lightbulb, ArrowLeft, ExternalLink, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 

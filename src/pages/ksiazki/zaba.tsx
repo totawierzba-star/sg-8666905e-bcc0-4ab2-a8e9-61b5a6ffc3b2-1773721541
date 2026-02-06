@@ -6,6 +6,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { BookOpen, Heart, Users, ShoppingCart } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ZabaPage() {
   const bookImages = [
@@ -261,6 +262,24 @@ export default function ZabaPage() {
                 </dl>
               </CardContent>
             </Card>
+          </div>
+        </section>
+
+        {/* Related Article Section */}
+        <section className="container mx-auto px-4 py-12 md:py-16">
+          <div className="max-w-4xl mx-auto space-y-6">
+            <h2 className="text-3xl md:text-4xl font-bold">Czytaj więcej</h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Odkryj, jak pomóc dziecku zrozumieć i radzić sobie ze stratą bliskiej osoby.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
+              <Button size="lg" variant="outline" asChild>
+                <a href="https://www.albus.pl/artykuly/psychologia-dzieci/poradniki/poradnik-dla-rodzicow-z-rodziny-zalobnej" target="_blank" rel="noopener noreferrer">
+                  <BookOpen className="w-4 h-4" />
+                  Poradnik dla rodziców
+                </a>
+              </Button>
+            </div>
           </div>
         </section>
 

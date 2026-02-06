@@ -3,7 +3,7 @@ import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { BookOpen, Heart, Users, Home, ArrowLeft, ExternalLink } from "lucide-react";
+import { BookOpen, Heart, Users, Home, ArrowLeft, ExternalLink, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -262,6 +262,30 @@ export default function CzasamiSzczesliwiRodzicePage() {
                   </div>
                 </CardContent>
               </Card>
+            </div>
+          </div>
+        </section>
+
+        <Separator className="container mx-auto" />
+
+        {/* Related Article Section */}
+        <section className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">
+              Czytaj też
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              <Link href="/artykuly/poradniki-dla-rodzicow">
+                <a className="text-accent">Poradniki dla rodziców</a>
+              </Link>
+            </p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Button asChild variant="outline" size="lg">
+                <Link href="/artykuly/poradniki-dla-rodzicow">
+                  <Home className="mr-2 h-5 w-5" />
+                  Dowiedz się więcej o biblioterapii
+                </Link>
+              </Button>
             </div>
           </div>
         </section>
