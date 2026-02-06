@@ -1,23 +1,28 @@
 import { SEO } from "@/components/SEO";
 import { Layout } from "@/components/Layout";
 import { BookCard } from "@/components/BookCard";
+import Link from "next/link";
 
 const books = [
   {
     title: "Żaba. Mała opowieść o żałobie",
-    excerpt: "Delikatna historia o stracie i żałobie, która pomaga dzieciom zrozumieć i przepracować trudne emocje związane z odejściem bliskiej osoby.",
+    subtitle: "Książka wspierająca w czasie straty",
+    description: "Delikatna historia o stracie i żałobie, która pomaga dzieciom zrozumieć i przepracować trudne emocje związane z odejściem bliskiej osoby.",
     image: "/uploads/okładka_z_aba.jpg",
     slug: "zaba",
     age: "4+",
     author: "Agnieszka Kacprzyk",
+    color: "primary" as const,
   },
   {
     title: "Czasami szczęśliwi rodzice mieszkają oddzielnie",
-    excerpt: "Wzruszająca opowieść o rozstaniu rodziców, która pokazuje dzieciom, że miłość rodzicielska trwa na zawsze, nawet gdy mama i tata żyją osobno.",
+    subtitle: "Książka o rozwodzie i nowych początkach",
+    description: "Wzruszająca opowieść o rozstaniu rodziców, która pokazuje dzieciom, że miłość rodzicielska trwa na zawsze, nawet gdy mama i tata żyją osobno.",
     image: "/uploads/okładka_czasami-szczesliwi-rodzice-mieszkaja-oddzielnie_4_.jpg",
     slug: "czasami-szczesliwi-rodzice",
     age: "5+",
     author: "Agnieszka Kacprzyk",
+    color: "accent" as const,
   },
 ];
 
@@ -35,12 +40,12 @@ export default function KsiazkiPage() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                Nasza pierwsza książka
+                Książki do zadań specjalnych
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                Rozpoczynamy serię "Książki do zadań specjalnych" od czułej opowieści o żałobie. 
-                "Żaba" powstała we współpracy z ekspertami i została zilustrowana przez utalentowaną artystkę.
-                To książka, która pomaga dzieciom i ich bliskim przejść przez trudny czas straty.
+                Tworzymy książki, które pomagają dzieciom i rodzicom w najtrudniejszych momentach życia. 
+                Każda z nich powstaje we współpracy z ekspertami i jest pięknie zilustrowana, 
+                by z czułością oswajać trudne tematy.
               </p>
             </div>
           </div>
@@ -49,7 +54,7 @@ export default function KsiazkiPage() {
         {/* Books Grid */}
         <section className="pb-16 md:pb-24">
           <div className="container mx-auto px-4 md:px-6">
-            <div className="max-w-md mx-auto">
+            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {books.map((book) => (
                 <BookCard key={book.slug} {...book} />
               ))}
@@ -63,16 +68,16 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">48</div>
-                  <div className="text-sm text-muted-foreground">Stron pełnych emocji</div>
+                  <div className="text-3xl font-bold text-primary">2</div>
+                  <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
                   <div className="text-3xl font-bold text-primary">5+</div>
-                  <div className="text-sm text-muted-foreground">Wiek czytelników</div>
+                  <div className="text-sm text-muted-foreground">Ekspertów merytorycznych</div>
                 </div>
                 <div className="space-y-3">
                   <div className="text-3xl font-bold text-primary">∞</div>
-                  <div className="text-sm text-muted-foreground">Możliwości wsparcia</div>
+                  <div className="text-sm text-muted-foreground">Wsparcia dla rodzin</div>
                 </div>
               </div>
             </div>
@@ -84,24 +89,24 @@ export default function KsiazkiPage() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="max-w-3xl mx-auto text-center space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                Chcesz dowiedzieć się więcej?
+                Potrzebujesz wsparcia?
               </h2>
               <p className="text-lg text-muted-foreground">
-                Przeczytaj nasze artykuły o wykorzystaniu książki "Żaba" w terapii 
-                i rozmowach z dziećmi o trudnych tematach.
+                Zajrzyj do naszej bazy wiedzy. Przygotowaliśmy artykuły o tym, 
+                jak rozmawiać z dziećmi o trudnych sprawach i jak wykorzystywać książki w terapii.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                 <Link
-                  href="/ksiazki/zaba"
+                  href="/artykuly"
                   className="inline-flex items-center justify-center rounded-md bg-primary text-primary-foreground hover:bg-primary/90 h-11 px-8 font-medium transition-colors"
                 >
-                  Zobacz książkę
+                  Przeczytaj artykuły
                 </Link>
                 <Link
-                  href="/artykuly"
+                  href="/biblioterapia"
                   className="inline-flex items-center justify-center rounded-md border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 px-8 font-medium transition-colors"
                 >
-                  Przeczytaj artykuły
+                  O biblioterapii
                 </Link>
               </div>
             </div>
