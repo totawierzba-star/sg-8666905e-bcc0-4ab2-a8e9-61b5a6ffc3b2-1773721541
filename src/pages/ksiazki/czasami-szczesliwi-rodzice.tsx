@@ -275,8 +275,8 @@ export default function CzasamiSzczesliwiRodzicePage() {
               Czytaj też
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              <Link href="/artykuly/poradniki-dla-rodzicow">
-                <a className="text-accent">Poradniki dla rodziców</a>
+              <Link href="/artykuly/muzeum-milosci-rozwod-rodzicow" className="text-accent hover:underline">
+                Muzeum Miłości: jak rozmawiać z dzieckiem o rozwodzie rodziców
               </Link>
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
