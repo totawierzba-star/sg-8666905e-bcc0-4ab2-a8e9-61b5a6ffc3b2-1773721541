@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { BookOpen, Heart, Users, ShoppingCart } from "lucide-react";
+import { BookOpen, Heart, Users, ShoppingCart, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -274,14 +274,16 @@ export default function ZabaPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Button size="lg" variant="outline" asChild>
-                <a href="https://www.albus.pl/artykuly/psychologia-dzieci/poradniki/poradnik-dla-rodzicow-z-rodziny-zalobnej" target="_blank" rel="noopener noreferrer">
-                  <BookOpen className="w-4 h-4" />
-                  Poradnik dla rodziców
-                </a>
+                <Link href="/artykuly/historia-zosi-i-ksiazki-zaba">
+                  <ArrowRight className="w-4 h-4" />
+                  Przeczytaj artykuł
+                </Link>
               </Button>
             </div>
           </div>
         </section>
+
+        <Separator className="container mx-auto" />
 
         {/* CTA Section */}
         <section className="container mx-auto px-4 py-12 md:py-16">
