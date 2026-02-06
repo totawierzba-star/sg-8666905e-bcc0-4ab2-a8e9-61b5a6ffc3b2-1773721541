@@ -13,6 +13,24 @@ const books = [
       "Delikatna opowieść dla dzieci przeżywających stratę. Pomaga zrozumieć emocje i oswaja temat śmierci w ciepły, bezpieczny sposób.",
     image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
     slug: "zaba",
+    color: "primary" as const,
+  },
+  {
+    title: "Czasami szczęśliwi rodzice mieszkają oddzielnie",
+    subtitle: "O miłości w dwóch domach",
+    description:
+      "Wzruszająca historia o Heli i Hektorze, którzy odkrywają Muzeum Miłości i uczą się, że rodzina może być szczęśliwa w nowej rzeczywistości.",
+    image: "/uploads/okładka_czasami-szczesliwi-rodzice-mieszkaja-oddzielnie_4_.jpg",
+    slug: "czasami-szczesliwi-rodzice",
+    color: "accent" as const,
+  },
+  {
+    title: "Nie znajdziesz mnie po śladach stóp",
+    subtitle: "O życiu na wózku inwalidzkim",
+    description:
+      "Szczera opowieść Sylwii Błach o życiu z niepełnosprawnością ruchową. Uczy dzieci akceptacji, empatii i zrozumienia różnorodności.",
+    image: "/uploads/nie-znajdziesz-mnie-po-sladach-stop.jpg",
+    slug: "nie-znajdziesz-mnie",
     color: "secondary" as const,
   },
 ];
@@ -34,7 +52,7 @@ const features = [
     icon: Sparkles,
     title: "Twórczo",
     description:
-      "Piękne ilustracje imagiczne historie, które angażują wyobraźnię i otwierają na rozmowę.",
+      "Piękne ilustracje i magiczne historie, które angażują wyobraźnię i otwierają na rozmowę.",
   },
 ];
 
@@ -43,7 +61,7 @@ export default function Home() {
     <Layout>
       <SEO
         title="Książki do zadań specjalnych - Wspieramy dzieci w trudnych momentach"
-        description="Seria terapeutycznych książek dla dzieci o trudnych tematach: żałobie, rozwodzie, seksualności i kreatywności. Z empatią i profesjonalizmem."
+        description="Seria terapeutycznych książek dla dzieci o trudnych tematach: żałobie, rozwodzie, niepełnosprawności. Z empatią i profesjonalizmem."
         url="https://ksiazki-do-zadan-specjalnych.pl"
       />
 
@@ -56,7 +74,7 @@ export default function Home() {
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
               Seria publikacji wspierających dzieci i rodziców w trudnych
-              momentach życia. Rozmawiamy o śmierci, rozwodzie, seksualności i
+              momentach życia. Rozmawiamy o śmierci, rozwodzie, niepełnosprawności i
               emocjach – z ciepłem, empatią i profesjonalizmem.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -105,19 +123,27 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-serif text-3xl sm:text-4xl font-bold mb-4">
-              Nasza pierwsza książka
+              Nasze książki
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Rozpoczynamy naszą serię od delikatnej opowieści o żałobie. 
-              "Żaba" to starannie przemyślana podróż przez trudny temat straty, 
-              z poszanowaniem dziecięcej wrażliwości i rodzicielskich wątpliwości.
+              Każda książka to starannie przemyślana podróż przez trudny temat, 
+              z poszanowaniem dziecięcej wrażliwości i rodzicielskich potrzeb.
             </p>
           </div>
 
-          <div className="max-w-sm mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {books.map((book) => (
               <BookCard key={book.slug} {...book} />
             ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Button asChild size="lg" variant="outline">
+              <Link href="/ksiazki">
+                Zobacz wszystkie książki
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Link>
+            </Button>
           </div>
         </div>
       </section>
