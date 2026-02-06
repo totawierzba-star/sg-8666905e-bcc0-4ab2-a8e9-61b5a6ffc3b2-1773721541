@@ -365,7 +365,7 @@ export default function NieZnajdzieszMniePage() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <Link href="/biblioterapia">
+                <Link href="/artykuly/jak-rozmawiac-o-niepelnosprawnosci">
                   <BookOpen className="mr-2 h-5 w-5" />
                   Dowiedz się więcej o biblioterapii
                 </Link>
