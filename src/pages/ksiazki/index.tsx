@@ -1,18 +1,23 @@
 import { SEO } from "@/components/SEO";
 import { Layout } from "@/components/Layout";
 import { BookCard } from "@/components/BookCard";
-import Link from "next/link";
 
 const books = [
   {
-    title: "Żaba",
-    subtitle: "Mała opowieść o żałobie",
+    title: "Żaba. Mała opowieść o żałobie",
+    excerpt: "Delikatna historia o stracie i żałobie, która pomaga dzieciom zrozumieć i przepracować trudne emocje związane z odejściem bliskiej osoby.",
     image: "/uploads/okładka_z_aba.jpg",
     slug: "zaba",
-    color: "secondary" as const,
-    description: "Czuła opowieść o radzeniu sobie ze stratą, skierowana do dzieci i ich opiekunów.",
+    age: "4+",
+    author: "Agnieszka Kacprzyk",
+  },
+  {
+    title: "Czasami szczęśliwi rodzice mieszkają oddzielnie",
+    excerpt: "Wzruszająca opowieść o rozstaniu rodziców, która pokazuje dzieciom, że miłość rodzicielska trwa na zawsze, nawet gdy mama i tata żyją osobno.",
+    image: "/uploads/okładka_czasami-szczesliwi-rodzice-mieszkaja-oddzielnie_4_.jpg",
+    slug: "czasami-szczesliwi-rodzice",
     age: "5+",
-    pages: 48,
+    author: "Agnieszka Kacprzyk",
   },
 ];
 
