@@ -34,6 +34,16 @@ const books = [
     author: "Sylwia Błach",
     color: "secondary" as const,
   },
+  {
+    title: "Kałużysko",
+    subtitle: "Książka o rozwodzie i nowych początkach",
+    description: "Wzruszająca opowieść o rozstaniu rodziców, która pokazuje dzieciom, że miłość rodzicielska trwa na zawsze, nawet gdy mama i tata żyją osobno.",
+    image: "/uploads/okładka_czasami-szczesliwi-rodzice-mieszkaja-oddzielnie_4_.jpg",
+    slug: "czasami-szczesliwi-rodzice",
+    age: "5+",
+    author: "Agnieszka Kacprzyk",
+    color: "accent" as const,
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -78,7 +88,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">3</div>
+                  <div className="text-3xl font-bold text-primary">4</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
