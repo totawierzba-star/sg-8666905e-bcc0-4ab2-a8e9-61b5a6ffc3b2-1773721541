@@ -76,7 +76,7 @@ export function Layout({ children }: LayoutProps) {
 
       <footer className="border-t bg-background-subtle">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* O projekcie */}
             <div>
               <h3 className="font-serif text-lg font-semibold mb-4">
@@ -103,51 +103,50 @@ export function Layout({ children }: LayoutProps) {
                 </li>
                 <li>
                   <Link
-                    href="/ksiazki/30-znikajacych-trampolin"
-                    className="text-muted-foreground hover:text-accent transition-colors"
-                  >
-                    30 znikających trampolin
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/ksiazki/skad-jestem"
-                    className="text-muted-foreground hover:text-accent transition-colors"
-                  >
-                    Skąd jestem?
-                  </Link>
-                </li>
-                <li>
-                  <Link
                     href="/ksiazki/czasami-szczesliwi-rodzice"
                     className="text-muted-foreground hover:text-accent transition-colors"
                   >
                     Czasami szczęśliwi rodzice mieszkają oddzielnie
                   </Link>
                 </li>
-              </ul>
-            </div>
-
-            {/* Kontakt */}
-            <div>
-              <h3 className="font-serif text-lg font-semibold mb-4">Kontakt</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
                 <li>
-                  <a
-                    href="https://albus.poznan.pl"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-accent transition-colors"
+                  <Link
+                    href="/ksiazki/nie-znajdziesz-mnie"
+                    className="text-muted-foreground hover:text-accent transition-colors"
                   >
-                    Wydawnictwo ALBUS
-                  </a>
+                    Nie znajdziesz mnie po śladach. Stop
+                  </Link>
                 </li>
                 <li>
                   <Link
-                    href="/kontakt"
-                    className="hover:text-accent transition-colors"
+                    href="/ksiazki/kaluzysko"
+                    className="text-muted-foreground hover:text-accent transition-colors"
                   >
-                    Formularz kontaktowy
+                    Kałuzysko
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/ksiazki/guzikozerca"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Guzikożerca na tropie słów
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/ksiazki/skok"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Skok
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/ksiazki/linka-w-mysim-miescie"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Linka w mysim mieście
                   </Link>
                 </li>
               </ul>
