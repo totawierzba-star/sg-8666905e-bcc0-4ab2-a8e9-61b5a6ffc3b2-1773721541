@@ -54,6 +54,16 @@ const books = [
     author: "Olga Ptak",
     color: "primary" as const,
   },
+  {
+    title: "Skok",
+    subtitle: "O radzeniu sobie ze zmianami w rodzinie",
+    description: "Wzruszająca historia o tym, jak poradzić sobie, gdy poukładane życie zamienia się w chaos. Książka pełna humoru uczy dzieci i rodziców kompromisu, empatii i współpracy w trudnych momentach.",
+    image: "/uploads/skokokładka.jpg",
+    slug: "skok",
+    age: "6+",
+    author: "Anna Augustyniak",
+    color: "secondary" as const,
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -98,7 +108,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">5</div>
+                  <div className="text-3xl font-bold text-primary">6</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
