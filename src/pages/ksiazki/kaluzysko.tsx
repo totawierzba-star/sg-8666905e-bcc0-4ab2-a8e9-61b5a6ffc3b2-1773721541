@@ -13,7 +13,7 @@ export default function KaluzyskoPage() {
       <SEO
         title="Kałużysko - Książka o depresji dziecięcej | Anna Augustyniak"
         description="Delikatna opowieść o depresji dziecka widziana oczami młodszego rodzeństwa. Książka pomocna w rozmowach o trudnych emocjach i chorobie psychicznej. Wiek: 5+"
-        image="/uploads/kaluzyskoOkładka.jpg"
+        image="/uploads/kaluzysko-cover.jpg"
       />
       <Layout>
         <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
@@ -24,7 +24,7 @@ export default function KaluzyskoPage() {
               <div className="relative">
                 <div className="relative aspect-[3/4] w-full max-w-md mx-auto lg:sticky lg:top-8">
                   <Image
-                    src="/uploads/kaluzyskoOkładka.jpg"
+                    src="/uploads/kaluzysko-cover.jpg"
                     alt="Okładka książki Kałużysko - Anna Augustyniak"
                     fill
                     className="object-contain rounded-lg shadow-2xl"
@@ -191,7 +191,7 @@ export default function KaluzyskoPage() {
                   className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
                 >
                   <Image
-                    src={`/uploads/kaluzysko${num}.jpg`}
+                    src={`/uploads/kaluzysko-page-${num}.jpg`}
                     alt={`Ilustracja ${num} z książki Kałużysko`}
                     fill
                     className="object-cover"
