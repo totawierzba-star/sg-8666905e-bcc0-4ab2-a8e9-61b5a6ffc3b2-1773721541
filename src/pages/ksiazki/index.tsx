@@ -64,6 +64,16 @@ const books = [
     author: "Anna Augustyniak",
     color: "secondary" as const,
   },
+  {
+    title: "Linka w mysim mieście",
+    subtitle: "Metaforyczna opowieść o depresji i sile wyobraźni",
+    description: "Nostalgiczna historia o małej dziewczynce, która ucieka do krainy wyobraźni, by poradzić sobie z trudnymi emocjami. Książka o depresji, która dotyka również dzieci, pokazuje jak wyobraźnia, cierpliwość i odwaga pomagają odnaleźć spokój.",
+    image: "/uploads/linka-w-mysim-miescie-okładka.jpg",
+    slug: "linka-w-mysim-miescie",
+    age: "6+",
+    author: "Katarzyna Ryrych",
+    color: "accent" as const,
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -108,7 +118,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">6</div>
+                  <div className="text-3xl font-bold text-primary">7</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
