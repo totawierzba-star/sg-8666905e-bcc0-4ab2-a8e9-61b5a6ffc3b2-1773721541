@@ -6,9 +6,9 @@ import { ArrowLeft, ExternalLink } from "lucide-react";
 
 export default function GuzikozercaPage() {
   const galleryImages = [
-    "/uploads/guzikozerca-na-tropie-slow_1_.jpg",
+    "/uploads/Screenshot_2026-02-23_18.03.01.png",
     "/uploads/guzikozerca-na-tropie-slow_2_.jpg",
-    "/uploads/guzikozerca-na-tropie-slow_3_.jpg",
+    "/uploads/Screenshot_2026-02-23_18.02.13.png",
   ];
 
   return (
