@@ -44,6 +44,16 @@ const books = [
     author: "Anna Augustyniak",
     color: "accent" as const,
   },
+  {
+    title: "Guzikożerca na tropie słów",
+    subtitle: "Podróż do świata dziecka w spektrum autyzmu",
+    description: "Dziesięć poruszających opowieści prowadzących do niezwykłego świata Leona, chłopca z autyzmem. Książka pomaga zrozumieć, dlaczego komunikacja bywa trudna i jak wygląda rzeczywistość, w której wszystko ułożone jest inaczej.",
+    image: "/uploads/guzikozerca-na-tropie-slow.jpg",
+    slug: "guzikozerca",
+    age: "5+",
+    author: "Olga Ptak",
+    color: "primary" as const,
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -88,7 +98,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">4</div>
+                  <div className="text-3xl font-bold text-primary">5</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
