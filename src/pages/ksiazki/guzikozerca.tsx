@@ -191,7 +191,7 @@ export default function GuzikozercaPage() {
             </h2>
             <div className="grid md:grid-cols-3 gap-6">
               {galleryImages.map((image, index) => (
-                <div key={index} className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                <div key={index} className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                   <Image
                     src={image}
                     alt={`Fragment książki Guzikożerca na tropie słów - strona ${index + 1}`}
