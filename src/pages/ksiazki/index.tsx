@@ -36,7 +36,7 @@ const books = [
   },
   {
     title: "Kałużysko",
-    subtitle: "Książka o rozwodzie i nowych początkach",
+    subtitle: "Książka o depresji dziecięcej",
     description: "Wzruszająca opowieść o rozstaniu rodziców, która pokazuje dzieciom, że miłość rodzicielska trwa na zawsze, nawet gdy mama i tata żyją osobno.",
     image: "/uploads/okładka_czasami-szczesliwi-rodzice-mieszkaja-oddzielnie_4_.jpg",
     slug: "czasami-szczesliwi-rodzice",
