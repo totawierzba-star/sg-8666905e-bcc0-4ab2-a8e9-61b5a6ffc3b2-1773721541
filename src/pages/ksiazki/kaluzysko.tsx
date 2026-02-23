@@ -191,7 +191,7 @@ export default function KaluzyskoPage() {
                   className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
                 >
                   <Image
-                    src={`/uploads/kaluzysko-page-${num}.jpg`}
+                    src={`/uploads/kaluzysko${num}.jpg`}
                     alt={`Ilustracja ${num} z książki Kałużysko`}
                     fill
                     className="object-cover"
