@@ -13,8 +13,8 @@ export default function KaluzyskoPage() {
       <SEO
         title="Kałużysko - Książka o depresji dziecięcej | Anna Augustyniak"
         description="Delikatna opowieść o depresji dziecka widziana oczami młodszego rodzeństwa. Książka pomocna w rozmowach o trudnych emocjach i chorobie psychicznej. Wiek: 5+"
-        image="/uploads/kaluzyskoOkładka.jpg"
-      />
+        image="/uploads/kaluzyskoOkładka.jpg" />
+      
       <Layout>
         <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
           {/* Hero Section */}
@@ -28,8 +28,8 @@ export default function KaluzyskoPage() {
                     alt="Okładka książki Kałużysko - Anna Augustyniak"
                     fill
                     className="object-contain rounded-lg shadow-2xl"
-                    priority
-                  />
+                    priority />
+                  
                 </div>
               </div>
 
@@ -108,8 +108,8 @@ export default function KaluzyskoPage() {
                     href="https://tusieczyta.pl/pl/albus/960-kaluzysko-9788367085045.html"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2"
-                  >
+                    className="inline-flex items-center gap-2">
+                    
                     Zamów teraz w sklepie Albus
                     <ExternalLink className="w-4 h-4" />
                   </a>
@@ -185,19 +185,19 @@ export default function KaluzyskoPage() {
               Zajrzyj do środka
             </h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              {[1, 2, 3, 4, 5].map((num) => (
-                <div
-                  key={num}
-                  className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
-                >
+              {[1, 2, 3, 4, 5].map((num) =>
+              <div
+                key={num}
+                className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                
                   <Image
-                    src={`/uploads/kaluzysko${num}.jpg`}
-                    alt={`Ilustracja ${num} z książki Kałużysko`}
-                    fill
-                    className="object-cover"
-                  />
+                  src={`/uploads/kaluzysko${num}.jpg`}
+                  alt={`Ilustracja ${num} z książki Kałużysko`}
+                  fill
+                  className="object-cover" />
+                
                 </div>
-              ))}
+              )}
             </div>
           </section>
 
@@ -219,8 +219,8 @@ export default function KaluzyskoPage() {
                     href="https://tusieczyta.pl/pl/albus/960-kaluzysko-9788367085045.html"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2"
-                  >
+                    className="inline-flex items-center gap-2">
+                    
                     Zamów teraz w sklepie Albus
                     <ExternalLink className="w-4 h-4" />
                   </a>
@@ -233,6 +233,6 @@ export default function KaluzyskoPage() {
           </section>
         </div>
       </Layout>
-    </>
-  );
+    </>);
+
 }
