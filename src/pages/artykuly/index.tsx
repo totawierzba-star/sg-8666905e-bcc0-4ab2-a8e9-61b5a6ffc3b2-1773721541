@@ -5,6 +5,16 @@ import { BookOpen, Lightbulb } from "lucide-react";
 
 const articles = [
   {
+    title: "Bajkoterapia dla Dzieci: Kompletny Przewodnik [2026]",
+    excerpt:
+      "Dowiedz się, jak bajkoterapia pomaga dzieciom radzić sobie z trudnymi emocjami. Praktyczny przewodnik z FAQ, przykładami i wskazówkami ekspertów.",
+    author: "Redakcja",
+    date: "26 lutego 2026",
+    image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
+    slug: "bajkoterapia",
+    category: "Przewodnik",
+  },
+  {
     title: "Książki w terapii – jak wykorzystać literaturę w pracy z dziećmi i dorosłymi",
     excerpt:
       "Biblioterapia to potężne narzędzie w rękach terapeutów, pedagogów i rodziców. Dowiedz się, jak książki mogą wspierać proces terapeutyczny i pomagać w przepracowywaniu trudnych emocji.",
