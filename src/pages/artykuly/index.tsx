@@ -65,6 +65,8 @@ const categories = [
 ];
 
 export default function ArticlesPage() {
+  console.log("ArticlesPage loaded, articles count:", articles.length); 
+
   return (
     <Layout>
       <SEO
@@ -73,7 +75,7 @@ export default function ArticlesPage() {
         url="https://ksiazki-do-zadan-specjalnych.pl/artykuly"
       />
 
-      <div className="bg-gradient-hero py-16">
+      <div className="bg-gradient-hero py-16 relative">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="font-serif text-4xl sm:text-5xl font-bold mb-4">
