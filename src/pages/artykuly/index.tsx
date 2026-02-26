@@ -58,6 +58,7 @@ const articles = [
 
 const categories = [
   { name: "Wszystkie", icon: BookOpen, count: articles.length },
+  { name: "Przewodnik", icon: Lightbulb, count: 1 },
   { name: "Terapia", icon: Lightbulb, count: 2 },
   { name: "Praktyka", icon: BookOpen, count: 1 },
   { name: "Edukacja", icon: BookOpen, count: 1 },
