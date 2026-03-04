@@ -28,7 +28,7 @@ export default function ZielonaDziewczynka() {
           <div className="grid md:grid-cols-2 gap-12 mb-16">
             <div>
               <Image
-                src="/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bilo.jpg"
+                src="/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg"
                 alt="Zielona dziewczynka. Czyli popołudnie, którego nie było"
                 width={600}
                 height={800}
