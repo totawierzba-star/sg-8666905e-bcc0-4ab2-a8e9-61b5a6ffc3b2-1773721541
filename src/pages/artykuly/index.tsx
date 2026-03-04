@@ -1,13 +1,39 @@
 import { SEO } from "@/components/SEO";
 import { Layout } from "@/components/Layout";
 import { ArticleCard } from "@/components/ArticleCard";
-import { BookOpen, Lightbulb } from "lucide-react";
+import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
-    title: "Jak oswoić zapominanie? Poradnik do pracy z książką 'Zielona dziewczynka' w biblioterapii",
-    excerpt:
-      "Praktyczny poradnik dla rodziców i terapeutów: jak rozmawiać z dzieckiem o chorobie Alzheimera i demencji przy pomocy książki 'Zielona dziewczynka'. Metody biblioterapii, pytania do rozmowy i wskazówki terapeutyczne.",
+    title: "Jak działa biblioterapia? Mechanizmy terapeutycznego działania książek",
+    excerpt: "Poznaj cztery kluczowe mechanizmy biblioterapii: identyfikację, projekcję, katharsis i wgląd. Dowiedz się, dlaczego czytanie leczy.",
+    author: "Redakcja",
+    date: "4 marca 2026",
+    image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
+    slug: "jak-dziala-biblioterapia",
+    category: "Edukacja",
+  },
+  {
+    title: "Rodzaje biblioterapii — kliniczna, rozwojowa i instytucjonalna",
+    excerpt: "Poznaj różnice między biblioterapią kliniczną, rozwojową i instytucjonalną. Sprawdź, która forma wsparcia będzie najlepsza dla Twojego dziecka.",
+    author: "Redakcja",
+    date: "4 marca 2026",
+    image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
+    slug: "rodzaje-biblioterapii",
+    category: "Edukacja",
+  },
+  {
+    title: "Biblioterapia a psychoterapia — czym się różnią?",
+    excerpt: "Kiedy wystarczy wspólne czytanie, a kiedy konieczna jest pomoc specjalisty? Przewodnik dla rodziców pomagający podjąć właściwą decyzję.",
+    author: "Redakcja",
+    date: "4 marca 2026",
+    image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
+    slug: "biblioterapia-vs-psychoterapia",
+    category: "Przewodnik",
+  },
+  {
+    title: "Jak oswoić zapominanie? Poradnik do pracy z książką 'Zielona dziewczynka'",
+    excerpt: "Praktyczny poradnik dla rodziców: jak rozmawiać z dzieckiem o chorobie Alzheimera i demencji przy pomocy książki 'Zielona dziewczynka'.",
     author: "Redakcja",
     date: "4 marca 2026",
     image: "/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg",
@@ -16,8 +42,7 @@ const articles = [
   },
   {
     title: "Bajkoterapia dla Dzieci: Kompletny Przewodnik [2026]",
-    excerpt:
-      "Dowiedz się, jak bajkoterapia pomaga dzieciom radzić sobie z trudnymi emocjami. Praktyczny przewodnik z FAQ, przykładami i wskazówkami ekspertów.",
+    excerpt: "Dowiedz się, jak bajkoterapia pomaga dzieciom radzić sobie z trudnymi emocjami. Praktyczny przewodnik z FAQ i przykładami.",
     author: "Redakcja",
     date: "26 lutego 2026",
     image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
@@ -25,9 +50,8 @@ const articles = [
     category: "Przewodnik",
   },
   {
-    title: "Książki w terapii – jak wykorzystać literaturę w pracy z dziećmi i dorosłymi",
-    excerpt:
-      "Biblioterapia to potężne narzędzie w rękach terapeutów, pedagogów i rodziców. Dowiedz się, jak książki mogą wspierać proces terapeutyczny i pomagać w przepracowywaniu trudnych emocji.",
+    title: "Książki w terapii – jak wykorzystać literaturę w pracy z dziećmi",
+    excerpt: "Biblioterapia to potężne narzędzie. Dowiedz się, jak książki mogą wspierać proces terapeutyczny i pomagać w przepracowywaniu emocji.",
     author: "Redakcja",
     date: "15 stycznia 2026",
     image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
@@ -35,9 +59,8 @@ const articles = [
     category: "Terapia",
   },
   {
-    title: "Jak rozmawiać z dzieckiem o stracie? Historia Zosi i książki Żaba",
-    excerpt:
-      "Praktyczny przykład wykorzystania książki 'Żaba. Mała opowieść o żałobie' w pracy z 7-letnią dziewczynką po stracie babci. Dowiedz się, jak książka pomogła rodzinie przepracować żałobę.",
+    title: "Jak rozmawiać z dzieckiem o stracie? Historia Zosi",
+    excerpt: "Prawdziwa historia 7-letniej dziewczynki, która dzięki książce 'Żaba. Mała opowieść o żałobie' nauczyła się rozmawiać o śmierci babci.",
     author: "Anna Kowalska",
     date: "20 stycznia 2026",
     image: "/zaba_ilustracje.jpg",
@@ -45,9 +68,8 @@ const articles = [
     category: "Praktyka",
   },
   {
-    title: "Muzeum Miłości – jak pomóc dziecku zrozumieć rozwód rodziców",
-    excerpt:
-      "Książka 'Czasami szczęśliwi rodzice mieszkają oddzielnie' prowadzi dzieci przez symboliczne Muzeum Miłości, gdzie uczą się, że rozstanie rodziców nie jest ich winą i że miłość nie znika.",
+    title: "Muzeum Miłości – jak pomóc dziecku zrozumieć rozwód",
+    excerpt: "Książka 'Czasami szczęśliwi rodzice mieszkają oddzielnie' prowadzi dzieci przez Muzeum Miłości, ucząc, że rozwód to nie ich wina.",
     author: "Redakcja",
     date: "5 lutego 2026",
     image: "/uploads/Albus_Czasami_szcze_s_liwi.jpg",
@@ -55,9 +77,8 @@ const articles = [
     category: "Terapia",
   },
   {
-    title: "Jak rozmawiać z dzieckiem o niepełnosprawności? Ptaki z kopertami",
-    excerpt:
-      "Książka 'Nie znajdziesz mnie po śladach stóp' Sylwii Błach to szczera rozmowa osoby poruszającej się na wózku z 6-letnią Dobrawą. Wielowymiarowa opowieść o życiu, różnorodności i empatii.",
+    title: "Jak rozmawiać z dzieckiem o niepełnosprawności?",
+    excerpt: "Książka 'Nie znajdziesz mnie po śladach stóp' to szczera rozmowa o życiu na wózku. Wielowymiarowa opowieść o różnorodności i empatii.",
     author: "Redakcja",
     date: "5 lutego 2026",
     image: "/uploads/978-83-67085-30-4_Nie_znajdziesz_mnie_po_s_ladach_sto_p_ALBUS.jpg",
@@ -67,16 +88,14 @@ const articles = [
 ];
 
 const categories = [
-  { name: "Wszystkie", icon: BookOpen, count: 6 },
-  { name: "Przewodnik", icon: Lightbulb, count: 1 },
-  { name: "Terapia", icon: Lightbulb, count: 3 },
-  { name: "Praktyka", icon: BookOpen, count: 1 },
-  { name: "Edukacja", icon: BookOpen, count: 1 },
+  { name: "Wszystkie", icon: BookOpen, count: articles.length },
+  { name: "Edukacja", icon: GraduationCap, count: articles.filter(a => a.category === "Edukacja").length },
+  { name: "Terapia", icon: Heart, count: articles.filter(a => a.category === "Terapia").length },
+  { name: "Przewodnik", icon: Lightbulb, count: articles.filter(a => a.category === "Przewodnik").length },
+  { name: "Praktyka", icon: Brain, count: articles.filter(a => a.category === "Praktyka").length },
 ];
 
 export default function ArticlesPage() {
-  console.log("ArticlesPage loaded, articles count:", articles.length); 
-
   return (
     <Layout>
       <SEO
@@ -117,37 +136,16 @@ export default function ArticlesPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Istniejące artykuły */}
-            <ArticleCard
-              title="Historia Zosi i książki Żaba"
-              excerpt="Prawdziwa historia dziewczynki, która dzięki biblioterapii nauczyła się rozmawiać o żałobie po śmierci babci."
-              href="/artykuly/historia-zosi-i-ksiazki-zaba"
-              category="Historie"
-            />
-            
-            <ArticleCard
-              title="Jak rozmawiać z dzieckiem o niepełnosprawności?"
-              excerpt="Praktyczny przewodnik dla rodziców z konkretnym
-...
-              title="Jak działa biblioterapia?"
-              excerpt="Poznaj cztery kluczowe mechanizmy terapeutycznego działania książek: identyfikację, projekcję, katharsis i wgląd."
-              href="/artykuly/jak-dziala-biblioterapia"
-              category="Edukacja"
-            />
-
-            <ArticleCard
-              title="Rodzaje biblioterapii"
-              excerpt="Dowiedz się, czym różni się biblioterapia kliniczna, rozwojowa i instytucjonalna oraz która jest odpowiednia dla twojego dziecka."
-              href="/artykuly/rodzaje-biblioterapii"
-              category="Edukacja"
-            />
-
-            <ArticleCard
-              title="Biblioterapia a psychoterapia"
-              excerpt="Kiedy wystarczy wspólne czytanie, a kiedy dziecko potrzebuje psychoterapeuty? Poznaj kluczowe różnice i naucz się podejmować właściwe decyzje."
-              href="/artykuly/biblioterapia-vs-psychoterapia"
-              category="Edukacja"
-            />
+            {articles.map((article) => (
+              <ArticleCard
+                key={article.slug}
+                title={article.title}
+                excerpt={article.excerpt}
+                href={`/artykuly/${article.slug}`}
+                category={article.category}
+                image={article.image}
+              />
+            ))}
           </div>
         </div>
       </section>
