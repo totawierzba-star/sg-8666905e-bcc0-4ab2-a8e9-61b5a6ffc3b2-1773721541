@@ -63,6 +63,32 @@ export default function MuzeumMilosciRozwodRodzicowArticle() {
               nawet po życiowej burzy.
             </p>
 
+            <div className="bg-accent/10 rounded-lg p-6 my-8 border-l-4 border-accent">
+              <div className="flex items-center gap-3 mb-3">
+                <BookOpen className="h-5 w-5 text-accent" />
+                <h3 className="font-semibold text-lg">O książce</h3>
+              </div>
+              <p className="mb-3 leading-relaxed">
+                Ten artykuł omawia praktyczne wykorzystanie książki{" "}
+                <Link
+                  href="/ksiazki/czasami-szczesliwi-rodzice"
+                  className="text-accent font-semibold hover:underline"
+                >
+                  „Czasami szczęśliwi rodzice mieszkają oddzielnie"
+                </Link>{" "}
+                w rozmowie z dzieckiem o rozwodzie rodziców.
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Zobacz także:{" "}
+                <Link
+                  href="/biblioterapia/scenariusze/muzeum-milosci-rozwod"
+                  className="text-accent hover:underline"
+                >
+                  Gotowy scenariusz zajęć biblioterapeutycznych
+                </Link>
+              </p>
+            </div>
+
             <h2 className="font-serif text-3xl font-bold mt-12 mb-4">
               Helena i Hektor: dwie historie, wspólna podróż
             </h2>
@@ -116,7 +142,7 @@ export default function MuzeumMilosciRozwodRodzicowArticle() {
               dorosłych. Inne dzieci odnajdują tam przedmioty i wspomnienia swoich
               rodziców. Hektor odkrywa obraz i album przedstawiające jego rodziców
               jako zakochanych młodych ludzi i szczęśliwą rodzinę. Helena ogląda
-              nagranie z własnych wakacji, uświadamiając sobie, że jej rodzice
+              nagranie z własnych wakacji, uświadadamiając sobie, że jej rodzice
               naprawdę byli szczęśliwi i że ich miłość istniała.
             </p>
 

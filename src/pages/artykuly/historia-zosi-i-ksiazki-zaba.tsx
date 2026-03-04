@@ -1,7 +1,7 @@
 import { SEO } from "@/components/SEO";
 import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
-import { Calendar, User, ArrowLeft, Heart, MessageCircle } from "lucide-react";
+import { Calendar, User, ArrowLeft, Heart, MessageCircle, BookOpen } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -62,6 +62,32 @@ export default function HistoriaZosiArticle() {
               Mała opowieść o żałobie". To, co wydarzyło się później, zmieniło
               wszystko.
             </p>
+
+            <div className="bg-secondary/10 rounded-lg p-6 my-8 border-l-4 border-secondary">
+              <div className="flex items-center gap-3 mb-3">
+                <BookOpen className="h-5 w-5 text-secondary" />
+                <h3 className="font-semibold text-lg">O książce</h3>
+              </div>
+              <p className="mb-3 leading-relaxed">
+                Ten artykuł przedstawia prawdziwą historię wykorzystania książki{" "}
+                <Link
+                  href="/ksiazki/zaba"
+                  className="text-secondary font-semibold hover:underline"
+                >
+                  „Żaba. Mała opowieść o żałobie"
+                </Link>{" "}
+                w pracy z dzieckiem przeżywającym stratę bliskiej osoby.
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Zobacz także:{" "}
+                <Link
+                  href="/biblioterapia/scenariusze/moja-przezroczysta-zaba"
+                  className="text-secondary hover:underline"
+                >
+                  Gotowy scenariusz zajęć biblioterapeutycznych
+                </Link>
+              </p>
+            </div>
 
             <div className="my-12">
               <h3 className="font-serif text-2xl font-semibold mb-6 text-center">

@@ -150,6 +150,46 @@ export function Layout({ children }: LayoutProps) {
                     Linka w mysim mieście
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    href="/ksiazki/tkaczka-chmur"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Tkaczka chmur
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/ksiazki/mrowki"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Mrówki
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/ksiazki/skad-jestem"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Skąd jestem?
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/ksiazki/polezja"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Polezja o niezwykłej mocy łez
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/ksiazki/zielona-dziewczynka"
+                    className="text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    Zielona dziewczynka
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
