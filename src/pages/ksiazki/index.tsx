@@ -74,6 +74,16 @@ const books = [
     author: "Katarzyna Ryrych",
     color: "accent" as const,
   },
+  {
+    title: "Tkaczka chmur",
+    subtitle: "Baśń o miłości, odwadze i radzeniu sobie z trudnymi emocjami",
+    description: "Niezwykła opowieść o rodzeństwie, która w delikatny sposób wprowadza w temat spotkania z chorobą, śmiercią i trudnymi emocjami. Poetycka baśń o znajdowaniu własnych sposobów na radzenie sobie z tym, co nieuchronne.",
+    image: "/uploads/tkaczka-chmur-okładka.jpg",
+    slug: "tkaczka-chmur",
+    age: "5+",
+    author: "Katarzyna Jackowska-Enemuo",
+    color: "primary" as const,
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -118,7 +128,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">7</div>
+                  <div className="text-3xl font-bold text-primary">8</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
