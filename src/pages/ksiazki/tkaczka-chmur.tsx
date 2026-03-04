@@ -100,6 +100,19 @@ export default function TkaczkaChmurPage() {
                   <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
                     Oprawa: Twarda
                   </p>
+                  <a
+                    href="https://tusieczyta.pl/pl/glowna/1233-tkaczka-chmur-wyd-2-9788367085199.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block mt-4"
+                  >
+                    <Button
+                      size="lg"
+                      className="bg-amber-600 hover:bg-amber-700 text-white"
+                    >
+                      Kup książkę
+                    </Button>
+                  </a>
                 </div>
               </div>
             </div>
