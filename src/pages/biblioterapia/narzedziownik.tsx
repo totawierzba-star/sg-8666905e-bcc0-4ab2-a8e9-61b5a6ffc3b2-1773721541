@@ -80,16 +80,27 @@ export default function NarzedziownikPage() {
               </div>
             </Link>
             
-            {/* Placeholder for future scenarios */}
-            <div className="bg-muted/30 border border-dashed rounded-xl p-6 flex flex-col items-center justify-center text-center min-h-[280px]">
-              <div className="bg-background rounded-full p-4 mb-4">
-                <Sparkles className="h-6 w-6 text-muted-foreground" />
+            {/* Card 3: Muzeum Miłości */}
+            <Link href="/biblioterapia/scenariusze/muzeum-milosci-rozwod" className="group">
+              <div className="h-full bg-card border rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div className="h-3 bg-amber-500" />
+                <div className="p-6 flex-1 flex flex-col">
+                  <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
+                    <span className="bg-amber-100 text-amber-700 px-2 py-1 rounded">Rozwód</span>
+                    <span className="flex items-center"><Clock className="w-3 h-3 mr-1" /> 90 min</span>
+                  </div>
+                  <h3 className="font-serif text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                    Muzeum Miłości
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4 flex-1">
+                    Symboliczna podróż przez emocje związane z rozwodem rodziców. Album wspomnień i rytuał rośliny.
+                  </p>
+                  <div className="flex items-center text-sm font-medium text-primary mt-auto">
+                    Zobacz scenariusz <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </div>
+                </div>
               </div>
-              <h3 className="font-serif text-lg font-bold mb-2 text-muted-foreground">Wkrótce więcej</h3>
-              <p className="text-sm text-muted-foreground max-w-xs">
-                Pracujemy nad kolejnymi scenariuszami dotyczącymi rozwodu i lęku.
-              </p>
-            </div>
+            </Link>
           </div>
 
           {/* Info Box */}
