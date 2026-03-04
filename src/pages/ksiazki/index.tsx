@@ -96,6 +96,17 @@ const books = [
     color: "secondary" as const,
     purchaseUrl: "https://tusieczyta.pl/pl/ksiazki-dla-dzieci/1259-mrowki-9788367085229.html",
   },
+  {
+    title: "Skąd jestem?",
+    subtitle: "Książka o prokreacji i narodzinach",
+    description: "Książka edukacyjna, która pomaga rodzicom rozmawiać z dziećmi na tematy cielesności i seksualności w prawdomówny i odpowiedni sposób. Piękne ilustracje Marianny Sztymy.",
+    image: "/uploads/skad-jestem_okładka.jpg",
+    slug: "skad-jestem",
+    age: "3+",
+    author: "Agnieszka Kacprzyk",
+    color: "accent" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/albus/670-skad-jestem-marianna-sztyma-agnieszka-kacprzyk-9788389284426.html",
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -140,7 +151,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">9</div>
+                  <div className="text-3xl font-bold text-primary">10</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
