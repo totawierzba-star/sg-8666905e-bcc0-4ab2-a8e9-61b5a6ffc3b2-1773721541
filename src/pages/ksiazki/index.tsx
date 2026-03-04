@@ -85,6 +85,17 @@ const books = [
     color: "primary" as const,
     purchaseUrl: "https://tusieczyta.pl/pl/glowna/1233-tkaczka-chmur-wyd-2-9788367085199.html",
   },
+  {
+    title: "Mrówki",
+    subtitle: "O utracie pracy przez rodzica",
+    description: "Opowieść o utracie pracy przez rodzica i o tym, jak radzi sobie z tym faktem cała rodzina, opowiedziana z perspektywy dziewczynki szpiegującej swoich rodziców.",
+    image: "/uploads/okłdkamrowki.jpg",
+    slug: "mrowki",
+    age: "5+",
+    author: "Anna Augustyniak",
+    color: "secondary" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/ksiazki-dla-dzieci/1259-mrowki-9788367085229.html",
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -129,7 +140,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">8</div>
+                  <div className="text-3xl font-bold text-primary">9</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
