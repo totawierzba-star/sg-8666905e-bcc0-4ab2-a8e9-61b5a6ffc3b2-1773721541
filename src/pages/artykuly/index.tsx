@@ -5,6 +5,16 @@ import { BookOpen, Lightbulb } from "lucide-react";
 
 const articles = [
   {
+    title: "Jak oswoić zapominanie? Poradnik do pracy z książką 'Zielona dziewczynka' w biblioterapii",
+    excerpt:
+      "Praktyczny poradnik dla rodziców i terapeutów: jak rozmawiać z dzieckiem o chorobie Alzheimera i demencji przy pomocy książki 'Zielona dziewczynka'. Metody biblioterapii, pytania do rozmowy i wskazówki terapeutyczne.",
+    author: "Redakcja",
+    date: "4 marca 2026",
+    image: "/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg",
+    slug: "jak-oswoic-zapominanie-zielona-dziewczynka",
+    category: "Terapia",
+  },
+  {
     title: "Bajkoterapia dla Dzieci: Kompletny Przewodnik [2026]",
     excerpt:
       "Dowiedz się, jak bajkoterapia pomaga dzieciom radzić sobie z trudnymi emocjami. Praktyczny przewodnik z FAQ, przykładami i wskazówkami ekspertów.",
@@ -57,9 +67,9 @@ const articles = [
 ];
 
 const categories = [
-  { name: "Wszystkie", icon: BookOpen, count: articles.length },
+  { name: "Wszystkie", icon: BookOpen, count: 6 },
   { name: "Przewodnik", icon: Lightbulb, count: 1 },
-  { name: "Terapia", icon: Lightbulb, count: 2 },
+  { name: "Terapia", icon: Lightbulb, count: 3 },
   { name: "Praktyka", icon: BookOpen, count: 1 },
   { name: "Edukacja", icon: BookOpen, count: 1 },
 ];

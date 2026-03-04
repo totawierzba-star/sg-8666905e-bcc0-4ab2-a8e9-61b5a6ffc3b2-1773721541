@@ -3,6 +3,7 @@ import { Layout } from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import { BookOpen, ArrowRight } from "lucide-react";
 
 export default function ZielonaDziewczynka() {
   const illustrations = [
@@ -16,7 +17,7 @@ export default function ZielonaDziewczynka() {
       <SEO
         title="Zielona dziewczynka. Czyli popołudnie, którego nie było - Książki do zadań specjalnych"
         description="Książka o chorobie Alzheimera i roli rodziny w opiece nad chorym. Opowieść o zapominaniu, przypominaniu i dorastaniu do odpowiedzialności."
-        image="/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg"
+        image="/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bilo.jpg"
       />
       <Layout>
         <div className="container mx-auto px-4 py-12 max-w-6xl">
@@ -168,6 +169,26 @@ export default function ZielonaDziewczynka() {
                 <p className="text-gray-700">
                   Ilustratorka, której prace tworzą ciepłą, pełną empatii atmosferę. Jej ilustracje delikatnie podkreślają emocjonalny wymiar historii, pomagając młodym czytelnikom zrozumieć złożone uczucia towarzyszące trudnym sytuacjom rodzinnym.
                 </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mb-16 bg-gradient-to-br from-amber-50 to-orange-50 dark:from-amber-950/20 dark:to-orange-950/20 p-8 rounded-xl border-2 border-amber-200 dark:border-amber-800">
+            <div className="flex items-start gap-4">
+              <div className="bg-amber-100 dark:bg-amber-900 p-3 rounded-lg">
+                <BookOpen className="h-6 w-6 text-amber-600 dark:text-amber-400" />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold mb-2">Poradnik biblioterapeutyczny</h3>
+                <p className="text-gray-700 dark:text-gray-300 mb-4">
+                  Przygotowaliśmy szczegółowy przewodnik, jak wykorzystać tę książkę w pracy z dzieckiem - pytania do rozmowy, metody terapeutyczne i wskazówki dla rodziców i terapeutów.
+                </p>
+                <Link href="/artykuly/jak-oswoic-zapominanie-zielona-dziewczynka">
+                  <Button variant="default" className="bg-amber-600 hover:bg-amber-700">
+                    Przeczytaj poradnik
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
