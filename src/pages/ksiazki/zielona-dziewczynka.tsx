@@ -26,14 +26,16 @@ export default function ZielonaDziewczynka() {
           </Link>
 
           <div className="grid md:grid-cols-2 gap-12 mb-16">
-            <div>
+            <div className="relative aspect-[2/3] w-full max-w-md mx-auto">
               <Image
-                src="/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg"
-                alt="Zielona dziewczynka. Czyli popołudnie, którego nie było"
-                width={600}
-                height={800}
-                className="w-full rounded-lg shadow-lg"
+                key="cover-zielona-dziewczynka"
+                src="/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg"
+                alt="Okładka książki Zielona dziewczynka"
+                fill
+                className="object-cover rounded-lg shadow-lg"
                 priority
+                unoptimized
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
 

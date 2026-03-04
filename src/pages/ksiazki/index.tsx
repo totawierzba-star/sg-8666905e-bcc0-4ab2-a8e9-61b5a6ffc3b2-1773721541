@@ -122,12 +122,13 @@ const books = [
     title: "Zielona dziewczynka. Czyli popołudnie, którego nie było",
     subtitle: "Książka o chorobie Alzheimera",
     description: "Wzruszająca historia o rodzinie zmagającej się z chorobą Alzheimera. Książka o zapominaniu, przypominaniu i dorastaniu do odpowiedzialności za najbliższych.",
-    image: "/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg",
+    image: "/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo.jpg",
     slug: "zielona-dziewczynka",
     age: "12+",
     author: "Anna Augustyniak",
     color: "secondary" as const,
-    purchaseUrl: "https://tusieczyta.pl/pl/albus/1479-zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bilo-978836708532.html",
+    buyUrl:
+      "https://tusieczyta.pl/pl/albus/1479-zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bilo-978836708532.html",
   },
 ];
 
