@@ -5,7 +5,8 @@ import {
   ArrowRight, 
   PenTool,
   Clock,
-  BookOpen
+  BookOpen,
+  Heart
 } from "lucide-react";
 import Link from "next/link";
 
@@ -81,26 +82,51 @@ export default function NarzedziownikPage() {
             </Link>
             
             {/* Card 3: Muzeum Miłości */}
-            <Link href="/biblioterapia/scenariusze/muzeum-milosci-rozwod" className="group">
-              <div className="h-full bg-card border rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col">
-                <div className="h-3 bg-amber-500" />
-                <div className="p-6 flex-1 flex flex-col">
-                  <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
-                    <span className="bg-amber-100 text-amber-700 px-2 py-1 rounded">Rozwód</span>
-                    <span className="flex items-center"><Clock className="w-3 h-3 mr-1" /> 90 min</span>
+            <Link href="/biblioterapia/scenariusze/muzeum-milosci-rozwod">
+              <div className="bg-card border rounded-xl p-6 hover:shadow-lg transition-shadow cursor-pointer h-full flex flex-col">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="bg-amber-100 p-2 rounded-lg">
+                    <Heart className="h-5 w-5 text-amber-600" />
                   </div>
-                  <h3 className="font-serif text-xl font-bold mb-3 group-hover:text-primary transition-colors">
-                    Muzeum Miłości
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-4 flex-1">
-                    Symboliczna podróż przez emocje związane z rozwodem rodziców. Album wspomnień i rytuał rośliny.
-                  </p>
-                  <div className="flex items-center text-sm font-medium text-primary mt-auto">
-                    Zobacz scenariusz <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  <div className="text-sm">
+                    <div className="font-semibold text-amber-700">Rozwód</div>
+                    <div className="text-muted-foreground">60-90 min</div>
                   </div>
                 </div>
+                <h3 className="font-serif text-xl font-bold mb-2">Muzeum Miłości</h3>
+                <p className="text-muted-foreground text-sm flex-grow">
+                  Symboliczna podróż przez emocje związane z rozwodem rodziców. Aktywności inspirowane książką „Czasami szczęśliwi rodzice mieszkają oddzielnie".
+                </p>
               </div>
             </Link>
+
+            {/* Card 4: Moje ptaki i moje posypki */}
+            <Link href="/biblioterapia/scenariusze/moje-ptaki-i-posypki">
+              <div className="bg-card border rounded-xl p-6 hover:shadow-lg transition-shadow cursor-pointer h-full flex flex-col">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="bg-purple-100 p-2 rounded-lg">
+                    <Sparkles className="h-5 w-5 text-purple-600" />
+                  </div>
+                  <div className="text-sm">
+                    <div className="font-semibold text-purple-700">Różnorodność</div>
+                    <div className="text-muted-foreground">45-60 min</div>
+                  </div>
+                </div>
+                <h3 className="font-serif text-xl font-bold mb-2">Moje ptaki i moje posypki</h3>
+                <p className="text-muted-foreground text-sm flex-grow">
+                  Lekcja o różnorodności, empatii i mądrego pomagania. Niepełnosprawność to tylko jedna z wielu cech – jak posypka na lodach.
+                </p>
+              </div>
+            </Link>
+
+            {/* Placeholder */}
+            <div className="bg-muted/50 border border-dashed rounded-xl p-6 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
+              <BookOpen className="h-12 w-12 text-muted-foreground/50 mb-3" />
+              <p className="text-muted-foreground font-medium">Wkrótce więcej scenariuszy</p>
+              <p className="text-sm text-muted-foreground/75 mt-1">
+                Pracujemy nad kolejnymi scenariuszami dotyczącymi lęku i akceptacji.
+              </p>
+            </div>
           </div>
 
           {/* Info Box */}
