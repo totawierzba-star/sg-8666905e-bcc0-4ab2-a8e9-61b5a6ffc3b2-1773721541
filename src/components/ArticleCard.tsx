@@ -7,10 +7,10 @@ import { Button } from "@/components/ui/button";
 interface ArticleCardProps {
   title: string;
   excerpt: string;
-  author: string;
-  date: string;
+  author?: string;
+  date?: string;
   image: string;
-  slug: string;
+  href: string;
   category?: string;
 }
 
@@ -20,7 +20,7 @@ export function ArticleCard({
   author,
   date,
   image,
-  slug,
+  href,
   category,
 }: ArticleCardProps) {
   return (
@@ -42,27 +42,33 @@ export function ArticleCard({
 
       <CardHeader className="flex-1">
         <h3 className="font-serif text-xl font-semibold mb-2 line-clamp-2 hover:text-accent transition-colors">
-          <Link href={`/artykuly/${slug}`}>{title}</Link>
+          <Link href={href}>{title}</Link>
         </h3>
         <p className="text-muted-foreground text-sm line-clamp-3">{excerpt}</p>
       </CardHeader>
 
       <CardContent className="pt-0">
-        <div className="flex items-center gap-4 text-xs text-muted-foreground">
-          <div className="flex items-center gap-1">
-            <User className="h-3 w-3" />
-            <span>{author}</span>
+        {(author || date) && (
+          <div className="flex items-center gap-4 text-xs text-muted-foreground">
+            {author && (
+              <div className="flex items-center gap-1">
+                <User className="h-3 w-3" />
+                <span>{author}</span>
+              </div>
+            )}
+            {date && (
+              <div className="flex items-center gap-1">
+                <Calendar className="h-3 w-3" />
+                <span>{date}</span>
+              </div>
+            )}
           </div>
-          <div className="flex items-center gap-1">
-            <Calendar className="h-3 w-3" />
-            <span>{date}</span>
-          </div>
-        </div>
+        )}
       </CardContent>
 
       <CardFooter className="pt-0">
         <Button asChild variant="ghost" size="sm" className="group">
-          <Link href={`/artykuly/${slug}`}>
+          <Link href={href}>
             Czytaj więcej
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
