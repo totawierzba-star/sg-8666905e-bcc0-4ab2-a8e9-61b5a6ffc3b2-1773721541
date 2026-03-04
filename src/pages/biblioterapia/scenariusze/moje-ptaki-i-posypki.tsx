@@ -73,19 +73,6 @@ export default function MojePtakiIPosypkiPage() {
                 </div>
               </div>
 
-              <div className="bg-purple-50 border border-purple-200 rounded-lg p-4 mb-6">
-                <p className="text-sm text-purple-900">
-                  <strong>📚 Inspiracja:</strong> Ten scenariusz powstał na podstawie książki{" "}
-                  <Link 
-                    href="/ksiazki/nie-znajdziesz-mnie" 
-                    className="text-purple-700 hover:text-purple-900 underline font-medium"
-                  >
-                    „Nie znajdziesz mnie po śladach stóp"
-                  </Link>
-                  {" "}autorstwa Sylwii Błach – osobistej, autentycznej opowieści o życiu na wózku inwalidzkim.
-                </p>
-              </div>
-
               <button
                 onClick={() => window.print()}
                 className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-medium"
@@ -93,6 +80,31 @@ export default function MojePtakiIPosypkiPage() {
                 <Download className="h-4 w-4" />
                 Pobierz scenariusz PDF
               </button>
+            </div>
+
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 rounded-xl p-6 mb-8">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 p-3 rounded-lg">
+                  <BookOpen className="h-6 w-6 text-blue-700" />
+                </div>
+                <div className="flex-1">
+                  <h2 className="font-serif text-xl font-bold text-blue-900 mb-2">
+                    📖 Książka do tego scenariusza
+                  </h2>
+                  <p className="text-blue-800 mb-3">
+                    Ten scenariusz oparty jest na książce:
+                  </p>
+                  <Link 
+                    href="/ksiazki/nie-znajdziesz-mnie"
+                    className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-sm"
+                  >
+                    „Nie znajdziesz mnie po śladach stóp" →
+                  </Link>
+                  <p className="text-sm text-blue-700 mt-3">
+                    Przeczytaj książkę przed przeprowadzeniem zajęć, aby lepiej zrozumieć metafory i symbolikę.
+                  </p>
+                </div>
+              </div>
             </div>
 
             {/* Cele */}
