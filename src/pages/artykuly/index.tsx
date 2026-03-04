@@ -116,10 +116,38 @@ export default function ArticlesPage() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {articles.map((article) => (
-              <ArticleCard key={article.slug} {...article} />
-            ))}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Istniejące artykuły */}
+            <ArticleCard
+              title="Historia Zosi i książki Żaba"
+              excerpt="Prawdziwa historia dziewczynki, która dzięki biblioterapii nauczyła się rozmawiać o żałobie po śmierci babci."
+              href="/artykuly/historia-zosi-i-ksiazki-zaba"
+              category="Historie"
+            />
+            
+            <ArticleCard
+              title="Jak rozmawiać z dzieckiem o niepełnosprawności?"
+              excerpt="Praktyczny przewodnik dla rodziców z konkretnym
+...
+              title="Jak działa biblioterapia?"
+              excerpt="Poznaj cztery kluczowe mechanizmy terapeutycznego działania książek: identyfikację, projekcję, katharsis i wgląd."
+              href="/artykuly/jak-dziala-biblioterapia"
+              category="Edukacja"
+            />
+
+            <ArticleCard
+              title="Rodzaje biblioterapii"
+              excerpt="Dowiedz się, czym różni się biblioterapia kliniczna, rozwojowa i instytucjonalna oraz która jest odpowiednia dla twojego dziecka."
+              href="/artykuly/rodzaje-biblioterapii"
+              category="Edukacja"
+            />
+
+            <ArticleCard
+              title="Biblioterapia a psychoterapia"
+              excerpt="Kiedy wystarczy wspólne czytanie, a kiedy dziecko potrzebuje psychoterapeuty? Poznaj kluczowe różnice i naucz się podejmować właściwe decyzje."
+              href="/artykuly/biblioterapia-vs-psychoterapia"
+              category="Edukacja"
+            />
           </div>
         </div>
       </section>
