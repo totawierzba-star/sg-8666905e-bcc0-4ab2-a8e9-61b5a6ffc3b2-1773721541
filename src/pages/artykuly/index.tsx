@@ -85,6 +85,15 @@ const articles = [
     slug: "jak-rozmawiac-o-niepelnosprawnosci",
     category: "Edukacja",
   },
+  {
+    title: "Nowy artykuł o terapii z dziećmi",
+    excerpt: "Praktyczne porady i wskazówki dla rodziców i terapeutów, jak efektywnie prowadzić terapię z dziećmi.",
+    author: "Redakcja",
+    date: "10 marca 2026",
+    image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
+    slug: "nowy-artikel-terapia-z-dziecmi",
+    category: "Terapia",
+  },
 ];
 
 const categories = [
