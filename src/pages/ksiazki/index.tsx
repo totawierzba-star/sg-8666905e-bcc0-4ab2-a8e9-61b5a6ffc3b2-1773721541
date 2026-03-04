@@ -118,6 +118,17 @@ const books = [
     color: "primary" as const,
     purchaseUrl: "https://tusieczyta.pl/pl/zapowiedzi/1478-polezja-o-niezwyklej-mocy-lez-978836708531.html",
   },
+  {
+    title: "Zielona dziewczynka. Czyli popołudnie, którego nie było",
+    subtitle: "Książka o chorobie Alzheimera",
+    description: "Wzruszająca historia o rodzinie zmagającej się z chorobą Alzheimera. Książka o zapominaniu, przypominaniu i dorastaniu do odpowiedzialności za najbliższych.",
+    image: "/uploads/zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bilo.jpg",
+    slug: "zielona-dziewczynka",
+    age: "12+",
+    author: "Anna Augustyniak",
+    color: "secondary" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/albus/1479-zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bilo-978836708532.html",
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -162,7 +173,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">11</div>
+                  <div className="text-3xl font-bold text-primary">12</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
