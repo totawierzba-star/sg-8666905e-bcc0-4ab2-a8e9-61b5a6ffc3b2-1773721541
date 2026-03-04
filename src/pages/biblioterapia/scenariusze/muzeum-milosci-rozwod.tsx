@@ -79,6 +79,31 @@ export default function MuzeumMilosciPage() {
               </button>
             </div>
 
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 rounded-xl p-6 mb-8">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 p-3 rounded-lg">
+                  <BookOpen className="h-6 w-6 text-blue-700" />
+                </div>
+                <div className="flex-1">
+                  <h2 className="font-serif text-xl font-bold text-blue-900 mb-2">
+                    📖 Książka do tego scenariusza
+                  </h2>
+                  <p className="text-blue-800 mb-3">
+                    Ten scenariusz oparty jest na książce:
+                  </p>
+                  <Link 
+                    href="/ksiazki/czasami-szczesliwi-rodzice"
+                    className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-sm"
+                  >
+                    „Czasami szczęśliwi rodzice mieszkają oddzielnie" →
+                  </Link>
+                  <p className="text-sm text-blue-700 mt-3">
+                    Przeczytaj książkę przed przeprowadzeniem zajęć, aby lepiej zrozumieć metafory i symbolikę.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <div className="bg-card border rounded-xl p-6 mb-8">
               <h2 className="font-serif text-2xl font-bold mb-4">Cele spotkania</h2>
               <ul className="space-y-3">

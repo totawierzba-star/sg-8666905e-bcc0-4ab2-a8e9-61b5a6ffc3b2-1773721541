@@ -239,7 +239,7 @@ export default function MojePtakiIPosypkiPage() {
                           </p>
                           <div className="bg-white border border-green-300 rounded p-3">
                             <p className="text-sm text-green-900">
-                              <strong>💬 Rozmowa:</strong> „Osoby na wózkach grają w gry, chodzą do kina i jedzą lody. Wózek to tylko coś, co pomaga im się poruszać, tak jak niektórym okulary pomagają widzieć."
+                              <strong>💬 Rozmowa:</strong> „Osoby na wózkach grają w gry, chodzą do kina i jedzą lody. Wózek to tylko coś, co pomaga im się poruszać, tak jak niektóre okulary pomagają widzieć."
                             </p>
                           </div>
                         </div>

@@ -140,6 +140,31 @@ export default function ScenariuszMojaPrzezroczystaZaba() {
           {/* Main Content */}
           <div className="space-y-8">
             
+            <div className="bg-gradient-to-r from-blue-50 to-green-50 border-2 border-blue-200 rounded-xl p-6 mb-8">
+              <div className="flex items-start gap-4">
+                <div className="bg-blue-100 p-3 rounded-lg">
+                  <BookOpen className="h-6 w-6 text-blue-700" />
+                </div>
+                <div className="flex-1">
+                  <h2 className="font-serif text-xl font-bold text-blue-900 mb-2">
+                    📖 Książka do tego scenariusza
+                  </h2>
+                  <p className="text-blue-800 mb-3">
+                    Ten scenariusz oparty jest na książce:
+                  </p>
+                  <Link 
+                    href="/ksiazki/zaba"
+                    className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-sm"
+                  >
+                    „Żaba. Mała opowieść o żałobie" →
+                  </Link>
+                  <p className="text-sm text-blue-700 mt-3">
+                    Przeczytaj książkę przed spotkaniem, aby w pełni zrozumieć metaforę Żaby i Trzech Lekcji.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Cele */}
             <section className="bg-card rounded-lg border p-6 shadow-sm">
               <h2 className="text-xl font-bold mb-4 flex items-center">
