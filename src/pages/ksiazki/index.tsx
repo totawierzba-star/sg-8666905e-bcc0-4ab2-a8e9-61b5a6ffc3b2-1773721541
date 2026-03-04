@@ -107,6 +107,17 @@ const books = [
     color: "accent" as const,
     purchaseUrl: "https://tusieczyta.pl/pl/albus/670-skad-jestem-marianna-sztyma-agnieszka-kacprzyk-9788389284426.html",
   },
+  {
+    title: "Połezja. O niezwykłej mocy łez",
+    subtitle: "Poetycka książka o łzach i emocjach",
+    description: "Poruszające historie opowiedziane wierszem przez różne łzy. Książka o emocjach, która uczy akceptacji płaczu i zrozumienia mocy łez.",
+    image: "/uploads/polezja-o-niezwyklej-mocy-lezokładka.jpg",
+    slug: "polezja",
+    age: "5+",
+    author: "Judyta Nadziejko-Walter",
+    color: "primary" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/zapowiedzi/1478-polezja-o-niezwyklej-mocy-lez-978836708531.html",
+  },
 ];
 
 export default function KsiazkiPage() {
@@ -151,7 +162,7 @@ export default function KsiazkiPage() {
             <div className="max-w-4xl mx-auto">
               <div className="grid md:grid-cols-3 gap-8 text-center">
                 <div className="space-y-3">
-                  <div className="text-3xl font-bold text-primary">10</div>
+                  <div className="text-3xl font-bold text-primary">11</div>
                   <div className="text-sm text-muted-foreground">Wyjątkowe tytuły</div>
                 </div>
                 <div className="space-y-3">
