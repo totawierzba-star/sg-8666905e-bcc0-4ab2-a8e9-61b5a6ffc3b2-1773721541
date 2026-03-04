@@ -83,6 +83,7 @@ const books = [
     age: "5+",
     author: "Katarzyna Jackowska-Enemuo",
     color: "primary" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/glowna/1233-tkaczka-chmur-wyd-2-9788367085199.html",
   },
 ];
 
