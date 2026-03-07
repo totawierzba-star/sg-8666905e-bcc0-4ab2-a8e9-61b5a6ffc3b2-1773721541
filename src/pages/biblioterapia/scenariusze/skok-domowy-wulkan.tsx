@@ -75,7 +75,7 @@ export default function ScenariuszSkokDomowyWulkan() {
 
           <button
             onClick={() => window.print()}
-            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-medium mb-8"
+            className="bg-[hsl(var(--brand-primary))] text-white px-6 py-3 rounded-lg hover:bg-[hsl(var(--brand-primary))]/90 transition-colors font-medium flex items-center gap-2 mb-8"
           >
             <Download className="h-4 w-4" />
             Pobierz scenariusz PDF
