@@ -5,6 +5,20 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Jak pomóc dziecku radzić sobie z trudnymi emocjami? Przewodnik dla rodziców",
+    excerpt: "Odkryj, jak baśń 'Tkaczka Chmur' pomaga dzieciom nazywać i przepracowywać trudne emocje: smutek, gniew i rozpacz.",
+    date: "7 marca 2026",
+    category: "Emocje",
+    slug: "trudne-emocje-tkaczka-chmur",
+  },
+  {
+    title: "Gdy dziecko rozlewa się z bezsilności. Jak rozmawiać o nadpobudliwości i ADHD?",
+    excerpt: "Praktyczny przewodnik dla rodziców i pedagogów o wspieraniu dzieci z nadpobudliwością psychoruchową. Jak książka 'Skok' pomaga nazwać niewidoczne wyzwania?",
+    date: "7 marca 2026",
+    category: "Terapia",
+    slug: "nadpobudliwosc-adhd-skok",
+  },
+  {
     title: "Gdy dziecko rozlewa się z bezsilności. Jak rozmawiać o depresji dziecięcej?",
     excerpt: "Metafora 'rozlania się' jako sposób na rozmowę o depresji i kryzysie emocjonalnym u dzieci. Praktyczny przewodnik oparty na książce 'Kałużysko'.",
     image: "/uploads/kaluzyskoOkładka.jpg",
