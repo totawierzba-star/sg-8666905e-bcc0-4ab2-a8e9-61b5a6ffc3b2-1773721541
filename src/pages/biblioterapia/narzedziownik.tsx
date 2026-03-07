@@ -141,13 +141,32 @@ export default function NarzedziownikPage() {
               </div>
             </Link>
 
-            {/* Placeholder */}
-            <div className="bg-muted/50 border border-dashed rounded-xl p-6 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
-              <BookOpen className="h-12 w-12 text-muted-foreground/50 mb-3" />
-              <p className="text-muted-foreground font-medium">Wkrótce więcej scenariuszy</p>
-              <p className="text-sm text-muted-foreground/75 mt-1">
-                Pracujemy nad kolejnymi scenariuszami dotyczącymi lęku i akceptacji.
-              </p>
+            {/* Card 6: Tkaczka Chmur - Podróż przez emocje */}
+            <Link
+              href="/biblioterapia/scenariusze/tkaczka-chmur-emocje"
+              className="block border-2 border-border hover:border-purple-500 rounded-xl overflow-hidden transition-all hover:shadow-lg bg-card h-full"
+            >
+              <div className="h-2 bg-purple-500"></div>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="bg-purple-500 text-white text-xs px-3 py-1 rounded-full font-medium">
+                    EMOCJE
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                  <Clock className="h-4 w-4" />
+                  <span>60-75 min</span>
+                </div>
+                <h3 className="text-xl font-bold mb-2">Tkaczka Chmur: Podróż przez emocje</h3>
+                <p className="text-muted-foreground text-sm">
+                  Warsztat o radzeniu sobie z trudnymi emocjami: smutek, gniew, rozpacz. 
+                  Aktywności plastyczne, teatralne i rozmowa o przechodzeniu przez emocjonalne próby.
+                </p>
+              </div>
+            </Link>
+
+            {/* Placeholder for future scenarios */}
+            <div className="border-2 border-dashed border-border/50 rounded-xl p-6 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
             </div>
           </div>
 
