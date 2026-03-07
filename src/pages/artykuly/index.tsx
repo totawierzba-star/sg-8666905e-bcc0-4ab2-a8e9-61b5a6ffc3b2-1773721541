@@ -5,6 +5,14 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Jak rozmawiać z dzieckiem o utracie pracy rodzica? Przewodnik z książką Mrówki",
+    excerpt: "Praktyczny przewodnik dla rodziców: jak wyjaśnić dziecku kryzys zawodowy rodzica i budować poczucie bezpieczeństwa w trudnym czasie. Metafora mrówek z książki.",
+    date: "7 marca 2026",
+    category: "Terapia",
+    slug: "jak-rozmawiac-o-utracie-pracy-mrowki",
+    image: "/uploads/okłdkamrowki.jpg",
+  },
+  {
     title: "Jak pomóc dziecku radzić sobie z trudnymi emocjami? Przewodnik dla rodziców",
     excerpt: "Odkryj, jak baśń 'Tkaczka Chmur' pomaga dzieciom nazywać i przepracowywać trudne emocje: smutek, gniew i rozpacz.",
     date: "7 marca 2026",
