@@ -10,6 +10,7 @@ const articles = [
     date: "7 marca 2026",
     category: "Emocje",
     slug: "trudne-emocje-tkaczka-chmur",
+    image: "/uploads/tkaczka-chmur-okładka.jpg",
   },
   {
     title: "Gdy dziecko rozlewa się z bezsilności. Jak rozmawiać o nadpobudliwości i ADHD?",
@@ -17,6 +18,7 @@ const articles = [
     date: "7 marca 2026",
     category: "Terapia",
     slug: "nadpobudliwosc-adhd-skok",
+    image: "/uploads/skokokładka.jpg",
   },
   {
     title: "Gdy dziecko rozlewa się z bezsilności. Jak rozmawiać o depresji dziecięcej?",
