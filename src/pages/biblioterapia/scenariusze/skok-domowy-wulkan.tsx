@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Layout } from "@/components/Layout";
 import { SEO } from "@/components/SEO";
-import { BookOpen, Clock, Users, Target, Lightbulb, CheckCircle } from "lucide-react";
+import { BookOpen, Clock, Users, Target, Lightbulb, CheckCircle, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
@@ -72,6 +72,14 @@ export default function ScenariuszSkokDomowyWulkan() {
               <p className="text-sm text-muted-foreground">Emocje, ADHD, harmonia rodzinna</p>
             </Card>
           </div>
+
+          <button
+            onClick={() => window.print()}
+            className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors font-medium mb-8"
+          >
+            <Download className="h-4 w-4" />
+            Pobierz scenariusz PDF
+          </button>
 
           <img
             src="/uploads/skokokładka.jpg"
