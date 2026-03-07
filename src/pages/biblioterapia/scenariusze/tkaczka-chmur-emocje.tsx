@@ -69,7 +69,7 @@ export default function TkaczkaChmurEmocje() {
               <div>
                 <h2 className="text-2xl font-bold mb-4 mt-0">O książce i warsztatach</h2>
                 <p className="mb-4">
-                  „Tkaczka Chmur" Zuzanny Orlińskiej to piękna, metaforyczna baśń o dziewczynce obdarzonej darem
+                  „Tkaczka Chmur" Katarzyna Jackowska-Enemuo to piękna, metaforyczna baśń o dziewczynce obdarzonej darem
                   tkania rzeczywistości i jej młodszym bracie, który wyrusza w niebezpieczną podróż, by zdobyć
                   lekarstwo dla chorej siostry. Podczas wędrówki chłopiec musi zmierzyć się z trzema wcieleniami
                   złego Czarownika: czarną rzeką smutku, płonącym lasem gniewu i otchłanią rozpaczy.
