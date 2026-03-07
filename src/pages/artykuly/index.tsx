@@ -5,6 +5,20 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Gdy dziecko rozlewa się z bezsilności. Jak rozmawiać o depresji dziecięcej?",
+    excerpt: "Metafora 'rozlania się' jako sposób na rozmowę o depresji i kryzysie emocjonalnym u dzieci. Praktyczny przewodnik oparty na książce 'Kałużysko'.",
+    image: "/uploads/kaluzyskoOkładka.jpg",
+    slug: "jak-rozmawiac-o-depresji-dzieciecej-kaluzysko",
+    category: "Terapia",
+  },
+  {
+    title: "Jak pomóc dziecku z ADHD i nadpobudliwością? Przewodnik dla rodziców",
+    excerpt: "Odkryj, jak metafora 'skaczącego domu' z książki 'Skok' pomaga rodzinom z dziećmi z ADHD i nadpobudliwością zrozumieć emocje, wspierać rozwój i budować harmonię.",
+    image: "/uploads/skokokładka.jpg",
+    slug: "nadpobudliwosc-adhd-skok",
+    category: "Terapia",
+  },
+  {
     title: "Jak działa biblioterapia? Mechanizmy terapeutycznego działania książek",
     excerpt: "Poznaj cztery kluczowe mechanizmy biblioterapii: identyfikację, projekcję, katharsis i wgląd. Dowiedz się, dlaczego czytanie leczy.",
     author: "Redakcja",

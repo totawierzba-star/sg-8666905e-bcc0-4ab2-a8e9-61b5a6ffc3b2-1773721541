@@ -98,7 +98,7 @@ export default function BajkoterapiaArticle() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
 
-      <article className="container max-w-4xl py-12 md:py-16">
+      <article className="container mx-auto px-4 max-w-4xl py-12 md:py-16">
         {/* Breadcrumbs */}
         <nav className="mb-8 text-sm text-muted-foreground">
           <Link href="/" className="hover:text-foreground transition-colors">
@@ -122,7 +122,7 @@ export default function BajkoterapiaArticle() {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-            Bajkoterapia dla Dzieci: Kompletny Przewodnik dla Rodziców w 2026 Roku
+            Bajkoterapia dla Dzieci: Kompletny Przewodnik dla Rodziców w 2026 roku
           </h1>
           
           <p className="text-xl text-muted-foreground leading-relaxed">
@@ -799,7 +799,7 @@ export default function BajkoterapiaArticle() {
               <div className="border rounded-lg p-6 bg-background-subtle">
                 <h3 className="text-xl font-semibold mb-3">❓ Dla kogo jest bajkoterapia?</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Bajkoterapia jest skuteczna dla dzieci w wieku od 3 do 12 lat. Pomaga dzieciom przeżywającym 
+                  Bajkoterapia jest skuteczna dla dzieci w wieku od 3 do 12 lat. Pomaga dziecku przeżywającym 
                   trudne sytuacje takie jak: rozwód rodziców, żałoba, lęki, problemy z wyrażaniem emocji, 
                   adaptacja w przedszkolu/szkole, niepełnosprawność w rodzinie, czy budowanie pewności siebie.
                 </p>
