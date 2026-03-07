@@ -309,15 +309,14 @@ export default function NadpobudliwoscADHDSkok() {
                   Zobacz kartę książki
                 </Button>
               </Link>
-              <a 
-                href="https://tusieczyta.pl/pl/albus/958-skok-9788367085021.html?utm_source=ksiazkidozadanspecjalnych&utm_medium=article&utm_campaign=skok_adhd"
+              <Link
+                href="https://tusieczyta.pl/pl/albus/961-skok-9788367085137.html?utm_source=ksiazkidozadanspecjalnych&utm_medium=article&utm_campaign=skok_adhd"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[hsl(var(--brand-primary))] text-white px-6 py-3 rounded-lg hover:bg-[hsl(var(--brand-primary))]/90 transition-colors font-medium"
               >
-                <Button className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700">
-                  Kup książkę
-                </Button>
-              </a>
+                Kup książkę
+              </Link>
             </div>
           </Card>
 
@@ -363,15 +362,14 @@ export default function NadpobudliwoscADHDSkok() {
                   Sprawdź kartę książki
                 </Button>
               </Link>
-              <a 
-                href="https://tusieczyta.pl/pl/albus/958-skok-9788367085021.html?utm_source=ksiazkidozadanspecjalnych&utm_medium=article&utm_campaign=skok_adhd"
+              <Link
+                href="https://tusieczyta.pl/pl/albus/961-skok-9788367085137.html?utm_source=ksiazkidozadanspecjalnych&utm_medium=article&utm_campaign=skok_adhd"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[hsl(var(--brand-primary))] text-white px-6 py-3 rounded-lg hover:bg-[hsl(var(--brand-primary))]/90 transition-colors font-medium"
               >
-                <Button size="lg" className="w-full sm:w-auto bg-blue-600 hover:bg-blue-700">
-                  Zamów "Skok" teraz
-                </Button>
-              </a>
+                Zamów "Skok" teraz
+              </Link>
             </div>
           </div>
 

@@ -119,6 +119,28 @@ export default function NarzedziownikPage() {
               </div>
             </Link>
 
+            {/* Card 5: Skok - Mój domowy wulkan */}
+            <Link href="/biblioterapia/scenariusze/skok-domowy-wulkan" className="group">
+              <div className="h-full bg-card border rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col">
+                <div className="h-3 bg-orange-500" />
+                <div className="p-6 flex-1 flex flex-col">
+                  <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
+                    <span className="bg-orange-100 text-orange-700 px-2 py-1 rounded">ADHD</span>
+                    <span className="flex items-center"><Clock className="w-3 h-3 mr-1" /> 60-75 min</span>
+                  </div>
+                  <h3 className="font-serif text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                    Skok: Mój domowy wulkan
+                  </h3>
+                  <p className="text-sm text-muted-foreground mb-4 flex-1">
+                    Warsztat o nadpobudliwości i przepełnieniu emocjami. Aktywności ruchowe i rozmowa o "wulkanach" w naszym ciele.
+                  </p>
+                  <div className="flex items-center text-sm font-medium text-primary mt-auto">
+                    Zobacz scenariusz <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </div>
+                </div>
+              </div>
+            </Link>
+
             {/* Placeholder */}
             <div className="bg-muted/50 border border-dashed rounded-xl p-6 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
               <BookOpen className="h-12 w-12 text-muted-foreground/50 mb-3" />

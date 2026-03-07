@@ -336,15 +336,14 @@ export default function ScenariuszSkokDomowyWulkan() {
                   Zobacz kartę książki
                 </Button>
               </Link>
-              <a 
-                href="https://tusieczyta.pl/pl/albus/958-skok-9788367085021.html?utm_source=ksiazkidozadanspecjalnych&utm_medium=scenario&utm_campaign=skok_workshops"
+              <Link
+                href="https://tusieczyta.pl/pl/albus/961-skok-9788367085137.html?utm_source=ksiazkidozadanspecjalnych&utm_medium=workshop&utm_campaign=skok_domowy_wulkan"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[hsl(var(--brand-primary))] text-white px-6 py-3 rounded-lg hover:bg-[hsl(var(--brand-primary))]/90 transition-colors font-medium"
               >
-                <Button size="lg" className="w-full sm:w-auto bg-purple-600 hover:bg-purple-700">
-                  Zamów "Skok"
-                </Button>
-              </a>
+                Zamów "Skok"
+              </Link>
             </div>
           </div>
 
