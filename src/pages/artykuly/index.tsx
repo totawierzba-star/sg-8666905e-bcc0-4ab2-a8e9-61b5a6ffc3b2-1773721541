@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Płacz i łzy - niezwykła moc emocji. Jak rozmawiać z dzieckiem o płaczu?",
+    excerpt: "Odkryj niezwykłą moc łez! Dowiedz się, dlaczego płacz jest zdrowy, jakie są rodzaje łez i jak pomóc dziecku zrozumieć, że wyrażanie emocji to siła, nie słabość.",
+    image: "/uploads/polezja-o-niezwyklej-mocy-lezokładka.jpg",
+    category: "Emocje",
+    date: "7 marca 2026",
+    slug: "placz-i-lzy-polezja",
+    href: "/artykuly/placz-i-lzy-polezja"
+  },
+  {
     title: "Jak rozmawiać z dzieckiem o utracie pracy rodzica? Przewodnik z książką Mrówki",
     excerpt: "Praktyczny przewodnik dla rodziców: jak wyjaśnić dziecku kryzys zawodowy rodzica i budować poczucie bezpieczeństwa w trudnym czasie. Metafora mrówek z książki.",
     date: "7 marca 2026",
