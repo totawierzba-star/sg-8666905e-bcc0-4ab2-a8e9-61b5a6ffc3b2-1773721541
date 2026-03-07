@@ -108,7 +108,7 @@ export default function TrudneEmocjeTkaczkaChmur() {
             <span className="text-muted-foreground">7 marca 2026</span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-[hsl(var(--brand-primary))] to-purple-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900 dark:text-gray-100">
             Jak pomóc dziecku radzić sobie z trudnymi emocjami? Przewodnik dla rodziców i pedagogów
           </h1>
 
@@ -374,14 +374,14 @@ export default function TrudneEmocjeTkaczkaChmur() {
                 href="https://tusieczyta.pl/pl/glowna/1233-tkaczka-chmur-wyd-2-9788367085199.html?utm_source=ksiazki-do-zadan&utm_medium=article&utm_campaign=tkaczka-chmur"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[hsl(var(--brand-primary))] text-white px-8 py-4 rounded-lg hover:bg-[hsl(var(--brand-primary))]/90 transition-colors font-medium text-lg"
+                className="inline-flex items-center gap-2 bg-[hsl(var(--brand-primary))] text-white px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-medium text-lg shadow-lg hover:shadow-xl"
               >
                 Kup książkę
                 <ArrowRight className="h-5 w-5" />
               </Link>
               <Link
                 href="/ksiazki/tkaczka-chmur"
-                className="inline-flex items-center gap-2 bg-white dark:bg-gray-800 text-[hsl(var(--brand-primary))] px-8 py-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors font-medium text-lg border-2 border-[hsl(var(--brand-primary))]"
+                className="inline-flex items-center gap-2 bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-medium text-lg border-2 border-gray-900 dark:border-gray-100 shadow-lg hover:shadow-xl"
               >
                 Zobacz szczegóły książki
                 <BookOpen className="h-5 w-5" />
