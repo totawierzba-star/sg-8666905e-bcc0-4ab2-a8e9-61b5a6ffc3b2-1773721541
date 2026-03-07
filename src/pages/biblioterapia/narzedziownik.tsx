@@ -165,6 +165,30 @@ export default function NarzedziownikPage() {
               </div>
             </Link>
 
+            {/* Card 7: Mrówki - Gdy rodzic traci pracę */}
+            <Link
+              href="/biblioterapia/scenariusze/mrowki-utrata-pracy"
+              className="block border-2 border-border hover:border-amber-600 rounded-xl overflow-hidden transition-all hover:shadow-lg bg-card h-full"
+            >
+              <div className="h-2 bg-amber-600"></div>
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="bg-amber-600 text-white text-xs px-3 py-1 rounded-full font-medium">
+                    KRYZYS RODZINNY
+                  </span>
+                </div>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+                  <Clock className="h-4 w-4" />
+                  <span>60-75 min</span>
+                </div>
+                <h3 className="text-xl font-bold mb-2">Mrówki: Gdy rodzic traci pracę</h3>
+                <p className="text-muted-foreground text-sm">
+                  Warsztat o radzeniu sobie z utratą pracy rodzica. Metafora mrówek jako symbolu problemów. 
+                  Tworzenie mapy wsparcia i rozmowa o kryzysach życiowych dorosłych.
+                </p>
+              </div>
+            </Link>
+
             {/* Placeholder for future scenarios */}
             <div className="border-2 border-dashed border-border/50 rounded-xl p-6 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
             </div>
