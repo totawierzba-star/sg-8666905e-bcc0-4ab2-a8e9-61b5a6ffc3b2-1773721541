@@ -374,14 +374,14 @@ export default function TrudneEmocjeTkaczkaChmur() {
                 href="https://tusieczyta.pl/pl/glowna/1233-tkaczka-chmur-wyd-2-9788367085199.html?utm_source=ksiazki-do-zadan&utm_medium=article&utm_campaign=tkaczka-chmur"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[hsl(var(--brand-primary))] text-white px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-medium text-lg shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg transition-colors font-medium text-lg shadow-lg hover:shadow-xl"
               >
                 Kup książkę
                 <ArrowRight className="h-5 w-5" />
               </Link>
               <Link
                 href="/ksiazki/tkaczka-chmur"
-                className="inline-flex items-center gap-2 bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 px-8 py-4 rounded-lg hover:opacity-90 transition-opacity font-medium text-lg border-2 border-gray-900 dark:border-gray-100 shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-900 dark:bg-gray-200 dark:hover:bg-gray-100 text-white dark:text-gray-900 px-8 py-4 rounded-lg transition-colors font-medium text-lg border-2 border-gray-800 dark:border-gray-200 shadow-lg hover:shadow-xl"
               >
                 Zobacz szczegóły książki
                 <BookOpen className="h-5 w-5" />
