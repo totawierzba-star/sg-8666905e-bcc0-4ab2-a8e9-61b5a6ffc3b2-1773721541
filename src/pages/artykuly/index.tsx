@@ -5,10 +5,10 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
-    title: "Płacz i łzy - niezwykła moc emocji. Jak rozmawiać z dzieckiem o płaczu?",
-    excerpt: "Odkryj niezwykłą moc łez! Dowiedz się, dlaczego płacz jest zdrowy, jakie są rodzaje łez i jak pomóc dziecku zrozumieć, że wyrażanie emocji to siła, nie słabość.",
-    image: "/uploads/polezja-o-niezwyklej-mocy-lezokładka.jpg",
-    category: "Emocje",
+    title: "Nadpobudliwość psychoruchowa i ADHD u dzieci. Książka Skok",
+    excerpt: "Praktyczny przewodnik dla rodziców i pedagogów o wspieraniu dzieci z nadpobudliwością psychoruchową. Jak książka 'Skok' pomaga nazwać niewidoczne wyzwania?",
+    category: "Terapia" as const,
+    image: "/uploads/skokokładka.jpg",
     date: "7 marca 2026",
     slug: "placz-i-lzy-polezja",
     href: "/artykuly/placz-i-lzy-polezja"

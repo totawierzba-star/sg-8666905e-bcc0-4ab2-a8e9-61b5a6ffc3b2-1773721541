@@ -6,7 +6,8 @@ import {
   PenTool,
   Clock,
   BookOpen,
-  Heart
+  Heart,
+  Users
 } from "lucide-react";
 import Link from "next/link";
 
@@ -165,32 +166,92 @@ export default function NarzedziownikPage() {
               </div>
             </Link>
 
-            {/* Card 7: Mrówki - Gdy rodzic traci pracę */}
+            {/* Card 7: Mrówki - Jak rozmawiać o utracie pracy */}
             <Link
               href="/biblioterapia/scenariusze/mrowki-utrata-pracy"
-              className="block border-2 border-border hover:border-amber-600 rounded-xl overflow-hidden transition-all hover:shadow-lg bg-card h-full"
+              className="block group"
             >
-              <div className="h-2 bg-amber-600"></div>
-              <div className="p-6">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className="bg-amber-600 text-white text-xs px-3 py-1 rounded-full font-medium">
-                    KRYZYS RODZINNY
-                  </span>
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden h-full">
+                <div className="bg-gradient-to-r from-amber-500 to-orange-500 dark:from-amber-600 dark:to-orange-600 p-6 text-white">
+                  <div className="flex justify-between items-start mb-4">
+                    <div>
+                      <div className="text-xs font-semibold uppercase tracking-wider mb-2 opacity-90">
+                        KRYZYS RODZINNY
+                      </div>
+                      <h3 className="text-xl font-bold group-hover:scale-105 transition-transform">
+                        Jak rozmawiać o utracie pracy rodzica?
+                      </h3>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm opacity-90">
+                    <Clock className="w-4 h-4" />
+                    <span>60-75 min</span>
+                  </div>
                 </div>
-                <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
-                  <Clock className="h-4 w-4" />
-                  <span>60-75 min</span>
+                
+                <div className="p-6">
+                  <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Warsztaty pomocne w sytuacji kryzysu rodzinnego związanego z utratą pracy rodzica. Wykorzystują metaforę mrówek z książki do rozmowy o problemach i rodzinnym wsparciu.
+                  </p>
+                  
+                  <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                    <div className="flex items-center gap-2">
+                      <Users className="w-4 h-4" />
+                      <span>6-10 lat</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 font-medium group-hover:gap-3 transition-all">
+                      <span>Zobacz więcej</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </div>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-2">Mrówki: Gdy rodzic traci pracę</h3>
-                <p className="text-muted-foreground text-sm">
-                  Warsztat o radzeniu sobie z utratą pracy rodzica. Metafora mrówek jako symbolu problemów. 
-                  Tworzenie mapy wsparcia i rozmowa o kryzysach życiowych dorosłych.
-                </p>
               </div>
             </Link>
 
-            {/* Placeholder for future scenarios */}
-            <div className="border-2 border-dashed border-border/50 rounded-xl p-6 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
+            {/* Card 8: Połezja - Łzy i emocje */}
+            <Link
+              href="/biblioterapia/scenariusze/polezja-lzy-i-emocje"
+              className="block group"
+            >
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden h-full">
+                <div className="bg-gradient-to-r from-cyan-500 to-blue-500 dark:from-cyan-600 dark:to-blue-600 p-6 text-white">
+                  <div className="flex justify-between items-start mb-4">
+                    <div>
+                      <div className="text-xs font-semibold uppercase tracking-wider mb-2 opacity-90">
+                        EMOCJE I ZDROWIE PSYCHICZNE
+                      </div>
+                      <h3 className="text-xl font-bold group-hover:scale-105 transition-transform">
+                        Łzy i emocje
+                      </h3>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-2 text-sm opacity-90">
+                    <Clock className="w-4 h-4" />
+                    <span>60-75 min</span>
+                  </div>
+                </div>
+                
+                <div className="p-6">
+                  <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Normalizacja płaczu i wyrażania emocji. Edukacja o rodzajach łez, ich funkcjach biologicznych i pięknie pod mikroskopem. Redukcja wstydu związanego z okazywaniem uczuć.
+                  </p>
+                  
+                  <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                    <div className="flex items-center gap-2">
+                      <Users className="w-4 h-4" />
+                      <span>6-10 lat</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-cyan-600 dark:text-cyan-400 font-medium group-hover:gap-3 transition-all">
+                      <span>Zobacz więcej</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
+            {/* Placeholder for future workshops */}
+            <div className="bg-gray-50 dark:bg-gray-800/50 rounded-xl border-2 border-dashed border-gray-300 dark:border-gray-700 p-8 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
             </div>
           </div>
 
