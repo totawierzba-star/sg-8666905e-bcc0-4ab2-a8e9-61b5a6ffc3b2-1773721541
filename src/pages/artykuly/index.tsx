@@ -30,7 +30,7 @@ const articles = [
     image: "/uploads/tkaczka-chmur-okładka.jpg",
   },
   {
-    title: "Gdy dziecko rozlewa się z bezsilności. Jak rozmawiać o nadpobudliwości i ADHD?",
+    title: "Nadpobudliwość i ADHD u dzieci. Gdy dom zaczyna skakać",
     excerpt: "Praktyczny przewodnik dla rodziców i pedagogów o wspieraniu dzieci z nadpobudliwością psychoruchową. Jak książka 'Skok' pomaga nazwać niewidoczne wyzwania?",
     date: "7 marca 2026",
     category: "Terapia",
