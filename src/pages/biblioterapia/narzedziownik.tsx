@@ -253,23 +253,40 @@ export default function NarzedziownikPage() {
             {/* Card 9: Guzikożerca - Na tropie słów */}
             <Link
               href="/biblioterapia/scenariusze/guzikozerca-na-tropie-slow"
-              className="group"
+              className="block group"
             >
-              <div className="h-full bg-card border rounded-xl overflow-hidden hover:shadow-lg transition-all duration-300 flex flex-col">
-                <div className="h-3 bg-emerald-500" />
-                <div className="p-6 flex-1 flex flex-col">
-                  <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-muted-foreground mb-3">
-                    <span className="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">Komunikacja</span>
-                    <span className="flex items-center"><Clock className="w-3 h-3 mr-1" /> 60-75 min</span>
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden h-full">
+                <div className="bg-gradient-to-r from-emerald-500 to-teal-500 dark:from-emerald-600 dark:to-teal-600 p-6 text-white">
+                  <div className="flex justify-between items-start mb-4">
+                    <div>
+                      <div className="text-xs font-semibold uppercase tracking-wider mb-2 opacity-90">
+                        KOMUNIKACJA
+                      </div>
+                      <h3 className="text-xl font-bold group-hover:scale-105 transition-transform">
+                        Guzikożerca na tropie słów
+                      </h3>
+                    </div>
                   </div>
-                  <h3 className="font-serif text-xl font-bold mb-3 group-hover:text-primary transition-colors">
-                    Guzikożerca na tropie słów
-                  </h3>
-                  <p className="text-sm text-muted-foreground mb-4 flex-1">
+                  <div className="flex items-center gap-2 text-sm opacity-90">
+                    <Clock className="w-4 h-4" />
+                    <span>60-75 min</span>
+                  </div>
+                </div>
+
+                <div className="p-6">
+                  <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
                     Warsztat o rozumieniu emocji i zachowań bez oceniania. Praca z komunikacją niewerbalną i przeciążeniem bodźcami.
                   </p>
-                  <div className="flex items-center text-sm font-medium text-primary mt-auto">
-                    Zobacz scenariusz <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+
+                  <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                    <div className="flex items-center gap-2">
+                      <Users className="w-4 h-4" />
+                      <span>6-10 lat</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-medium group-hover:gap-3 transition-all">
+                      <span>Zobacz więcej</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </div>
                   </div>
                 </div>
               </div>
