@@ -9,7 +9,8 @@ export default function NotFound() {
       <Head>
         <title>404 - Page Not Found</title>
         <meta name="description" content="Page not found" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="alternate icon" href="/favicon.ico" />
       </Head>
       
       <main className="min-h-screen bg-gray-100 flex items-center justify-center">
