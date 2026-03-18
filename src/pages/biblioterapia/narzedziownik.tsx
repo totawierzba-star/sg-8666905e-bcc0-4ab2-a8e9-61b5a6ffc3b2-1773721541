@@ -294,6 +294,32 @@ export default function NarzedziownikPage() {
               </div>
             </Link>
 
+            {/* Card 11: Skąd jestem? */}
+            <Link href="/biblioterapia/scenariusze/skad-jestem-cialo-narodziny-bliskosc" className="block group">
+              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden h-full">
+                <div className="bg-gradient-to-r from-amber-500 to-orange-500 dark:from-amber-600 dark:to-orange-600 p-6 text-white">
+                  <div className="text-xs font-semibold uppercase tracking-wider mb-2 opacity-90">CIAŁO I ROZWÓJ</div>
+                  <h3 className="text-xl font-bold mb-4 group-hover:scale-105 transition-transform">Skąd jestem?</h3>
+                  <div className="flex items-center gap-2 text-sm opacity-90">
+                    <Clock className="w-4 h-4" />
+                    <span>60-75 min</span>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-3">
+                    Warsztat o rozmowie z dziećmi o ciele, narodzinach i bliskości. Bez tabu, bez zawstydzania, z językiem adekwatnym do wieku.
+                  </p>
+                  <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                    <span>Scenariusz</span>
+                    <div className="flex items-center gap-2 text-amber-600 dark:text-amber-400 font-medium group-hover:gap-3 transition-all">
+                      <span>Zobacz więcej</span>
+                      <ArrowRight className="w-4 h-4" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Link>
+
             {/* Placeholder for future workshops */}
             <div className="bg-gray-50 dark:bg-gray-800/50 rounded-xl border-2 border-dashed border-gray-300 dark:border-gray-700 p-8 flex flex-col items-center justify-center text-center h-full min-h-[200px]">
             </div>
