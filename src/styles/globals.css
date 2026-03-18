@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand Colors - Ciepła, empatyczna paleta */
+    --primary: #E8D5C4;
+    --primary-dark: #D4C0AE;
+    --primary-light: #F5EBE0;
+    
+    --secondary: #7BA7BC;
+    --secondary-dark: #6391A6;
+    --secondary-light: #A4C5D5;
+    
+    --accent: #E8A87C;
+    --accent-dark: #D89666;
+    --accent-light: #F2C4A1;
+    
+    --tertiary: #D4A5A5;
+    --tertiary-dark: #C08F8F;
+    --tertiary-light: #E8C5C5;
+    
+    /* Text Colors */
+    --text-primary: #2D3436;
+    --text-secondary: #636E72;
+    --text-light: #95A5A6;
+    
+    /* Background Colors */
+    --background: #FAF8F6;
+    --background-alt: #FFFFFF;
+    --background-subtle: #F5F2EF;
+    
+    /* Utility Colors */
+    --border: #E5DDD5;
+    --border-light: #F0EAE4;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(45, 52, 54, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(45, 52, 54, 0.08), 0 2px 4px -1px rgba(45, 52, 54, 0.04);
+    --shadow-lg: 0 10px 15px -3px rgba(45, 52, 54, 0.08), 0 4px 6px -2px rgba(45, 52, 54, 0.04);
+    --shadow-xl: 0 20px 25px -5px rgba(45, 52, 54, 0.08), 0 10px 10px -5px rgba(45, 52, 54, 0.03);
+  }
+
+  .dark {
+    --primary: #4A4237;
+    --primary-dark: #3A3227;
+    --primary-light: #5A5247;
+    
+    --secondary: #4A6170;
+    --secondary-dark: #3A5160;
+    --secondary-light: #5A7180;
+    
+    --accent: #B87E52;
+    --accent-dark: #A86E42;
+    --accent-light: #C88E62;
+    
+    --text-primary: #F5F2EF;
+    --text-secondary: #D4D0CC;
+    --text-light: #B0ACA8;
+    
+    --background: #1A1815;
+    --background-alt: #242220;
+    --background-subtle: #2E2C28;
+    
+    --border: #3A3835;
+    --border-light: #2E2C28;
+  }
+
+  * {
+    @apply border-[color:var(--border)];
+  }
+
+  body {
+    @apply bg-[color:var(--background)] text-[color:var(--text-primary)] font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .bg-gradient-warm {
+    background: linear-gradient(135deg, var(--primary-light) 0%, var(--secondary-light) 100%);
+  }
+  
+  .bg-gradient-hero {
+    background: linear-gradient(165deg, var(--primary-light) 0%, var(--background) 50%, var(--secondary-light) 100%);
+  }
+}
