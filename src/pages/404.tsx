@@ -3,14 +3,17 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 
+const FAVICON_VERSION = "20260318";
+
 export default function NotFound() {
   return (
     <>
       <Head>
         <title>404 - Page Not Found</title>
         <meta name="description" content="Page not found" />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link rel="alternate icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
+        <link rel="shortcut icon" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
+        <link rel="alternate icon" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
       </Head>
       
       <main className="min-h-screen bg-gray-100 flex items-center justify-center">

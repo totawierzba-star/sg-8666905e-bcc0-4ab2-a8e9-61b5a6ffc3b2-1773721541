@@ -7,6 +7,8 @@ interface SEOProps {
   url?: string;
 }
 
+const FAVICON_VERSION = "20260318";
+
 // SEO elements that can be used in _document.tsx (returns JSX without Head wrapper)
 export function SEOElements({
   title = "Książki do zadań specjalnych",
@@ -18,8 +20,9 @@ export function SEOElements({
     <>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-      <link rel="alternate icon" href="/favicon.ico" />
+      <link rel="icon" type="image/svg+xml" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
+      <link rel="shortcut icon" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
+      <link rel="alternate icon" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
 
       {/* Open Graph */}
       <meta property="og:title" content={title} />
@@ -49,8 +52,9 @@ export function SEO({
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-      <link rel="alternate icon" href="/favicon.ico" />
+      <link rel="icon" type="image/svg+xml" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
+      <link rel="shortcut icon" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
+      <link rel="alternate icon" href={`/favicon.svg?v=${FAVICON_VERSION}`} />
 
       {/* Open Graph */}
       <meta property="og:title" content={title} />
