@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Książka jako narzędzie terapeutyczne — dlaczego literatura leczy?",
+    excerpt: "Co sprawia, że słowa na stronie mogą zmieniać nasze emocje i zachowania? Neurobiologia czytania, mechanizmy psychologiczne i dowody naukowe wyjaśniające leczniczą moc literatury.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/ksiazka-jako-narzedzie-terapeutyczne-miniatura.jpg",
+    slug: "ksiazka-jako-narzedzie-terapeutyczne",
+    category: "Edukacja",
+  },
+  {
     title: "Mity i fakty o biblioterapii — weryfikacja popularnych przekonań",
     excerpt: "Czy biblioterapia to tylko czytanie bajek? Czy zastępuje psychoterapię? Sprawdzamy 10 popularnych mitów o biblioterapii i konfrontujemy je z badaniami naukowymi.",
     author: "Redakcja",
