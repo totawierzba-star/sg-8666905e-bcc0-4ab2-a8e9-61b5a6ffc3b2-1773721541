@@ -9,7 +9,7 @@ export default function RodzajeBiblioterapiiPage() {
       <SEO
         title="Rodzaje biblioterapii — kliniczna, rozwojowa i instytucjonalna"
         description="Poznaj trzy główne rodzaje biblioterapii: kliniczną (wsparcie w chorobie), rozwojową (prewencja i rozwój) i instytucjonalną (zajęcia w szkołach i bibliotekach)."
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/rodzaje-biblioterapii"
+        url="https://biblioterapia.org/artykuly/rodzaje-biblioterapii"
       />
 
       <article className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-12">

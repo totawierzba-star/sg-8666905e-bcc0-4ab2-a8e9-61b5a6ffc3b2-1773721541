@@ -13,7 +13,7 @@ export default function CzasamiSzczesliwiRodzicePage() {
       <SEO
         title="Czasami szczęśliwi rodzice mieszkają oddzielnie - Książka o rozwodzie dla dzieci"
         description="Delikatna historia dla dzieci o rozstaniu rodziców. Hela i Hektor odkrywają Muzeum Miłości i uczą się, że rodzina może być szczęśliwa w dwóch domach."
-        url="https://ksiazki-do-zadan-specjalnych.pl/ksiazki/czasami-szczesliwi-rodzice"
+        url="https://biblioterapia.org/ksiazki/czasami-szczesliwi-rodzice"
         image="/uploads/okładka_czasami-szczesliwi-rodzice-mieszkaja-oddzielnie_4_.jpg"
       />
 

@@ -75,7 +75,7 @@ export default function LinkaWMysimMiesciePage() {
         title="Scenariusz warsztatów biblioterapeutycznych: Linka w Mysim Mieście"
         description="Scenariusz warsztatów biblioterapeutycznych dla dzieci 7-11 lat. Praca z emocjami dzieci, samotnością dziecka i zasobami wsparcia na podstawie książki Linka w Mysim Mieście."
         image="/uploads/linka-w-mysim-miescie.jpg"
-        url="https://ksiazki-do-zadan-specjalnych.pl/biblioterapia/scenariusze/linka-w-mysim-miescie"
+        url="https://biblioterapia.org/biblioterapia/scenariusze/linka-w-mysim-miescie"
       />
       <script
         type="application/ld+json"

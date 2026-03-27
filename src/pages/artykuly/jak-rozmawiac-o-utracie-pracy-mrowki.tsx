@@ -61,7 +61,7 @@ export default function MrowkiArticle() {
     image: "/uploads/okłdkamrowki.jpg",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://ksiazkidozadanspecjalnych.pl/artykuly/jak-rozmawiac-o-utracie-pracy-mrowki",
+      "@id": "https://biblioterapia.org/artykuly/jak-rozmawiac-o-utracie-pracy-mrowki",
     },
   };
 
@@ -70,7 +70,7 @@ export default function MrowkiArticle() {
       <SEO
         title="Jak Rozmawiać z Dzieckiem o Utracie Pracy? | Książka Mrówki"
         description="Praktyczny przewodnik dla rodziców: jak wyjaśnić dziecku kryzys zawodowy rodzica przy pomocy metafory mrówek z książki. Wsparcie w trudnym czasie."
-        url="https://ksiazkidozadanspecjalnych.pl/artykuly/jak-rozmawiac-o-utracie-pracy-mrowki"
+        url="https://biblioterapia.org/artykuly/jak-rozmawiac-o-utracie-pracy-mrowki"
         image="/uploads/okłdkamrowki.jpg"
       />
 

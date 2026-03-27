@@ -76,7 +76,7 @@ export default function SkadJestemScenariuszPage() {
         title="Scenariusz warsztatów biblioterapeutycznych: Skąd jestem?"
         description="Scenariusz warsztatów biblioterapeutycznych dla dzieci 6-9 lat. Edukacja seksualna dzieci, rozmowa o tym skąd się biorą dzieci, rozwój dziecka i bezpieczeństwo emocjonalne."
         image="/uploads/skad-jestem_okładka.jpg"
-        url="https://ksiazki-do-zadan-specjalnych.pl/biblioterapia/scenariusze/skad-jestem-cialo-narodziny-bliskosc"
+        url="https://biblioterapia.org/biblioterapia/scenariusze/skad-jestem-cialo-narodziny-bliskosc"
       />
       <script
         type="application/ld+json"

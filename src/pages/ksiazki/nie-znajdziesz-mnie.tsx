@@ -13,7 +13,7 @@ export default function NieZnajdzieszMniePage() {
       <SEO
         title="Nie znajdziesz mnie po śladach stóp - Książka o niepełnosprawności dla dzieci"
         description="Szczera opowieść o życiu z niepełnosprawnością ruchową. Sylwia Błach dzieli się swoimi doświadczeniami, ucząc dzieci akceptacji i zrozumienia różnorodności."
-        url="https://ksiazki-do-zadan-specjalnych.pl/ksiazki/nie-znajdziesz-mnie"
+        url="https://biblioterapia.org/ksiazki/nie-znajdziesz-mnie"
         image="/uploads/nie-znajdziesz-mnie-po-sladach-stop.jpg"
       />
 

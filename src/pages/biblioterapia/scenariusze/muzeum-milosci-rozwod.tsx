@@ -20,7 +20,7 @@ export default function MuzeumMilosciPage() {
       <SEO
         title="Muzeum Miłości - scenariusz o rozwodzie rodziców"
         description="Scenariusz zajęć biblioterapeutycznych dla dzieci przeżywających rozwód rodziców. Aktywności inspirowane książką 'Czasami szczęśliwi rodzice mieszkają oddzielnie'."
-        url="https://ksiazki-do-zadan-specjalnych.pl/biblioterapia/scenariusze/muzeum-milosci-rozwod"
+        url="https://biblioterapia.org/biblioterapia/scenariusze/muzeum-milosci-rozwod"
       />
 
       <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">

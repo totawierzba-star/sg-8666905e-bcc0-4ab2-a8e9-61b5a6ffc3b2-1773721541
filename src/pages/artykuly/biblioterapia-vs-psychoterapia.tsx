@@ -9,7 +9,7 @@ export default function BiblioterapiaVsPsychoterapiaPage() {
       <SEO
         title="Biblioterapia a psychoterapia — czym się różnią i kiedy wybrać którą?"
         description="Poznaj kluczowe różnice między biblioterapią a psychoterapią. Dowiedz się, kiedy wystarczy biblioterapia rozwojowa, a kiedy dziecko potrzebuje profesjonalnej pomocy psychoterapeuty."
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/biblioterapia-vs-psychoterapia"
+        url="https://biblioterapia.org/artykuly/biblioterapia-vs-psychoterapia"
       />
 
       <article className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-12">

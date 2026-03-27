@@ -11,7 +11,7 @@ export default function MuzeumMilosciRozwodRodzicowArticle() {
       <SEO
         title="Muzeum Miłości – jak pomóc dziecku zrozumieć rozwód rodziców"
         description="Książka 'Czasami szczęśliwi rodzice mieszkają oddzielnie' prowadzi dzieci przez symboliczne Muzeum Miłości, gdzie uczą się, że rozstanie rodziców nie jest ich winą."
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/muzeum-milosci-rozwod-rodzicow"
+        url="https://biblioterapia.org/artykuly/muzeum-milosci-rozwod-rodzicow"
       />
 
       <article className="py-12">

@@ -21,7 +21,7 @@ export default function BiblioterapiaPage() {
       <SEO
         title="Biblioterapia - Teoria i praktyka"
         description="Kompleksowe źródło wiedzy o biblioterapii dla rodziców, nauczycieli i terapeutów."
-        url="https://ksiazki-do-zadan-specjalnych.pl/biblioterapia"
+        url="https://biblioterapia.org/biblioterapia"
       />
 
       <article className="py-12">

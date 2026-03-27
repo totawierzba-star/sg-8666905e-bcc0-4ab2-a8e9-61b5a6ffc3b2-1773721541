@@ -76,7 +76,7 @@ export default function GuzikozercaNaTropieSlowPage() {
         title="Scenariusz warsztatów biblioterapeutycznych: Guzikożerca na tropie słów"
         description="Scenariusz warsztatów biblioterapeutycznych dla dzieci 6-10 lat. Komunikacja bez słów, biblioterapia dzieci i rozwój emocjonalny dziecka w praktyce zajęć grupowych."
         image="/uploads/guzikozerca-na-tropie-slow-okladka.jpg"
-        url="https://ksiazki-do-zadan-specjalnych.pl/biblioterapia/scenariusze/guzikozerca-na-tropie-slow"
+        url="https://biblioterapia.org/biblioterapia/scenariusze/guzikozerca-na-tropie-slow"
       />
       <script
         type="application/ld+json"

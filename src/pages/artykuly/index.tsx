@@ -150,7 +150,7 @@ export default function ArticlesPage() {
       <SEO
         title="Artykuły - Książki do zadań specjalnych"
         description="Praktyczne porady, ekspercka wiedza i inspiracje dla rodziców, nauczycieli i terapeutów. Jak rozmawiać z dziećmi o trudnych tematach?"
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly"
+        url="https://biblioterapia.org/artykuly"
       />
 
       <div className="bg-gradient-hero py-16 relative">

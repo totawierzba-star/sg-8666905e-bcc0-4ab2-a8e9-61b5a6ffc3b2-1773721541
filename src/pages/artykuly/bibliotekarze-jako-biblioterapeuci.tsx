@@ -9,7 +9,7 @@ export default function BibliotekarzeJakoBiblioterapeuciPage() {
       <SEO
         title="Bibliotekarze jako biblioterapeuci — rola i kompetencje"
         description="Praktyczny przewodnik po roli bibliotekarza-biblioterapeuty. Kompetencje, umiejętności i przykłady pracy z książką terapeutyczną w bibliotece."
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/bibliotekarze-jako-biblioterapeuci"
+        url="https://biblioterapia.org/artykuly/bibliotekarze-jako-biblioterapeuci"
       />
 
       <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">

@@ -13,7 +13,7 @@ export default function NarzedziownikPage() {
       <SEO
         title="Narzędziownik Biblioterapeuty - Scenariusze zajęć"
         description="Gotowe scenariusze zajęć biblioterapeutycznych dla dzieci i młodzieży. Materiały do druku, karty pracy i przewodniki dla rodziców."
-        url="https://ksiazki-do-zadan-specjalnych.pl/biblioterapia/narzedziownik"
+        url="https://biblioterapia.org/biblioterapia/narzedziownik"
       />
 
       <article className="py-12">

@@ -61,7 +61,7 @@ export default function KaluzyskoArticle() {
     image: "/uploads/kaluzyskoOkładka.jpg",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://ksiazkidozadanspecjalnych.pl/artykuly/jak-rozmawiac-o-depresji-dzieciecej-kaluzysko",
+      "@id": "https://biblioterapia.org/artykuly/jak-rozmawiac-o-depresji-dzieciecej-kaluzysko",
     },
   };
 
@@ -70,7 +70,7 @@ export default function KaluzyskoArticle() {
       <SEO
         title="Gdy Dziecko Traci Siły: Depresja i Wyczerpanie | Książka Kałużysko"
         description="Jak mądrze rozmawiać z dzieckiem o depresji i kryzysie psychicznym rodzeństwa? Poznaj niezwykłą metaforę z książki 'Kałużysko'. Przeczytaj artykuł!"
-        url="https://ksiazkidozadanspecjalnych.pl/artykuly/jak-rozmawiac-o-depresji-dzieciecej-kaluzysko"
+        url="https://biblioterapia.org/artykuly/jak-rozmawiac-o-depresji-dzieciecej-kaluzysko"
         image="/uploads/kaluzyskoOkładka.jpg"
       />
 

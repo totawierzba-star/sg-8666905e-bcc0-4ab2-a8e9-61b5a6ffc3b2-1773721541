@@ -11,7 +11,7 @@ export default function NiepelnosprawoscArticle() {
       <SEO
         title="Jak rozmawiać z dzieckiem o niepełnosprawności? Ptaki z kopertami"
         description="Książka 'Nie znajdziesz mnie po śladach stóp' Sylwii Błach to szczera rozmowa osoby poruszającej się na wózku z dzieckiem. Jak mówić o różnorodności i empatii?"
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/jak-rozmawiac-o-niepelnosprawnosci"
+        url="https://biblioterapia.org/artykuly/jak-rozmawiac-o-niepelnosprawnosci"
       />
 
       <article className="py-12">

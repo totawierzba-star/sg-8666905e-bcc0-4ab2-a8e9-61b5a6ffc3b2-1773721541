@@ -9,7 +9,7 @@ export default function JakDzialaBiblioterapiaPage() {
       <SEO
         title="Jak działa biblioterapia? Mechanizmy terapeutycznego działania książek"
         description="Poznaj naukowe podstawy biblioterapii: identyfikacja, projekcja, katharsis i wgląd. Dowiedz się, jak książki wspierają zdrowie psychiczne i emocjonalne dzieci i dorosłych."
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/jak-dziala-biblioterapia"
+        url="https://biblioterapia.org/artykuly/jak-dziala-biblioterapia"
       />
 
       <article className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-12">

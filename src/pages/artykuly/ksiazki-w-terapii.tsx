@@ -11,7 +11,7 @@ export default function KsiazkiWTerapiiArticle() {
       <SEO
         title="Książki w terapii – jak wykorzystać literaturę w pracy z dziećmi i dorosłymi"
         description="Biblioterapia to potężne narzędzie w rękach terapeutów, pedagogów i rodziców. Dowiedz się, jak książki mogą wspierać proces terapeutyczny."
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/ksiazki-w-terapii"
+        url="https://biblioterapia.org/artykuly/ksiazki-w-terapii"
       />
 
       <article className="py-12">

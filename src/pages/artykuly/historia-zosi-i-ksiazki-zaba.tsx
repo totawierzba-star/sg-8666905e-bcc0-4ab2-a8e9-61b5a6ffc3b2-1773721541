@@ -11,7 +11,7 @@ export default function HistoriaZosiArticle() {
       <SEO
         title="Jak rozmawiać z dzieckiem o stracie? Historia Zosi i książki Żaba"
         description="Praktyczny przykład wykorzystania książki 'Żaba. Mała opowieść o żałobie' w pracy z 7-letnią dziewczynką po stracie babci."
-        url="https://ksiazki-do-zadan-specjalnych.pl/artykuly/historia-zosi-i-ksiazki-zaba"
+        url="https://biblioterapia.org/artykuly/historia-zosi-i-ksiazki-zaba"
       />
 
       <article className="py-12">

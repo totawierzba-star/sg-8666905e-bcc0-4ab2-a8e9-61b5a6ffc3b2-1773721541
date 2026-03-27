@@ -62,7 +62,7 @@ export default function Home() {
       <SEO
         title="Książki do zadań specjalnych - Wspieramy dzieci w trudnych momentach"
         description="Seria terapeutycznych książek dla dzieci o trudnych tematach: żałobie, rozwodzie, niepełnosprawności. Z empatią i profesjonalizmem."
-        url="https://ksiazki-do-zadan-specjalnych.pl"
+        url="https://biblioterapia.org"
       />
 
       {/* Hero Section */}

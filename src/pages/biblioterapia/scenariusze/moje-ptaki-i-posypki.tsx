@@ -21,7 +21,7 @@ export default function MojePtakiIPosypkiPage() {
       <SEO
         title="Moje ptaki i moje posypki - scenariusz o różnorodności"
         description="Scenariusz zajęć biblioterapeutycznych uczący dzieci empatii i mądrego pomagania osobom z niepełnosprawnością. Inspirowany książką 'Nie znajdziesz mnie po śladach stóp'."
-        url="https://ksiazki-do-zadan-specjalnych.pl/biblioterapia/scenariusze/moje-ptaki-i-posypki"
+        url="https://biblioterapia.org/biblioterapia/scenariusze/moje-ptaki-i-posypki"
       />
 
       <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">

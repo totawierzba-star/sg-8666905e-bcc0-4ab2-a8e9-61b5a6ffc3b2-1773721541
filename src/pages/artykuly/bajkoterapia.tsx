@@ -77,7 +77,7 @@ export default function BajkoterapiaArticle() {
     "image": "/og-image.png",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://ksiazkidozadanspecjalnych.pl/artykuly/bajkoterapia"
+      "@id": "https://biblioterapia.org/artykuly/bajkoterapia"
     }
   };
 
@@ -86,7 +86,7 @@ export default function BajkoterapiaArticle() {
       <SEO
         title="Bajkoterapia dla Dzieci: Kompletny Przewodnik [2026] | 6 Kroków"
         description="✓ Czym jest bajkoterapia? ✓ Jak pomaga dzieciom? ✓ Jak prowadzić w domu? Praktyczny przewodnik z FAQ, przykładami książek i wskazówkami ekspertów."
-        url="https://ksiazkidozadanspecjalnych.pl/artykuly/bajkoterapia"
+        url="https://biblioterapia.org/artykuly/bajkoterapia"
       />
       
       <script
