@@ -48,7 +48,7 @@ export default function SlownikPojec() {
             name: "Co to jest katharsis w biblioterapii?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Katharsis (gr. oczyszczenie) to mechanizm terapeutyczny, w którym czytelnik doświadcza emocjonalnego ulgi poprzez przeżycie silnych uczuć razem z bohaterem książki. Dzięki bezpiecznemu kontenerowi, jakim jest fikcja, można „rozładować" nagromadzone napięcie emocjonalne.",
+              text: "Katharsis (gr. oczyszczenie) to mechanizm terapeutyczny, w którym czytelnik doświadcza emocjonalnego ulgi poprzez przeżycie silnych uczuć razem z bohaterem książki. Dzięki bezpiecznemu kontenerowi, jakim jest fikcja, można rozładować nagromadzone napięcie emocjonalne.",
             },
           },
           {
@@ -64,7 +64,7 @@ export default function SlownikPojec() {
             name: "Co to jest identyfikacja w biblioterapii?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Identyfikacja to mechanizm, w którym czytelnik utożsamia się z bohaterem książki — rozpoznaje w nim siebie, swoje problemy i emocje. To punkt wyjścia procesu terapeutycznego: poczucie „to jest o mnie" otwiera drogę do przepracowania trudnych doświadczeń.",
+              text: "Identyfikacja to mechanizm, w którym czytelnik utożsamia się z bohaterem książki — rozpoznaje w nim siebie, swoje problemy i emocje. To punkt wyjścia procesu terapeutycznego: poczucie, że to jest o mnie, otwiera drogę do przepracowania trudnych doświadczeń.",
             },
           },
         ],

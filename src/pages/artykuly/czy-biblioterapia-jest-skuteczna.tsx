@@ -332,7 +332,7 @@ export default function CzyBiblioterapiaJestSkutecznaPage() {
 
               <ul className="space-y-2 my-4">
                 {[
-                  "Normalizuje doświadczenie straty — „inni też to przeżywają"",
+                  "Normalizuje doświadczenie straty — inni też to przeżywają",
                   "Dostarcza języka do opisu trudnych emocji",
                   "Modeluje zdrowe strategie radzenia sobie ze smutkiem",
                   "Otwiera przestrzeń do rozmowy z bliskimi",

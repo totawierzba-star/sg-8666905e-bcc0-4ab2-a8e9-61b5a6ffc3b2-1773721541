@@ -224,7 +224,7 @@ export default function JakWygladaSesjaPage() {
                     krok: "1",
                     nazwa: "Rozgrzewka i wejście w kontakt",
                     czas: "5–10 min",
-                    opis: "Krótkie ćwiczenie lub rozmowa pozwalająca uczestnikom „wejść" w przestrzeń terapeutyczną. Pytanie otwierające, ruch, oddechy lub gra integracyjna. Cel: obniżenie napięcia i budowanie zaufania.",
+                    opis: "Krótkie ćwiczenie lub rozmowa pozwalająca uczestnikom wejść w przestrzeń terapeutyczną. Pytanie otwierające, ruch, oddechy lub gra integracyjna. Cel: obniżenie napięcia i budowanie zaufania.",
                     kolor: "blue"
                   },
                   {
@@ -321,7 +321,7 @@ export default function JakWygladaSesjaPage() {
               <div className="grid sm:grid-cols-2 gap-3 my-4">
                 {[
                   "Czyta wyrażyście, modulując głos i tempo do emocji tekstu",
-                  "Zatrzymuje się w kluczowych momentach i pyta: „Co myślisz, że teraz czuje bohater?"",
+                  "Zatrzymuje się w kluczowych momentach i pyta: Co myślisz, że teraz czuje bohater?",
                   "Obserwuje reakcje uczestników — napięcie, łzy, śmiech, wycofanie",
                   "Nie narzuca interpretacji — pozostawia przestrzeń na własne odczucia",
                   "Dostosowuje tempo do grupy — nie spieszy się",
@@ -353,12 +353,12 @@ export default function JakWygladaSesjaPage() {
                 <h3 className="font-semibold text-blue-900 dark:text-blue-100 mb-4">Przykładowe pytania po lekturze:</h3>
                 <ul className="space-y-2 text-sm text-blue-800 dark:text-blue-200">
                   {[
-                    "„Co czuł/a bohater w tym momencie? Skąd to wiesz?"",
-                    "„Które zdanie lub scena najbardziej do Ciebie trafiły? Dlaczego?"",
-                    "„Czy zdarzyło Ci się coś podobnego do tego, co przeżył bohater?"",
-                    "„Co byś zrobił/a na miejscu bohatera?"",
-                    "„Czego bohater się nauczył? A Ty — czego możesz się nauczyć z tej historii?"",
-                    "„Jedno słowo opisujące to, co teraz czujesz po przeczytaniu."",
+                    "Co czuł/a bohater w tym momencie? Skąd to wiesz?",
+                    "Które zdanie lub scena najbardziej do Ciebie trafiły? Dlaczego?",
+                    "Czy zdarzyło Ci się coś podobnego do tego, co przeżył bohater?",
+                    "Co byś zrobił/a na miejscu bohatera?",
+                    "Czego bohater się nauczył? A Ty — czego możesz się nauczyć z tej historii?",
+                    "Jedno słowo opisujące to, co teraz czujesz po przeczytaniu.",
                   ].map((pyt) => (
                     <li key={pyt} className="flex items-start gap-2">
                       <span className="text-blue-500 font-bold shrink-0">→</span>
@@ -396,8 +396,8 @@ export default function JakWygladaSesjaPage() {
                   { krok: "2", opis: "Przygotuj się — przeczytaj książkę wcześniej sam/a. Wiedz, jakie emocje może wzbudzić." },
                   { krok: "3", opis: "Czytaj razem z dzieckiem, bez pośpiechu. Zatrzymuj się przy ilustracjach i ważnych momentach." },
                   { krok: "4", opis: "Po lekturze zapytaj otwartymi pytaniami o emocje bohaterów. Nie interpretuj — słuchaj." },
-                  { krok: "5", opis: "Zaproponuj prostą aktywność: rysunek, wycinankę, „list do bohatera" lub wspólne wymyślenie dalszego ciągu historii." },
-                  { krok: "6", opis: "Nie naciskaj na konkretne odpowiedzi. Celem jest rozmowa, nie „właściwa" interpretacja." },
+                  { krok: "5", opis: "Zaproponuj prostą aktywność: rysunek, wycinankę, list do bohatera lub wspólne wymyślenie dalszego ciągu historii." },
+                  { krok: "6", opis: "Nie naciskaj na konkretne odpowiedzi. Celem jest rozmowa, nie właściwa interpretacja." },
                 ].map((item) => (
                   <div key={item.krok} className="flex gap-3 p-4 bg-muted/30 rounded-xl border">
                     <div className="bg-primary text-primary-foreground rounded-full w-7 h-7 flex items-center justify-center font-bold text-sm shrink-0">

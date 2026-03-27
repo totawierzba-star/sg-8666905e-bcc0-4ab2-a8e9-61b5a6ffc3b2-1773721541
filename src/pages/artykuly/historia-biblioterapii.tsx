@@ -264,7 +264,7 @@ export default function HistoriaBiblioterapiiPage() {
                 {[
                   {
                     rok: "1939",
-                    opis: "Biblioterapia pojawia się po raz pierwszy w Słowniku Webstera jako oficjalne hasło: „Stosowanie wybranych materiałów do czytania jako środków terapeutycznych w medycynie i psychiatrii"."
+                    opis: "Biblioterapia pojawia się po raz pierwszy w Słowniku Webstera jako oficjalne hasło: Stosowanie wybranych materiałów do czytania jako środków terapeutycznych w medycynie i psychiatrii."
                   },
                   {
                     rok: "1944",
@@ -280,7 +280,7 @@ export default function HistoriaBiblioterapiiPage() {
                   },
                   {
                     rok: "1986",
-                    opis: "Hynes i Hynes-Berry publikują fundamentalne dzieło „Bibliotherapy — The Interactive Process: A Handbook", które staje się kanonem dziedziny."
+                    opis: "Hynes i Hynes-Berry publikują fundamentalne dzieło Bibliotherapy — The Interactive Process: A Handbook, które staje się kanonem dziedziny."
                   },
                 ].map((item) => (
                   <div key={item.rok} className="flex gap-4 p-5 bg-muted/30 rounded-xl border">
