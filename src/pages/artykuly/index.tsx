@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Najważniejsze pojęcia w biblioterapii — słownik dla początkujących",
+    excerpt: "Identyfikacja, katharsis, wgląd, bajkoterapia, biblioterapeuta — wszystkie kluczowe terminy biblioterapii wyjaśnione prostym językiem. Słownik dla rodziców, nauczycieli i terapeutów.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/slownik-pojec-biblioterapii-miniatura.jpg",
+    slug: "slownik-pojec-biblioterapii",
+    category: "Edukacja",
+  },
+  {
     title: "Biblioterapia w Polsce — stan obecny i perspektywy rozwoju",
     excerpt: "Jak wygląda biblioterapia w Polsce dziś? Historia, instytucje, szkolenia, wydawcy i wyzwania stojące przed tą dziedziną. Kompletny przegląd dla profesjonalistów.",
     author: "Redakcja",
