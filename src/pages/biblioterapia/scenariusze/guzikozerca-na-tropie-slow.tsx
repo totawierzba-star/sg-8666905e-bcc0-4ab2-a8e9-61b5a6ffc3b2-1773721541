@@ -191,7 +191,6 @@ export default function GuzikozercaNaTropieSlowPage() {
               <li>• <strong>Temat główny:</strong> komunikacja niewerbalna i przeciążenie bodźcami.</li>
               <li>• <strong>Format:</strong> praca grupowa, do 15 osób, 60–75 minut.</li>
               <li>• <strong>Efekt:</strong> większa empatia i lepsze rozumienie zachowań rówieśników.</li>
-              <li>• <strong>Słowa-klucze SEO:</strong> scenariusz warsztatów biblioterapeutycznych, biblioterapia dzieci, rozwój emocjonalny dziecka.</li>
             </ul>
           </section>
 

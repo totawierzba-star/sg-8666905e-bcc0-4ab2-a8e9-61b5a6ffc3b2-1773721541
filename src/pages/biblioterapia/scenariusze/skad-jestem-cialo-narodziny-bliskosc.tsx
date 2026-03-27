@@ -189,7 +189,6 @@ export default function SkadJestemScenariuszPage() {
               <li>• <strong>Temat:</strong> skąd się biorą dzieci, ciało i narodziny bez tabu.</li>
               <li>• <strong>Format:</strong> 60-75 minut, 8-15 dzieci, wiek 6-9 lat.</li>
               <li>• <strong>Efekt:</strong> większe poczucie bezpieczeństwa i mniej wstydu wokół pytań o ciało.</li>
-              <li>• <strong>SEO:</strong> scenariusz warsztatów biblioterapeutycznych, edukacja seksualna dzieci, rozwój dziecka.</li>
             </ul>
           </section>
 

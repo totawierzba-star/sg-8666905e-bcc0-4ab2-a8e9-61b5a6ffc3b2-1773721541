@@ -189,7 +189,6 @@ export default function LinkaWMysimMiesciePage() {
               <li>• <strong>Temat:</strong> smutek, samotność, strata i zasoby dziecka.</li>
               <li>• <strong>Format:</strong> zajęcia grupowe 60-75 minut, 8-15 osób.</li>
               <li>• <strong>Efekt:</strong> dziecko rozumie, że smutek jest naturalny i można go regulować.</li>
-              <li>• <strong>SEO:</strong> scenariusz warsztatów biblioterapeutycznych, biblioterapia dzieci, emocje dzieci, samotność dziecka.</li>
             </ul>
           </section>
 
