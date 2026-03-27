@@ -67,7 +67,7 @@ const articles = [
     excerpt: "Kiedy wystarczy wspólne czytanie, a kiedy konieczna jest pomoc specjalisty? Przewodnik dla rodziców pomagający podjąć właściwą decyzję.",
     author: "Redakcja",
     date: "4 marca 2026",
-    image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
+    image: "/uploads/biblioterapia-vs-psychoterapia-miniatura.jpg",
     slug: "biblioterapia-vs-psychoterapia",
     category: "Przewodnik",
   },
