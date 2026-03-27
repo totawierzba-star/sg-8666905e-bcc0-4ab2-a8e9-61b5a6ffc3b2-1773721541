@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Czy biblioterapia jest skuteczna? Przegląd badań naukowych",
+    excerpt: "Co mówią metaanalizy i badania kliniczne? Sprawdź naukowe dowody skuteczności biblioterapii w depresji, lęku i pracy z dziećmi.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/czy-biblioterapia-jest-skuteczna-miniatura.jpg",
+    slug: "czy-biblioterapia-jest-skuteczna",
+    category: "Edukacja",
+  },
+  {
     title: "Historia biblioterapii — od starożytności do współczesności",
     excerpt: "Od egipskich kapłanów i Arystotelesa przez XIX-wieczne szpitale psychiatryczne aż do współczesnych badań naukowych. Poznaj pełną historię biblioterapii.",
     author: "Redakcja",
