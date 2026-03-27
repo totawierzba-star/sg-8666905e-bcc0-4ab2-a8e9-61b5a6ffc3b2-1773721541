@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Biblioterapia w Polsce — stan obecny i perspektywy rozwoju",
+    excerpt: "Jak wygląda biblioterapia w Polsce dziś? Historia, instytucje, szkolenia, wydawcy i wyzwania stojące przed tą dziedziną. Kompletny przegląd dla profesjonalistów.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/biblioterapia-w-polsce-miniatura.jpg",
+    slug: "biblioterapia-w-polsce",
+    category: "Edukacja",
+  },
+  {
     title: "Czym jest identyfikacja, katharsis i wgląd w biblioterapii?",
     excerpt: "Identyfikacja, projekcja, katharsis i wgląd — cztery mechanizmy psychologiczne przez które literatura leczy. Wyjaśniamy każdy z przykładami z konkretnych książek.",
     author: "Redakcja",
