@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Ile trwa biblioterapia i jak wygląda sesja?",
+    excerpt: "Jak wygląda sesja biblioterapeutyczna krok po kroku? Ile trwa, co się dzieje przed, w trakcie i po lekturze — przewodnik dla rodziców, nauczycieli i terapeutów.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/jak-wyglada-sesja-miniatura.jpg",
+    slug: "jak-wyglada-sesja-biblioterapii",
+    category: "Praktyka",
+  },
+  {
     title: "Dla kogo jest biblioterapia? Wskazania i przeciwwskazania",
     excerpt: "Dzieci, młodzież, dorośli czy seniorzy? Poznaj wskazania biblioterapii według grup wiekowych i sytuacji życiowych oraz kiedy potrzebna jest pomoc specjalisty.",
     author: "Redakcja",
