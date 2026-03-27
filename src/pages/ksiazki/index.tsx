@@ -13,6 +13,7 @@ const books = [
     age: "4+",
     author: "Agnieszka Kacprzyk",
     color: "primary" as const,
+    purchaseUrl: "https://albus.poznan.pl/sklep/1252_zaba-mala-opowiesc-o-zalobie",
   },
   {
     title: "Czasami szczęśliwi rodzice mieszkają oddzielnie",
@@ -23,6 +24,7 @@ const books = [
     age: "5+",
     author: "Agnieszka Kacprzyk",
     color: "accent" as const,
+    purchaseUrl: "https://albus.poznan.pl/sklep/1179_czasami-szczesliwi-rodzice-mieszkaja-oddzielnie",
   },
   {
     title: "Nie znajdziesz mnie po śladach stóp",
@@ -33,6 +35,7 @@ const books = [
     age: "5+",
     author: "Sylwia Błach",
     color: "secondary" as const,
+    purchaseUrl: "https://albus.poznan.pl/sklep/1463_nie-znajdziesz-mnie-po-sladach-stop",
   },
   {
     title: "Kałużysko",
@@ -43,6 +46,7 @@ const books = [
     age: "5+",
     author: "Anna Augustyniak",
     color: "accent" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/albus/960-kaluzysko-9788367085045.html",
   },
   {
     title: "Guzikożerca na tropie słów",
@@ -53,6 +57,7 @@ const books = [
     age: "5+",
     author: "Olga Ptak",
     color: "primary" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/glowna/1203-guzikozerca-na-tropie-slow-9788367085168.html",
   },
   {
     title: "Skok",
@@ -63,6 +68,7 @@ const books = [
     age: "6+",
     author: "Anna Augustyniak",
     color: "secondary" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/wydawnictwa/1182-skok-9788367085137.html",
   },
   {
     title: "Linka w mysim mieście",
@@ -73,6 +79,7 @@ const books = [
     age: "6+",
     author: "Katarzyna Ryrych",
     color: "accent" as const,
+    purchaseUrl: "https://tusieczyta.pl/pl/glowna/1050-linka-w-mysim-miescie-9788367085106.html",
   },
   {
     title: "Tkaczka chmur",
@@ -127,8 +134,7 @@ const books = [
     age: "12+",
     author: "Anna Augustyniak",
     color: "secondary" as const,
-    buyUrl:
-      "https://tusieczyta.pl/pl/albus/1479-zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bilo-978836708532.html",
+    purchaseUrl: "https://tusieczyta.pl/pl/albus/1479-zielona-dziewczynka-czyli-popoludnie-ktorego-nie-bylo-978836708532.html",
   },
 ];
 
