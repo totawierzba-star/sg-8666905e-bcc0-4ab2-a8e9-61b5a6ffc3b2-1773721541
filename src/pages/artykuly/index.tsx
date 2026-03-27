@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Mity i fakty o biblioterapii — weryfikacja popularnych przekonań",
+    excerpt: "Czy biblioterapia to tylko czytanie bajek? Czy zastępuje psychoterapię? Sprawdzamy 10 popularnych mitów o biblioterapii i konfrontujemy je z badaniami naukowymi.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/mity-i-fakty-o-biblioterapii-miniatura.jpg",
+    slug: "mity-i-fakty-o-biblioterapii",
+    category: "Edukacja",
+  },
+  {
     title: "Najważniejsze pojęcia w biblioterapii — słownik dla początkujących",
     excerpt: "Identyfikacja, katharsis, wgląd, bajkoterapia, biblioterapeuta — wszystkie kluczowe terminy biblioterapii wyjaśnione prostym językiem. Słownik dla rodziców, nauczycieli i terapeutów.",
     author: "Redakcja",
