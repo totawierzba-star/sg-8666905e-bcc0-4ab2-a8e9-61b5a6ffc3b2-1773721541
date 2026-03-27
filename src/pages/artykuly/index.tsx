@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Co to jest biblioterapia? Definicja, historia i zastosowanie",
+    excerpt: "Czym jest biblioterapia? Poznaj definicję, historię od starożytności do dziś i konkretne zastosowania tej metody, która używa książek do wspierania zdrowia emocjonalnego.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/co-to-jest-biblioterapia-miniatura.jpg",
+    slug: "co-to-jest-biblioterapia",
+    category: "Edukacja",
+  },
+  {
     title: "Płacz i łzy - niezwykła moc emocji. Jak rozmawiać z dzieckiem?",
     excerpt: "Odkryj niezwykłą moc łez! Dowiedz się, dlaczego płacz jest zdrowy, jakie są rodzaje łez i jak pomóc dziecku zrozumieć, że wyrażanie emocji to siła, nie słabość.",
     category: "Emocje" as const,
