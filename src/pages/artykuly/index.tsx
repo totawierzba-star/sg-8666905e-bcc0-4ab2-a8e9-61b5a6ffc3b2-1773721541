@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Czym jest identyfikacja, katharsis i wgląd w biblioterapii?",
+    excerpt: "Identyfikacja, projekcja, katharsis i wgląd — cztery mechanizmy psychologiczne przez które literatura leczy. Wyjaśniamy każdy z przykładami z konkretnych książek.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/identyfikacja-katharsis-wglad-miniatura.jpg",
+    slug: "identyfikacja-katharsis-wglad-biblioterapia",
+    category: "Edukacja",
+  },
+  {
     title: "Biblioterapia indywidualna vs. grupowa — porównanie",
     excerpt: "Czym różni się biblioterapia indywidualna od grupowej? Zalety, ograniczenia i wskazania każdej formy — która będzie lepsza w Twojej sytuacji?",
     author: "Redakcja",
