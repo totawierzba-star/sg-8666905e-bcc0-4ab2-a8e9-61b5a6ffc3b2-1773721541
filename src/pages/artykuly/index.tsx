@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Dla kogo jest biblioterapia? Wskazania i przeciwwskazania",
+    excerpt: "Dzieci, młodzież, dorośli czy seniorzy? Poznaj wskazania biblioterapii według grup wiekowych i sytuacji życiowych oraz kiedy potrzebna jest pomoc specjalisty.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/dla-kogo-jest-biblioterapia-miniatura.jpg",
+    slug: "dla-kogo-jest-biblioterapia",
+    category: "Przewodnik",
+  },
+  {
     title: "Czy biblioterapia jest skuteczna? Przegląd badań naukowych",
     excerpt: "Co mówią metaanalizy i badania kliniczne? Sprawdź naukowe dowody skuteczności biblioterapii w depresji, lęku i pracy z dziećmi.",
     author: "Redakcja",
