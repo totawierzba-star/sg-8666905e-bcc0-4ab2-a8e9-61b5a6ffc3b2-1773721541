@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Biblioterapia indywidualna vs. grupowa — porównanie",
+    excerpt: "Czym różni się biblioterapia indywidualna od grupowej? Zalety, ograniczenia i wskazania każdej formy — która będzie lepsza w Twojej sytuacji?",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/biblioterapia-indywidualna-vs-grupowa-miniatura.jpg",
+    slug: "biblioterapia-indywidualna-vs-grupowa",
+    category: "Przewodnik",
+  },
+  {
     title: "Ile trwa biblioterapia i jak wygląda sesja?",
     excerpt: "Jak wygląda sesja biblioterapeutyczna krok po kroku? Ile trwa, co się dzieje przed, w trakcie i po lekturze — przewodnik dla rodziców, nauczycieli i terapeutów.",
     author: "Redakcja",
