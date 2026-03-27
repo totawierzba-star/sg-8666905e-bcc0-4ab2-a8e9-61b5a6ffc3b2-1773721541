@@ -58,7 +58,7 @@ const articles = [
     excerpt: "Poznaj różnice między biblioterapią kliniczną, rozwojową i instytucjonalną. Sprawdź, która forma wsparcia będzie najlepsza dla Twojego dziecka.",
     author: "Redakcja",
     date: "4 marca 2026",
-    image: "/uploads/image_9a5da92d-e36d-4411-aeb7-1acf5de6b236.png",
+    image: "/uploads/rodzaje-biblioterapii-miniatura.jpg",
     slug: "rodzaje-biblioterapii",
     category: "Edukacja",
   },
