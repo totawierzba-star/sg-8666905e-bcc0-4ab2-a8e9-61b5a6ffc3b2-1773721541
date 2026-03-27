@@ -481,7 +481,7 @@ export default function TkaczkaChmurEmocje() {
                   href="https://tusieczyta.pl/pl/glowna/1233-tkaczka-chmur-wyd-2-9788367085199.html?utm_source=ksiazki-do-zadan&utm_medium=workshop&utm_campaign=tkaczka-chmur"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[hsl(var(--brand-primary))] text-white px-8 py-4 rounded-lg hover:bg-[hsl(var(--brand-primary))]/90 transition-colors font-medium text-lg"
+                  className="bg-purple-700 text-white px-8 py-4 rounded-lg hover:bg-purple-800 transition-colors font-medium text-lg shadow-md"
                 >
                   Kup książkę „Tkaczka Chmur"
                 </Link>
