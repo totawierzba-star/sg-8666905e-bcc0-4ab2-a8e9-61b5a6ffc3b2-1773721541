@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Historia biblioterapii — od starożytności do współczesności",
+    excerpt: "Od egipskich kapłanów i Arystotelesa przez XIX-wieczne szpitale psychiatryczne aż do współczesnych badań naukowych. Poznaj pełną historię biblioterapii.",
+    author: "Redakcja",
+    date: "27 marca 2026",
+    image: "/uploads/historia-biblioterapii-miniatura.jpg",
+    slug: "historia-biblioterapii",
+    category: "Edukacja",
+  },
+  {
     title: "Co to jest biblioterapia? Definicja, historia i zastosowanie",
     excerpt: "Czym jest biblioterapia? Poznaj definicję, historię od starożytności do dziś i konkretne zastosowania tej metody, która używa książek do wspierania zdrowia emocjonalnego.",
     author: "Redakcja",
