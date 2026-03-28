@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia dla nastolatków — jak książki wspierają młodzież?",
+    excerpt: "Jak biblioterapia pomaga nastolatkom radzić sobie z kryzysami tożsamości, presją rówieśniczą, depresją i lękiem? Praktyczny przewodnik dla rodziców, nauczycieli i terapeutów.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-dla-nastolatkow-miniatura.jpg",
+    slug: "biblioterapia-dla-nastolatkow",
+    category: "Przewodnik",
+  },
+  {
     title: "Biblioterapia w szkole podstawowej — poradnik dla nauczycieli",
     excerpt: "Jak wdrożyć biblioterapię w szkole podstawowej? Praktyczny poradnik dla nauczycieli, pedagogów i bibliotekarzy — klasy 1–8, metody pracy, scenariusze i polecane książki.",
     author: "Redakcja",
