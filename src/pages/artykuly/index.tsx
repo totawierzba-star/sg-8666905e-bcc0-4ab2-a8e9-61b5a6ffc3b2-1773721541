@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia a autyzm — jak literatura wspiera dzieci w spektrum?",
+    excerpt: "Jak dostosować biblioterapię do potrzeb dzieci w spektrum autyzmu? Adaptacje formatu, dobór książek i konkretne techniki pracy z dziećmi z ASD.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-a-autyzm-miniatura.jpg",
+    slug: "biblioterapia-a-autyzm",
+    category: "Praktyka",
+  },
+  {
     title: "Jak rozmawiać z dzieckiem o trudnych emocjach? Przewodnik dla rodziców",
     excerpt: "Praktyczny przewodnik dla rodziców i wychowawców: jak prowadzić rozmowy z dziećmi o strachu, smutku, złości i wstydzie. Z pomocą książek i konkretnych technik.",
     author: "Redakcja",
