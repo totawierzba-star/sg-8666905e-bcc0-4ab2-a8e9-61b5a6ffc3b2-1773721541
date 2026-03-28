@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia a lęk szkolny — jak książki pomagają dzieciom?",
+    excerpt: "Lęk szkolny dotyka co piąte dziecko. Sprawdź, jak biblioterapia pomaga przepracować strach przed szkołą, sprawdzianami i odrzuceniem rówieśniczym.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-a-lek-szkolny-miniatura.jpg",
+    slug: "biblioterapia-a-lek-szkolny",
+    category: "Terapia",
+  },
+  {
     title: "Jak wybrać książkę terapeutyczną? Kryteria doboru w biblioterapii",
     excerpt: "Praktyczny przewodnik po kryteriach wyboru książek terapeutycznych dla dzieci, młodzieży i dorosłych. Czym kierować się przy doborze lektury w biblioterapii?",
     author: "Redakcja",

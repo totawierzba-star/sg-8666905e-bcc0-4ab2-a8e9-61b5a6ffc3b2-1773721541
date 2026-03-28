@@ -355,7 +355,7 @@ export default function BiblioterapiaDlaDzieci() {
             oparte na sprawdzonych książkach terapeutycznych.
           </p>
           <Link
-            href="/biblioterapia/scenariusze"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-purple-700 text-white font-semibold px-6 py-3 rounded-lg hover:bg-purple-800 transition-colors shadow-md"
           >
             Zobacz scenariusze
