@@ -5,6 +5,15 @@ import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
 
 const articles = [
   {
+    title: "Biblioterapia dla dzieci — jak książki pomagają najmłodszym?",
+    excerpt: "Dlaczego bajka o smutnym misiu może pomóc dziecku przeżyć przeprowadzkę? Kompletny przewodnik o biblioterapii dziecięcej — mechanizmy, korzyści, wiek i wskazówki dla rodziców.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-dla-dzieci-miniatura.jpg",
+    slug: "biblioterapia-dla-dzieci",
+    category: "Przewodnik",
+  },
+  {
     title: "Książka jako narzędzie terapeutyczne — dlaczego literatura leczy?",
     excerpt: "Co sprawia, że słowa na stronie mogą zmieniać nasze emocje i zachowania? Neurobiologia czytania, mechanizmy psychologiczne i dowody naukowe wyjaśniające leczniczą moc literatury.",
     author: "Redakcja",
