@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia przy rozstaniu rodziców — jak wspierać dziecko książką?",
+    excerpt: "Jak biblioterapia pomaga dzieciom przeżyć rozstanie rodziców? Polecane książki, pytania do rozmowy i wskazówki dla rodziców w trakcie i po rozstaniu.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-przy-rozstaniu-rodzicow-miniatura.jpg",
+    slug: "biblioterapia-przy-rozstaniu-rodzicow",
+    category: "Terapia",
+  },
+  {
     title: "Biblioterapia a lęk szkolny — jak książki pomagają dzieciom?",
     excerpt: "Lęk szkolny dotyka co piąte dziecko. Sprawdź, jak biblioterapia pomaga przepracować strach przed szkołą, sprawdzianami i odrzuceniem rówieśniczym.",
     author: "Redakcja",
