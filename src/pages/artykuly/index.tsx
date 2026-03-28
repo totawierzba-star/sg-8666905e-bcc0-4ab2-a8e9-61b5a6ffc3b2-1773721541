@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia po stracie bliskiej osoby — jak książki pomagają w żałobie?",
+    excerpt: "Jak biblioterapia wspiera dzieci i dorosłych po śmierci bliskiej osoby? Mechanizmy, polecane książki i wskazówki jak rozmawiać o żałobie przez pryzmat literatury.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-po-stracie-bliskiej-osoby-miniatura.jpg",
+    slug: "biblioterapia-po-stracie-bliskiej-osoby",
+    category: "Terapia",
+  },
+  {
     title: "Biblioterapia przy rozstaniu rodziców — jak wspierać dziecko książką?",
     excerpt: "Jak biblioterapia pomaga dzieciom przeżyć rozstanie rodziców? Polecane książki, pytania do rozmowy i wskazówki dla rodziców w trakcie i po rozstaniu.",
     author: "Redakcja",
