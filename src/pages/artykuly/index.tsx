@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia a agresja u dzieci — jak książki pomagają okiełznać złość?",
+    excerpt: "Jak biblioterapia pomaga dzieciom radzić sobie z agresją? Mechanizmy, polecane książki i techniki pracy z dzieckiem, które wyraża złość przez agresywne zachowanie.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-a-agresja-u-dzieci-miniatura.jpg",
+    slug: "biblioterapia-a-agresja-u-dzieci",
+    category: "Terapia",
+  },
+  {
     title: "Biblioterapia po stracie bliskiej osoby — jak książki pomagają w żałobie?",
     excerpt: "Jak biblioterapia wspiera dzieci i dorosłych po śmierci bliskiej osoby? Mechanizmy, polecane książki i wskazówki jak rozmawiać o żałobie przez pryzmat literatury.",
     author: "Redakcja",
