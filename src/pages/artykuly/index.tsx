@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia w szkole podstawowej — poradnik dla nauczycieli",
+    excerpt: "Jak wdrożyć biblioterapię w szkole podstawowej? Praktyczny poradnik dla nauczycieli, pedagogów i bibliotekarzy — klasy 1–8, metody pracy, scenariusze i polecane książki.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-w-szkole-podstawowej-miniatura.jpg",
+    slug: "biblioterapia-w-szkole-podstawowej",
+    category: "Praktyka",
+  },
+  {
     title: "Biblioterapia w przedszkolu — jak prowadzić zajęcia z najmłodszymi?",
     excerpt: "Praktyczny przewodnik dla nauczycieli i wychowawców: jak prowadzić zajęcia biblioterapeutyczne z dziećmi 3–6 lat. Struktura sesji, pytania, aktywności i polecane książki.",
     author: "Redakcja",
