@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia dla dzieci z dysleksją — jak literatura wspiera mimo trudności w czytaniu?",
+    excerpt: "Dysleksja nie wyklucza z biblioterapii. Dowiedz się, jak dostosować pracę z tekstem, jakie formaty wybierać i jak literatura pomaga dzieciom z trudnościami w czytaniu.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-dla-dzieci-z-dysleksja-miniatura.jpg",
+    slug: "biblioterapia-dla-dzieci-z-dysleksja",
+    category: "Praktyka",
+  },
+  {
     title: "Biblioterapia dla dzieci z ADHD — jak dostosować pracę z książką?",
     excerpt: "Jak prowadzić biblioterapię z dzieckiem z ADHD? Praktyczne wskazówki dotyczące adaptacji sesji, doboru książek i technik pracy z dziećmi z nadpobudliwością.",
     author: "Redakcja",
