@@ -58,7 +58,6 @@ export default function BiblioterapiaDlaNastolatkowPage() {
       <SEO
         title="Biblioterapia dla nastolatków — jak książki wspierają młodzież?"
         description="Jak biblioterapia pomaga nastolatkom radzić sobie z kryzysami tożsamości, presją rówieśniczą, depresją i lękiem? Praktyczny przewodnik dla rodziców, nauczycieli i terapeutów."
-        canonical="/artykuly/biblioterapia-dla-nastolatkow"
       />
       <script
         type="application/ld+json"

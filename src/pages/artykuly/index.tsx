@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Najlepsze książki terapeutyczne dla dzieci 7–12 lat — zestawienie",
+    excerpt: "Zestawienie najlepszych książek terapeutycznych dla dzieci w wieku szkolnym 7–12 lat. Tytuły na emocje, relacje rówieśnicze, żałobę, lęk szkolny i zmiany rodzinne.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/najlepsze-ksiazki-terapeutyczne-7-12-lat-miniatura.jpg",
+    slug: "najlepsze-ksiazki-terapeutyczne-7-12-lat",
+    category: "Przewodnik",
+  },
+  {
     title: "Najlepsze książki terapeutyczne dla dzieci 3–6 lat — zestawienie",
     excerpt: "Zestawienie najlepszych książek terapeutycznych dla dzieci w wieku 3–6 lat. Tytuły wspierające emocje, żałobę, lęk, zmiany rodzinne i budowanie poczucia wartości.",
     author: "Redakcja",

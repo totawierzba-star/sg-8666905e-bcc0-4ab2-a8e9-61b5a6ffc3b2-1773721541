@@ -50,7 +50,6 @@ export default function BiblioterapiaDlaedzieciZADHDPage() {
       <SEO
         title="Biblioterapia dla dzieci z ADHD — jak dostosować pracę z książką?"
         description="Jak prowadzić biblioterapię z dzieckiem z ADHD? Praktyczne wskazówki dotyczące adaptacji sesji, doboru książek i technik pracy z dziećmi z nadpobudliwością."
-        canonical="/artykuly/biblioterapia-dla-dzieci-z-adhd"
       />
       <script
         type="application/ld+json"

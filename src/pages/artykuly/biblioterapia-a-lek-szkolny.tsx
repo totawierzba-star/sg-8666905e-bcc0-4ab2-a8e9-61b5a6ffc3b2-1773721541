@@ -50,7 +50,6 @@ export default function BiblioterapiaALekSzkolnyPage() {
       <SEO
         title="Biblioterapia a lęk szkolny — jak książki pomagają dzieciom?"
         description="Lęk szkolny dotyka co piąte dziecko. Sprawdź, jak biblioterapia pomaga przepracować strach przed szkołą, sprawdzianami i odrzuceniem rówieśniczym."
-        canonical="/artykuly/biblioterapia-a-lek-szkolny"
       />
       <script
         type="application/ld+json"

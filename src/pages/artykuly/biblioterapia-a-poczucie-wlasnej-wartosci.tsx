@@ -42,7 +42,6 @@ export default function BiblioterapiaAPoczucieWlasnejWartosciPage() {
       <SEO
         title="Biblioterapia a poczucie własnej wartości — jak książki wzmacniają dzieci?"
         description="Jak biblioterapia pomaga dzieciom budować poczucie własnej wartości? Mechanizmy, polecane tytuły i ćwiczenia dla rodziców i pedagogów."
-        canonical="/artykuly/biblioterapia-a-poczucie-wlasnej-wartosci"
       />
       <script
         type="application/ld+json"

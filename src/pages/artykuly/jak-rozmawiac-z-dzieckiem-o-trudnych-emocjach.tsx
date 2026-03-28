@@ -50,7 +50,6 @@ export default function JakRozmawiacZDzieckiem() {
       <SEO
         title="Jak rozmawiać z dzieckiem o trudnych emocjach? Przewodnik dla rodziców"
         description="Praktyczny przewodnik dla rodziców i wychowawców: jak prowadzić rozmowy z dziećmi o strachu, smutku, złości i wstydzie. Z pomocą książek i konkretnych technik."
-        canonical="/artykuly/jak-rozmawiac-z-dzieckiem-o-trudnych-emocjach"
       />
       <script
         type="application/ld+json"

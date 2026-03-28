@@ -50,7 +50,6 @@ export default function JakWybracKsiazkeTerapeutycznaPage() {
       <SEO
         title="Jak wybrać książkę terapeutyczną? Kryteria doboru w biblioterapii"
         description="Praktyczny przewodnik po kryteriach wyboru książek terapeutycznych dla dzieci, młodzieży i dorosłych. Czym kierować się przy doborze lektury w biblioterapii?"
-        canonical="/artykuly/jak-wybrac-ksiazke-terapeutyczna"
       />
       <script
         type="application/ld+json"

@@ -50,7 +50,6 @@ export default function BiblioterapiaPrzyRozstaniuRodzicowPage() {
       <SEO
         title="Biblioterapia przy rozstaniu rodziców — jak wspierać dziecko książką?"
         description="Jak biblioterapia pomaga dzieciom przeżyć rozstanie rodziców? Polecane książki, pytania do rozmowy i wskazówki dla rodziców w trakcie i po rozstaniu."
-        canonical="/artykuly/biblioterapia-przy-rozstaniu-rodzicow"
       />
       <script
         type="application/ld+json"

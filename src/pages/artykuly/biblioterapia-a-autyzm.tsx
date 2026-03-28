@@ -50,7 +50,6 @@ export default function BiblioterapiaAAutyzmPage() {
       <SEO
         title="Biblioterapia a autyzm — jak literatura wspiera dzieci w spektrum?"
         description="Jak dostosować biblioterapię do potrzeb dzieci w spektrum autyzmu? Adaptacje formatu, dobór książek i konkretne techniki pracy z dziećmi z ASD."
-        canonical="/artykuly/biblioterapia-a-autyzm"
       />
       <script
         type="application/ld+json"

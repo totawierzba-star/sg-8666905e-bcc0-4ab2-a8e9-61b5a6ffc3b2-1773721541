@@ -50,7 +50,6 @@ export default function BiblioterapiaDlaedzieciDoswiadczajacychPrzemocy() {
       <SEO
         title="Biblioterapia dla dzieci doświadczających przemocy — jak literatura pomaga?"
         description="Jak biblioterapia wspiera dzieci doświadczające przemocy domowej lub rówieśniczej? Zasady bezpiecznej pracy, polecane tytuły i kiedy potrzebna jest interwencja."
-        canonical="/artykuly/biblioterapia-dla-dzieci-doswiadczajacych-przemocy"
       />
       <script
         type="application/ld+json"

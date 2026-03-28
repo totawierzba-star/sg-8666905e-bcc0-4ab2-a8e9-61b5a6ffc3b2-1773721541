@@ -50,7 +50,6 @@ export default function BiblioterapiaDlaedzieciZDysleksjaPage() {
       <SEO
         title="Biblioterapia dla dzieci z dysleksją — jak literatura wspiera mimo trudności w czytaniu?"
         description="Dysleksja nie wyklucza z biblioterapii. Dowiedz się, jak dostosować pracę z tekstem, jakie formaty wybierać i jak literatura pomaga dzieciom z trudnościami w czytaniu."
-        canonical="/artykuly/biblioterapia-dla-dzieci-z-dysleksja"
       />
       <script
         type="application/ld+json"

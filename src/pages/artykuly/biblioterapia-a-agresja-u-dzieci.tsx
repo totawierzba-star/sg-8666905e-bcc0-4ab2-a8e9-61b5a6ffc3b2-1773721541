@@ -50,7 +50,6 @@ export default function BiblioterapiaAAgresjaUDzieciPage() {
       <SEO
         title="Biblioterapia a agresja u dzieci — jak książki pomagają okiełznać złość?"
         description="Jak biblioterapia pomaga dzieciom radzić sobie z agresją? Mechanizmy, polecane książki i techniki pracy z dzieckiem, które wyraża złość przez agresywne zachowanie."
-        canonical="/artykuly/biblioterapia-a-agresja-u-dzieci"
       />
       <script
         type="application/ld+json"

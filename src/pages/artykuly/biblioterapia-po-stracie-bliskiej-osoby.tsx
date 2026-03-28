@@ -50,7 +50,6 @@ export default function BiblioterapiaPoPStracieBliskiejOsobyPage() {
       <SEO
         title="Biblioterapia po stracie bliskiej osoby — jak książki pomagają w żałobie?"
         description="Jak biblioterapia wspiera dzieci i dorosłych po śmierci bliskiej osoby? Mechanizmy, polecane książki i wskazówki jak rozmawiać o żałobie przez pryzmat literatury."
-        canonical="/artykuly/biblioterapia-po-stracie-bliskiej-osoby"
       />
       <script
         type="application/ld+json"

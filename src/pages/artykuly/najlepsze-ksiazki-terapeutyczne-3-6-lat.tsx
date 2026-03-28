@@ -77,7 +77,6 @@ export default function NajlepszeKsiazkiTerapeutyczne36LatPage() {
       <SEO
         title="Najlepsze książki terapeutyczne dla dzieci 3–6 lat — zestawienie"
         description="Zestawienie najlepszych książek terapeutycznych dla dzieci w wieku 3–6 lat. Tytuły wspierające emocje, żałobę, lęk, zmiany rodzinne i budowanie poczucia wartości."
-        canonical="/artykuly/najlepsze-ksiazki-terapeutyczne-3-6-lat"
       />
       <script
         type="application/ld+json"
