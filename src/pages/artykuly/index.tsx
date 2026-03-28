@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Jak rozmawiać z dzieckiem o trudnych emocjach? Przewodnik dla rodziców",
+    excerpt: "Praktyczny przewodnik dla rodziców i wychowawców: jak prowadzić rozmowy z dziećmi o strachu, smutku, złości i wstydzie. Z pomocą książek i konkretnych technik.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/jak-rozmawiac-z-dzieckiem-o-trudnych-emocjach-miniatura.jpg",
+    slug: "jak-rozmawiac-z-dzieckiem-o-trudnych-emocjach",
+    category: "Emocje",
+  },
+  {
     title: "Biblioterapia dla dzieci doświadczających przemocy — jak literatura pomaga?",
     excerpt: "Jak biblioterapia wspiera dzieci doświadczające przemocy domowej lub rówieśniczej? Zasady bezpiecznej pracy, polecane tytuły i kiedy potrzebna jest interwencja.",
     author: "Redakcja",
