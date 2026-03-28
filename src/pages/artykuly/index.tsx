@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia dla dzieci z ADHD — jak dostosować pracę z książką?",
+    excerpt: "Jak prowadzić biblioterapię z dzieckiem z ADHD? Praktyczne wskazówki dotyczące adaptacji sesji, doboru książek i technik pracy z dziećmi z nadpobudliwością.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-dla-dzieci-z-adhd-miniatura.jpg",
+    slug: "biblioterapia-dla-dzieci-z-adhd",
+    category: "Praktyka",
+  },
+  {
     title: "Biblioterapia a agresja u dzieci — jak książki pomagają okiełznać złość?",
     excerpt: "Jak biblioterapia pomaga dzieciom radzić sobie z agresją? Mechanizmy, polecane książki i techniki pracy z dzieckiem, które wyraża złość przez agresywne zachowanie.",
     author: "Redakcja",
