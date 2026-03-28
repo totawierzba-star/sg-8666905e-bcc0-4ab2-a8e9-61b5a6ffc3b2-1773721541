@@ -1,7 +1,7 @@
 import { SEO } from "@/components/SEO";
 import { Layout } from "@/components/Layout";
-import { ArticleCard } from "@/components/ArticleCard";
-import { BookOpen, Lightbulb, Brain, Heart, GraduationCap } from "lucide-react";
+import { BookOpen, Lightbulb, Brain, Heart, GraduationCap, ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const articles = [
   {
@@ -244,6 +244,22 @@ const articles = [
   },
 ];
 
+const categoryColors: Record<string, string> = {
+  "Edukacja": "from-blue-500 to-indigo-500",
+  "Terapia": "from-rose-500 to-pink-500",
+  "Przewodnik": "from-amber-500 to-orange-500",
+  "Praktyka": "from-green-500 to-emerald-500",
+  "Emocje": "from-purple-500 to-violet-500",
+};
+
+const categoryAccent: Record<string, string> = {
+  "Edukacja": "text-blue-600 dark:text-blue-400",
+  "Terapia": "text-rose-600 dark:text-rose-400",
+  "Przewodnik": "text-amber-600 dark:text-amber-400",
+  "Praktyka": "text-green-600 dark:text-green-400",
+  "Emocje": "text-purple-600 dark:text-purple-400",
+};
+
 const categories = [
   { name: "Wszystkie", icon: BookOpen, count: articles.length },
   { name: "Edukacja", icon: GraduationCap, count: articles.filter(a => a.category === "Edukacja").length },
@@ -293,16 +309,37 @@ export default function ArticlesPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articles.map((article) => (
-              <ArticleCard
-                key={article.slug}
-                title={article.title}
-                excerpt={article.excerpt}
-                href={`/artykuly/${article.slug}`}
-                category={article.category}
-                image={article.image}
-              />
-            ))}
+            {articles.map((article) => {
+              const href = (article as { href?: string }).href ?? `/artykuly/${article.slug}`;
+              const gradient = categoryColors[article.category] ?? "from-slate-500 to-gray-500";
+              const accent = categoryAccent[article.category] ?? "text-slate-600";
+              return (
+                <Link key={article.slug} href={href} className="block group">
+                  <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden h-full flex flex-col">
+                    <div className={`bg-gradient-to-r ${gradient} p-5 text-white`}>
+                      <div className="text-xs font-semibold uppercase tracking-wider mb-2 opacity-90">
+                        {article.category}
+                      </div>
+                      <h3 className="text-lg font-bold leading-snug group-hover:scale-[1.02] transition-transform">
+                        {article.title}
+                      </h3>
+                    </div>
+                    <div className="p-5 flex flex-col flex-1">
+                      <p className="text-gray-600 dark:text-gray-400 text-sm line-clamp-3 flex-1 mb-4">
+                        {article.excerpt}
+                      </p>
+                      <div className="flex items-center justify-between text-sm text-gray-500 dark:text-gray-400">
+                        {article.date && <span>{article.date}</span>}
+                        <div className={`flex items-center gap-1 font-medium group-hover:gap-2 transition-all ${accent}`}>
+                          <span>Czytaj więcej</span>
+                          <ArrowRight className="w-4 h-4" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
