@@ -339,16 +339,15 @@ export default function BiblioterapiaPrzyRozstaniuRodzicowPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-rose-500 to-pink-600 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-2xl font-bold mb-3">Twoje dziecko przeżywa rozstanie rodziców?</h2>
-          <p className="text-rose-100 mb-6">
-            Skontaktuj się z nami — pomożemy dobrać odpowiednie wsparcie
-            biblioterapeutyczne dla Twojego dziecka.
+          <h2 className="text-2xl font-bold mb-3">Gotowe scenariusze do pracy z dziećmi</h2>
+          <p className="text-white/80 mb-6">
+            W naszym narzędziowniku znajdziesz gotowe scenariusze zajęć biblioterapeutycznych — sprawdzone materiały do druku dla nauczycieli, pedagogów i rodziców.
           </p>
           <Link
-            href="/kontakt"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-white text-rose-600 font-bold px-8 py-3 rounded-full hover:bg-rose-50 transition-colors"
           >
-            Umów konsultację
+            Zobacz scenariusze
           </Link>
         </section>
       </article>

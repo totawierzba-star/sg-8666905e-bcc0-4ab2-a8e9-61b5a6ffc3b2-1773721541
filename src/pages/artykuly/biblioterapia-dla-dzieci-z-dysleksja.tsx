@@ -284,16 +284,15 @@ export default function BiblioterapiaDlaedzieciZDysleksjaPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-teal-500 to-cyan-600 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-2xl font-bold mb-3">Twoje dziecko ma dysleksję?</h2>
-          <p className="text-teal-100 mb-6">
-            Skontaktuj się z nami — pomożemy dobrać odpowiednie formy wsparcia biblioterapeutycznego
-            dostosowane do potrzeb i możliwości Twojego dziecka.
+          <h2 className="text-2xl font-bold mb-3">Gotowe scenariusze do pracy z dziećmi</h2>
+          <p className="text-white/80 mb-6">
+            W naszym narzędziowniku znajdziesz gotowe scenariusze zajęć biblioterapeutycznych — sprawdzone materiały do druku dla nauczycieli, pedagogów i rodziców.
           </p>
           <Link
-            href="/kontakt"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-white text-teal-700 font-bold px-8 py-3 rounded-full hover:bg-teal-50 transition-colors"
           >
-            Umów konsultację
+            Zobacz scenariusze
           </Link>
         </section>
       </article>

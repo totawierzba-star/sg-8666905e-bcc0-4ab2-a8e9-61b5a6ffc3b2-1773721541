@@ -287,16 +287,15 @@ export default function BiblioterapiaAAgresjaUDzieciPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-2xl font-bold mb-3">Twoje dziecko wyraża emocje przez agresję?</h2>
-          <p className="text-orange-100 mb-6">
-            Skontaktuj się z nami — pomożemy dobrać odpowiednie podejście
-            biblioterapeutyczne dla Twojego dziecka.
+          <h2 className="text-2xl font-bold mb-3">Gotowe scenariusze do pracy z dziećmi</h2>
+          <p className="text-white/80 mb-6">
+            W naszym narzędziowniku znajdziesz gotowe scenariusze zajęć biblioterapeutycznych — sprawdzone materiały do druku dla nauczycieli, pedagogów i rodziców.
           </p>
           <Link
-            href="/kontakt"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-white text-orange-700 font-bold px-8 py-3 rounded-full hover:bg-orange-50 transition-colors"
           >
-            Umów konsultację
+            Zobacz scenariusze
           </Link>
         </section>
       </article>

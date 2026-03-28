@@ -241,16 +241,15 @@ export default function JakRozmawiacZDzieckiem() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-pink-500 to-rose-500 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-2xl font-bold mb-3">Chcesz lepiej rozmawiać z dzieckiem o emocjach?</h2>
-          <p className="text-pink-100 mb-6">
-            Skontaktuj się z nami — pomożemy dobrać odpowiednie narzędzia
-            i materiały biblioterapeutyczne dla Twojej rodziny.
+          <h2 className="text-2xl font-bold mb-3">Gotowe scenariusze do pracy z dziećmi</h2>
+          <p className="text-white/80 mb-6">
+            W naszym narzędziowniku znajdziesz gotowe scenariusze zajęć biblioterapeutycznych — sprawdzone materiały do druku dla nauczycieli, pedagogów i rodziców.
           </p>
           <Link
-            href="/kontakt"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-white text-pink-700 font-bold px-8 py-3 rounded-full hover:bg-pink-50 transition-colors"
           >
-            Umów konsultację
+            Zobacz scenariusze
           </Link>
         </section>
       </article>

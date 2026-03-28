@@ -300,16 +300,15 @@ export default function BiblioterapiaALekSzkolnyPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-2xl font-bold mb-3">Twoje dziecko boi się szkoły?</h2>
-          <p className="text-blue-100 mb-6">
-            Skontaktuj się z nami — pomożemy dobrać odpowiednie podejście i wsparcie
-            dla Twojego dziecka.
+          <h2 className="text-2xl font-bold mb-3">Gotowe scenariusze do pracy z dziećmi</h2>
+          <p className="text-white/80 mb-6">
+            W naszym narzędziowniku znajdziesz gotowe scenariusze zajęć biblioterapeutycznych — sprawdzone materiały do druku dla nauczycieli, pedagogów i rodziców.
           </p>
           <Link
-            href="/kontakt"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-white text-blue-700 font-bold px-8 py-3 rounded-full hover:bg-blue-50 transition-colors"
           >
-            Umów konsultację
+            Zobacz scenariusze
           </Link>
         </section>
       </article>

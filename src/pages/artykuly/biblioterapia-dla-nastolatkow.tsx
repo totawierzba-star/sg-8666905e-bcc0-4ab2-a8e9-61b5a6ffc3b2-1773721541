@@ -446,16 +446,15 @@ export default function BiblioterapiaDlaNastolatkowPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-2xl font-bold mb-3">Szukasz wsparcia dla swojego nastolatka?</h2>
-          <p className="text-purple-100 mb-6">
-            Skontaktuj się z nami — pomożemy dobrać odpowiednie podejście i materiały
-            dopasowane do potrzeb Twojego dziecka.
+          <h2 className="text-2xl font-bold mb-3">Gotowe scenariusze do pracy z dziećmi</h2>
+          <p className="text-white/80 mb-6">
+            W naszym narzędziowniku znajdziesz gotowe scenariusze zajęć biblioterapeutycznych — sprawdzone materiały do druku dla nauczycieli, pedagogów i rodziców.
           </p>
           <Link
-            href="/kontakt"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-white text-purple-700 font-bold px-8 py-3 rounded-full hover:bg-purple-50 transition-colors"
           >
-            Umów konsultację
+            Zobacz scenariusze
           </Link>
         </section>
       </article>

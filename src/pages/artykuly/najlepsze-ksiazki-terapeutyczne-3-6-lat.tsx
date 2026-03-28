@@ -193,15 +193,15 @@ export default function NajlepszeKsiazkiTerapeutyczne36LatPage() {
 
         {/* CTA */}
         <section className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl p-8 text-white text-center">
-          <h2 className="text-2xl font-bold mb-3">Potrzebujesz indywidualnej rekomendacji?</h2>
-          <p className="text-green-100 mb-6">
-            Skontaktuj się z nami — dobierzemy książkę do konkretnej sytuacji Twojego dziecka.
+          <h2 className="text-2xl font-bold mb-3">Gotowe scenariusze do pracy z dziećmi</h2>
+          <p className="text-white/80 mb-6">
+            W naszym narzędziowniku znajdziesz gotowe scenariusze zajęć biblioterapeutycznych — sprawdzone materiały do druku dla nauczycieli, pedagogów i rodziców.
           </p>
           <Link
-            href="/kontakt"
+            href="/biblioterapia/narzedziownik"
             className="inline-block bg-white text-green-700 font-bold px-8 py-3 rounded-full hover:bg-green-50 transition-colors"
           >
-            Zapytaj o rekomendację
+            Zobacz scenariusze i materiały
           </Link>
         </section>
       </article>
