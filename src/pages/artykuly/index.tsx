@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Jak wybrać książkę terapeutyczną? Kryteria doboru w biblioterapii",
+    excerpt: "Praktyczny przewodnik po kryteriach wyboru książek terapeutycznych dla dzieci, młodzieży i dorosłych. Czym kierować się przy doborze lektury w biblioterapii?",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/jak-wybrac-ksiazke-terapeutyczna-miniatura.jpg",
+    slug: "jak-wybrac-ksiazke-terapeutyczna",
+    category: "Przewodnik",
+  },
+  {
     title: "Biblioterapia dla nastolatków — jak książki wspierają młodzież?",
     excerpt: "Jak biblioterapia pomaga nastolatkom radzić sobie z kryzysami tożsamości, presją rówieśniczą, depresją i lękiem? Praktyczny przewodnik dla rodziców, nauczycieli i terapeutów.",
     author: "Redakcja",
