@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Najlepsze książki terapeutyczne dla młodzieży — zestawienie",
+    excerpt: "Zestawienie najlepszych książek terapeutycznych dla nastolatków 13+. Tytuły YA na depresję, tożsamość, żałobę, relacje i zdrowie psychiczne — sprawdzone w pracy biblioterapeutycznej.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/najlepsze-ksiazki-terapeutyczne-dla-mlodziezy-miniatura.jpg",
+    slug: "najlepsze-ksiazki-terapeutyczne-dla-mlodziezy",
+    category: "Przewodnik",
+  },
+  {
     title: "Najlepsze książki terapeutyczne dla dzieci 7–12 lat — zestawienie",
     excerpt: "Zestawienie najlepszych książek terapeutycznych dla dzieci w wieku szkolnym 7–12 lat. Tytuły na emocje, relacje rówieśnicze, żałobę, lęk szkolny i zmiany rodzinne.",
     author: "Redakcja",
