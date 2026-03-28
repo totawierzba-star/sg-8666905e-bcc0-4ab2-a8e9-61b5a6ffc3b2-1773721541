@@ -5,6 +5,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia w przedszkolu — jak prowadzić zajęcia z najmłodszymi?",
+    excerpt: "Praktyczny przewodnik dla nauczycieli i wychowawców: jak prowadzić zajęcia biblioterapeutyczne z dziećmi 3–6 lat. Struktura sesji, pytania, aktywności i polecane książki.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-w-przedszkolu-miniatura.jpg",
+    slug: "biblioterapia-w-przedszkolu",
+    category: "Praktyka",
+  },
+  {
     title: "Biblioterapia dla dzieci — jak książki pomagają najmłodszym?",
     excerpt: "Dlaczego bajka o smutnym misiu może pomóc dziecku przeżyć przeprowadzkę? Kompletny przewodnik o biblioterapii dziecięcej — mechanizmy, korzyści, wiek i wskazówki dla rodziców.",
     author: "Redakcja",
