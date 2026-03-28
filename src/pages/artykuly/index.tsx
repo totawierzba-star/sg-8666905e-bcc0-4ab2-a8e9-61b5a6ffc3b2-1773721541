@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia a poczucie własnej wartości — jak książki wzmacniają dzieci?",
+    excerpt: "Jak biblioterapia pomaga dzieciom budować poczucie własnej wartości? Mechanizmy, polecane tytuły i ćwiczenia dla rodziców i pedagogów.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-a-poczucie-wlasnej-wartosci-miniatura.jpg",
+    slug: "biblioterapia-a-poczucie-wlasnej-wartosci",
+    category: "Emocje",
+  },
+  {
     title: "Biblioterapia dla dzieci z dysleksją — jak literatura wspiera mimo trudności w czytaniu?",
     excerpt: "Dysleksja nie wyklucza z biblioterapii. Dowiedz się, jak dostosować pracę z tekstem, jakie formaty wybierać i jak literatura pomaga dzieciom z trudnościami w czytaniu.",
     author: "Redakcja",
