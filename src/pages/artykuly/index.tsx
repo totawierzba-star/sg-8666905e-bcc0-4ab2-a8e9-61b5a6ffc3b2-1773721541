@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Najlepsze książki terapeutyczne dla dzieci 3–6 lat — zestawienie",
+    excerpt: "Zestawienie najlepszych książek terapeutycznych dla dzieci w wieku 3–6 lat. Tytuły wspierające emocje, żałobę, lęk, zmiany rodzinne i budowanie poczucia wartości.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/najlepsze-ksiazki-terapeutyczne-3-6-lat-miniatura.jpg",
+    slug: "najlepsze-ksiazki-terapeutyczne-3-6-lat",
+    category: "Przewodnik",
+  },
+  {
     title: "Biblioterapia a autyzm — jak literatura wspiera dzieci w spektrum?",
     excerpt: "Jak dostosować biblioterapię do potrzeb dzieci w spektrum autyzmu? Adaptacje formatu, dobór książek i konkretne techniki pracy z dziećmi z ASD.",
     author: "Redakcja",
