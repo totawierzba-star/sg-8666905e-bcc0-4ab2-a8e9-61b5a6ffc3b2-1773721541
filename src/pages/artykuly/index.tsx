@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { SEO } from "@/components/SEO";
 import { Layout } from "@/components/Layout";
 import { BookOpen, Lightbulb, Brain, Heart, GraduationCap, ArrowRight } from "lucide-react";
@@ -278,6 +279,11 @@ const categories = [
 ];
 
 export default function ArticlesPage() {
+  const [activeCategory, setActiveCategory] = useState("Wszystkie");
+  const filteredArticles = activeCategory === "Wszystkie"
+    ? articles
+    : articles.filter(a => a.category === activeCategory);
+
   return (
     <Layout>
       <SEO
@@ -306,11 +312,16 @@ export default function ArticlesPage() {
             {categories.map((category) => (
               <button
                 key={category.name}
-                className="flex items-center gap-2 px-4 py-2 rounded-full border border-border hover:border-accent hover:text-accent transition-colors bg-background"
+                onClick={() => setActiveCategory(category.name)}
+                className={`flex items-center gap-2 px-4 py-2 rounded-full border transition-colors ${
+                  activeCategory === category.name
+                    ? "border-accent bg-accent text-white"
+                    : "border-border hover:border-accent hover:text-accent bg-background"
+                }`}
               >
                 <category.icon className="h-4 w-4" />
                 <span className="text-sm font-medium">{category.name}</span>
-                <span className="text-xs text-muted-foreground">
+                <span className={`text-xs ${activeCategory === category.name ? "text-white/80" : "text-muted-foreground"}`}>
                   ({category.count})
                 </span>
               </button>
@@ -318,7 +329,7 @@ export default function ArticlesPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {articles.map((article) => {
+            {filteredArticles.map((article) => {
               const href = (article as { href?: string }).href ?? `/artykuly/${article.slug}`;
               const gradient = categoryColors[article.category] ?? "from-slate-500 to-gray-500";
               const accent = categoryAccent[article.category] ?? "text-slate-600";
