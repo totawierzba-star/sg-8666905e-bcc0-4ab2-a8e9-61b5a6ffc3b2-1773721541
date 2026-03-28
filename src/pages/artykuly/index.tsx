@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const articles = [
   {
+    title: "Biblioterapia dla dzieci doświadczających przemocy — jak literatura pomaga?",
+    excerpt: "Jak biblioterapia wspiera dzieci doświadczające przemocy domowej lub rówieśniczej? Zasady bezpiecznej pracy, polecane tytuły i kiedy potrzebna jest interwencja.",
+    author: "Redakcja",
+    date: "28 marca 2026",
+    image: "/uploads/biblioterapia-dla-dzieci-doswiadczajacych-przemocy-miniatura.jpg",
+    slug: "biblioterapia-dla-dzieci-doswiadczajacych-przemocy",
+    category: "Terapia",
+  },
+  {
     title: "Biblioterapia a poczucie własnej wartości — jak książki wzmacniają dzieci?",
     excerpt: "Jak biblioterapia pomaga dzieciom budować poczucie własnej wartości? Mechanizmy, polecane tytuły i ćwiczenia dla rodziców i pedagogów.",
     author: "Redakcja",
